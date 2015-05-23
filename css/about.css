@@ -1,0 +1,37 @@
+/* Custom Stylesheet */
+/**
+ * Styling for about me page
+ */
+
+#title{
+    position: absolute;
+	bottom: 0px;
+}
+#header-container{
+    position: relative;
+	height: 300px;
+}
+.quality-paragraph{
+        font-size: large;
+    }
+#index-banner{
+    background-image:url("/img/pattern1.png");
+    background-repeat:repeat;
+}
+.smoothScroll{
+    position:absolute;
+    bottom:-30px;
+    left:30px;
+}
+#contentContainer{
+    margin-top: 50px;
+}
+#title-banner{
+    background-image:url('/img/pattern2.png');
+}
+.intro-paragraph {
+    font-size:large;
+}
+#avatarImage{
+    margin-top: 75px;
+}
