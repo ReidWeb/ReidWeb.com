@@ -9,13 +9,23 @@
 .icon-block {
   padding: 0 15px;
 }
-/*.mobile-nav-menu-icon{
-    color:black;
-    float:left;
-    clear:left;
+#index-banner{
+    background-image:url("img/pattern.png");
+    background-repeat:repeat;
 }
-.mobile-nav-menu-link{
-    float:left;
-    display:inline;
-    clear:right;
-}*/
+@media (min-width: 950px){
+    #avatarImage{
+        width:24%;
+        margin-top:1%;
+        margin-right:38%;
+        margin-left: 38%;
+    }
+}
+@media (max-width: 949px){
+    #avatarImage{
+        width:50%;
+        margin-top:1%;
+        margin-right:25%;
+        margin-left: 25%;
+    }
+}
