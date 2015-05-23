@@ -1,35 +1,29 @@
 /* Custom Stylesheet */
 /**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
+ * Styling for header, navmenu, and footer - common elements between screens
  */
 
-.icon-block {
-  padding: 0 15px;
+
+#nav-mobile-header{
+    height:125px;
+    background-image:url('/img/pattern2.png')
 }
-.quality-paragraph{
-        font-size: large;
+
+    #nav-mobile-header img{
+        height:50%;
+        margin-left:5%;
+        margin-top:12%;
+        margin-right:0;
+        float:left;
+        position:relative;
     }
-#index-banner{
-    background-image:url("img/pattern.png");
-    background-repeat:repeat;
-}
-@media (min-width: 950px){
-    #avatarImage{
-        width:24%;
-        margin-top:1%;
-        margin-right:38%;
-        margin-left: 38%;
+    #nav-mobile-header a{
+        margin-left:5%;
+        margin-top: 12%;
+        font-size:large;
+        float:left;
     }
 
-}
-@media (max-width: 949px){
-    #avatarImage{
-        width:50%;
-        margin-top:1%;
-        margin-right:25%;
-        margin-left: 25%;
-    }
-}
+
+
+
