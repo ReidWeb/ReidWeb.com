@@ -9,6 +9,9 @@
 .icon-block {
   padding: 0 15px;
 }
+.quality-paragraph{
+        font-size: large;
+    }
 #index-banner{
     background-image:url("img/pattern.png");
     background-repeat:repeat;
@@ -20,6 +23,7 @@
         margin-right:38%;
         margin-left: 38%;
     }
+
 }
 @media (max-width: 949px){
     #avatarImage{
