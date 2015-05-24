@@ -10,7 +10,7 @@
     </div>
     </div>
 
-    <div class="section white" id="who-am-i-container">
+    <div class="section white z-depth-2" id="who-am-i-container">
     <div class="row container">
             <a class="btn-floating btn-large waves-effect waves-light  light-blue lighten-1 smoothScroll z-depth-2" id="who-am-i-jumper" href="#title">
         <i class="mdi-hardware-keyboard-arrow-down white-text"></i>
@@ -20,9 +20,6 @@
         <img class="responsive-img circle z-depth-2" src="img/avatar.jpg" alt="peter reid" id="avatarImage"/>
 
                   </div>
-
-
-
       <div class="col s12 m8 l9">
         <!-- Note that "m8 l9" was added -->
         <h1 class="light grey-text text-darken-4 header">Who am I?</h1>
@@ -39,7 +36,6 @@
     </div>
 
 </div>
-</div>
 
     <div class="parallax-container" style="height:250px;">
         <div class="parallax"><img src="/img/parallax-belfast-titanic.jpg"></div>
@@ -53,7 +49,7 @@
         </div>
 
       <div class="col s12 m4 l3">
-        <img class="responsive-img circle z-depth-2" src="img/programmingSummaryPic.jpg" alt="peter reid" id="avatarImage"/>
+        <img class="responsive-img circle z-depth-2" src="img/programmingSummaryPic.jpg" alt="Programming image"/>
 
 
       </div>
