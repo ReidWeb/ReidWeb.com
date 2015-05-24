@@ -12,14 +12,16 @@
 
     <div class="section white" id="who-am-i-container">
     <div class="row container">
-            <a class="btn-floating btn-large waves-effect waves-light  light-blue lighten-1 smoothScroll z-depth-2" href="#title">
+            <a class="btn-floating btn-large waves-effect waves-light  light-blue lighten-1 smoothScroll z-depth-2" id="who-am-i-jumper" href="#title">
         <i class="mdi-hardware-keyboard-arrow-down white-text"></i>
       </a>
-    <div class="row">
 
       <div class="col s12 m4 l3">
         <img class="responsive-img circle z-depth-2" src="img/avatar.jpg" alt="peter reid" id="avatarImage"/>
+
                   </div>
+
+
 
       <div class="col s12 m8 l9">
         <!-- Note that "m8 l9" was added -->
@@ -29,22 +31,32 @@
           I am currently studying a Foundation Degree in Software Engineering at Belfast Metropolitan College in conjunction with the University of Ulster. I hope to progress to study Software Engineering at university beginning 2016.
 
         </p>
+          <a class="btn-floating btn-large waves-effect waves-light  light-blue lighten-1 smoothScroll z-depth-2" id="programming-jumper" href="#programming-section">
+        <i class="mdi-hardware-keyboard-arrow-down white-text"></i>
+      </a>
       </div>
 
     </div>
-  </div>
+
 </div>
 </div>
 
-    <div class="parallax-container">
-        <!-- http://pixabay.com/en/belfast-ireland-museum-titanic-579373/ -->
+    <div class="parallax-container" style="height:250px;">
         <div class="parallax"><img src="/img/parallax-belfast-titanic.jpg"></div>
     </div>
 
-  <div class="section white">
+  <div class="section white" id="programming-section">
     <div class="row container">
-      <h2 class="header">Parallax</h2>
-      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+        <div class="col s12 m8 l9">
+            <h2 class="header thin">Programming</h2>
+
+        </div>
+
+      <div class="col s12 m4 l3">
+        <img class="responsive-img circle z-depth-2" src="img/programmingSummaryPic.jpg" alt="peter reid" id="avatarImage"/>
+
+
+      </div>
     </div>
   </div>
 

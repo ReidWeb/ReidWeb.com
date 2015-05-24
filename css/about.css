@@ -17,9 +17,14 @@
     background-repeat: repeat;
 }
 
-.smoothScroll {
+#who-am-i-jumper {
     position:absolute;
     top:-25px;
+}
+#programming-jumper {
+    position:absolute;
+    bottom:-25px;
+    right:19%;
 }
 .intro-paragraph {
     font-size: large;
