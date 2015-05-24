@@ -2,17 +2,19 @@
   //Buffer larger content areas like the main page content
   ob_start();
 ?>
-
-<div id="contentArea">
-  <div class="section no-pad-bot light-blue lighten-2 z-depth-1" id="title-banner">
+<div class="parallax-container">
+        <div class="parallax"><img src="/img/parallax-san-fran-city.jpg"></div>
     <div class="container" id="header-container">
       <h1 class="header left white-text" id="title">About Me</h1>
-      <a class="btn-floating btn-large waves-effect waves-light white smoothScroll z-depth-2" href="#title">
-        <i class="mdi-hardware-keyboard-arrow-down grey-text text-darken-4"></i>
-      </a>
+
     </div>
-  </div>
-  <div class="container" id="contentContainer">
+    </div>
+
+    <div class="section white" id="who-am-i-container">
+    <div class="row container">
+            <a class="btn-floating btn-large waves-effect waves-light  light-blue lighten-1 smoothScroll z-depth-2" href="#title">
+        <i class="mdi-hardware-keyboard-arrow-down white-text"></i>
+      </a>
     <div class="row">
 
       <div class="col s12 m4 l3">
@@ -32,7 +34,19 @@
     </div>
   </div>
 </div>
+</div>
 
+    <div class="parallax-container">
+        <!-- http://pixabay.com/en/belfast-ireland-museum-titanic-579373/ -->
+        <div class="parallax"><img src="/img/parallax-belfast-titanic.jpg"></div>
+    </div>
+
+  <div class="section white">
+    <div class="row container">
+      <h2 class="header">Parallax</h2>
+      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+    </div>
+  </div>
 
 <?php
   //Assign all Page Specific variables

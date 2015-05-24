@@ -8,11 +8,6 @@
     bottom: 0;
 }
 
-#header-container {
-    position: relative;
-    height: 300px;
-}
-
 .quality-paragraph {
     font-size: large;
 }
@@ -23,23 +18,19 @@
 }
 
 .smoothScroll {
-    position: absolute;
-    bottom: -30px;
-    left: 30px;
+    position:absolute;
+    top:-25px;
 }
-
-#contentContainer {
-    margin-top: 50px;
-}
-
-#title-banner {
-    background-image: url('/img/pattern2.png');
-}
-
 .intro-paragraph {
     font-size: large;
 }
 
 #avatarImage {
     margin-top: 75px;
+}
+.parallax-container {
+      height: 350px;
+}
+#who-am-i-container{
+    position: relative;
 }
