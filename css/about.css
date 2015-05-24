@@ -3,35 +3,43 @@
  * Styling for about me page
  */
 
-#title{
+#title {
     position: absolute;
-	bottom: 0px;
+    bottom: 0;
 }
-#header-container{
+
+#header-container {
     position: relative;
-	height: 300px;
+    height: 300px;
 }
-.quality-paragraph{
-        font-size: large;
-    }
-#index-banner{
-    background-image:url("/img/pattern1.png");
-    background-repeat:repeat;
+
+.quality-paragraph {
+    font-size: large;
 }
-.smoothScroll{
-    position:absolute;
-    bottom:-30px;
-    left:30px;
+
+#index-banner {
+    background-image: url("/img/pattern1.png");
+    background-repeat: repeat;
 }
-#contentContainer{
+
+.smoothScroll {
+    position: absolute;
+    bottom: -30px;
+    left: 30px;
+}
+
+#contentContainer {
     margin-top: 50px;
 }
-#title-banner{
-    background-image:url('/img/pattern2.png');
+
+#title-banner {
+    background-image: url('/img/pattern2.png');
 }
+
 .intro-paragraph {
-    font-size:large;
+    font-size: large;
 }
-#avatarImage{
+
+#avatarImage {
     margin-top: 75px;
 }
