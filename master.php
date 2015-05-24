@@ -9,6 +9,8 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
+    <!-- JS -->
+  <script src="js/master.js"></script>
 
   <?php echo $headerContent; ?>
 </head>
@@ -16,7 +18,7 @@
     <div class="navbar-fixed">
         <nav class="white lighten-1" role="navigation">
             <div class="nav-wrapper container">
-                <a id="logo-container" href="index.php" class="brand-logo blue-grey-text text-darken-4 thin">peter reid</a>
+                <a id="logo-container" href="index.php" class="brand-logo blue-grey-text text-darken-4 thin">Peter Reid</a>
                 <ul class="right hide-on-med-and-down">
                     <li id="homeLink"><a href="index.php" class="blue-grey-text text-darken-4">Home</a></li>
                     <li id="projectsLink"><a href="#" class="blue-grey-text text-darken-4">Projects</a></li>
@@ -39,9 +41,9 @@
         </nav>
       </div>
 
-    <script src="js/master.js"></script><script>
-                    setSelectedPage();
-                </script>
+    <script>
+        setSelectedPage();
+    </script>
 
     <?php echo $content; ?>
 
