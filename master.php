@@ -6,11 +6,11 @@
   <title><?php echo $pagetitle; ?></title>
 
   <!-- CSS  -->
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
     <!-- JS -->
-  <script src="js/master.js"></script>
+  <script src="/js/master.js"></script>
 
   <?php echo $headerContent; ?>
 </head>
@@ -29,7 +29,7 @@
 
 
                 <ul id="nav-mobile" class="side-nav white z-depth-5">
-                    <div id="nav-mobile-header"><img class="responsive-img circle z-depth-1" src="img/avatar.jpg" alt="peter reid"/><a id="logo-container" href="/" class="brand-logo white-text bold">peter reid</a></div>
+                    <div id="nav-mobile-header"><img class="responsive-img circle z-depth-1" src="/img/avatar.jpg" alt="peter reid"/><a id="logo-container" href="/" class="brand-logo white-text bold">peter reid</a></div>
                     <li id="homeLinkMob" class="blue-grey-text text-darken-4"><a href="/"><i class="tiny mdi-action-home left blue-grey-text text-darken-4"></i>Home</a></li>
                     <li id="projectsLinkMob" class="blue-grey-text text-darken-4"><a href="#"><i class="tiny mdi-av-web left 1  blue-grey-text text-darken-4"></i>Projects</a></li>
                     <li id="blogLinkMob" class="blue-grey-text text-darken-4"><a href="#"><i class="tiny mdi-action-speaker-notes left blue-grey-text text-darken-4"></i>Blog</a></li>
@@ -86,8 +86,8 @@
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+  <script src="/js/materialize.js"></script>
+  <script src="/js/init.js"></script>
 
   </body>
 </html>

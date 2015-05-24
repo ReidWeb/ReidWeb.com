@@ -61,11 +61,11 @@
   $content = ob_get_contents();
   ob_end_clean();
   $pagetitle = "About Me | Peter Reid";
-  $headerContent ="<link href='/css/about.css' type='text/css' rel='stylesheet' media='screen,projection'/>
+  $headerContent ="<link href='../css/about.css' type='text/css' rel='stylesheet' media='screen,projection'/>
   <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
-  <script src='/js/smoothscroll.js'></script>
-  <script src='/js/about.js'></script>
+  <script src='../js/smoothscroll.js'></script>
+  <script src='../js/about.js'></script>
   ";
   //Apply the template
-  include("/master.php");
+  include("../master.php");
 ?>
