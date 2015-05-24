@@ -1,7 +1,6 @@
 function setSelectedPage(){
 
     var currentPage = location.pathname;
-    prompt(currentPage);
     switch (currentPage){
         case "/":
             document.getElementById("homeLink").setAttribute("class","active");
