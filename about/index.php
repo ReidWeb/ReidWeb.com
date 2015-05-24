@@ -17,7 +17,7 @@
       </a>
 
       <div class="col s12 m4 l3">
-        <img class="responsive-img circle z-depth-2" src="img/avatar.jpg" alt="peter reid" id="avatarImage"/>
+        <img class="responsive-img circle z-depth-2" src="/img/avatar.jpg" alt="peter reid" id="avatarImage"/>
 
                   </div>
       <div class="col s12 m8 l9">
@@ -49,7 +49,7 @@
         </div>
 
       <div class="col s12 m4 l3">
-        <img class="responsive-img circle z-depth-2" src="img/programmingSummaryPic.jpg" alt="Programming image"/>
+        <img class="responsive-img circle z-depth-2" src="/img/programmingSummaryPic.jpg" alt="Programming image"/>
 
 
       </div>
@@ -61,11 +61,11 @@
   $content = ob_get_contents();
   ob_end_clean();
   $pagetitle = "About Me | Peter Reid";
-  $headerContent ="<link href='css/about.css' type='text/css' rel='stylesheet' media='screen,projection'/>
+  $headerContent ="<link href='/css/about.css' type='text/css' rel='stylesheet' media='screen,projection'/>
   <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
-  <script src='js/smoothscroll.js'></script>
-  <script src='js/about.js'></script>
+  <script src='/js/smoothscroll.js'></script>
+  <script src='/js/about.js'></script>
   ";
   //Apply the template
-  include("master.php");
+  include("/master.php");
 ?>
