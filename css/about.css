@@ -30,8 +30,12 @@
     font-size: large;
 }
 
-#avatarImage {
-    margin-top: 75px;
+#who-am-i-image {
+    margin-top: 45px;
+}
+#programming-image {
+    height:100%;
+    width:100%;
 }
 .parallax-container {
       height: 350px;
@@ -41,4 +45,7 @@
 }
 #programming-section img{
     margin-top: 10px;
+}
+.language-item{
+    font-size:large;
 }
