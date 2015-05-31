@@ -49,11 +49,12 @@
 .language-item{
     font-size:large;
 }
-.popout-frame-image{
-    width:100%;
-}
 .popout-frame-image-container{
     height:250px;
+    width:100%;
+    background-color: #272822;
+    background-image: url("/img/about/javaPic.png");
+    background-repeat: no-repeat;
 }
 .popout-back-btn{
     position:absolute;

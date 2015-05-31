@@ -75,11 +75,10 @@ ob_start();
             </div>
 
             <div id="modalJava" class="modal">
-                <div class="parallax-container popout-frame-image-container">
+                <div class="popout-frame-image-container">
                     <a class="btn-flat waves-effect waves-light popout-back-btn modal-close">
                         <i class="mdi-navigation-arrow-back white-text"></i>
                     </a>
-                    <div class="parallax popout-frame-image"><img src="/img/about/javaPic.png"></div>
                 </div>
                 <div class="modal-content">
 
