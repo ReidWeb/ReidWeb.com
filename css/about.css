@@ -52,9 +52,15 @@
 .popout-frame-image-container{
     height:250px;
     width:100%;
-    background-color: #272822;
-    background-image: url("/img/about/javaPic.png");
     background-repeat: no-repeat;
+}
+#java-image-container {
+        background-color: #272822;
+        background-image: url("/img/about/javaPic.png");
+}
+#c-sharp-image-container {
+        background-color: #ffffff;
+        background-image: url("/img/about/cSharpPic.png");
 }
 .popout-back-btn{
     position:absolute;

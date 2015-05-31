@@ -75,7 +75,7 @@ ob_start();
             </div>
 
             <div id="modalJava" class="modal">
-                <div class="popout-frame-image-container">
+                <div class="popout-frame-image-container" id="java-image-container">
                     <a class="btn-flat waves-effect waves-light popout-back-btn modal-close">
                         <i class="mdi-navigation-arrow-back white-text"></i>
                     </a>
@@ -94,14 +94,16 @@ ob_start();
             </div>
 
             <div id="modalCsharp" class="modal modal-fixed-footer">
+                <div class="popout-frame-image-container" id="c-sharp-image-container">
+                    <a class="btn-flat waves-effect popout-back-btn modal-close">
+                        <i class="mdi-navigation-arrow-back black-text"></i>
+                    </a>
+                </div>
                 <div class="modal-content">
                     <h4>C#</h4>
                     <p>My experience of C# stems from my use of C# as a part of ASP.NET websites during my education. In future I hope to expand my knowledge of C# to the use of C# for both 'traditional' Windows desktop applications and Windows 10 'universal' applications.</p>
                     <h5>Server side scripting</h5>
                     <p>I have utilised C# along with ASP.NET to a 'eCommerce' site with a basic content management system. I utilised C# to load content into the page dynamically based upon an external data source. I also utilised C# to develop a 'cart' system for the site.</p>
-                </div>
-                <div class="modal-footer">
-                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
                 </div>
             </div>
 
