@@ -57,7 +57,10 @@ ob_start();
             </ul>
             <p class="light grey-text text-darken-4 paragraph">In the immediate future I am looking to expand my knowledge of programming languages to include both PHP and Ruby</p>
 
-            <div id="modalJS" class="modal modal-fixed-footer">
+
+
+        </div>
+        <div id="modalJS" class="modal modal-fixed-footer">
                 <div class="modal-content">
                     <h4>JavaScript</h4>
                     <p class="light grey-text text-darken-4 paragraph">I have a large amount of experience in the use of JavaScript for a variety of purposes, including:</p>
@@ -122,12 +125,8 @@ ob_start();
                 </div>
             </div>
 
-        </div>
-
-        <div class="col s12 m4 l3">
+        <div class="col s12 m4 l3" style="margin-top:30px;">
             <img class="responsive-img circle z-depth-2" src="/img/programmingSummaryPic.jpg" alt="Programming image" id="programming-image"/>
-
-
         </div>
     </div>
 </div>
