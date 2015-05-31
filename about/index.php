@@ -55,19 +55,19 @@ ob_start();
                 <li><a class="modal-trigger grey-text text-darken-1 language-item" href="#modalJS">• JavaScript</a></li>
                 <li><a class="modal-trigger grey-text text-darken-1 language-item" href="#modalBash">• Bash</a></li>
             </ul>
-            <p>In the immediate future I am looking to expand my knowledge of programming languages to include both PHP and Ruby</p>
+            <p class="light grey-text text-darken-4 paragraph">In the immediate future I am looking to expand my knowledge of programming languages to include both PHP and Ruby</p>
 
             <div id="modalJS" class="modal modal-fixed-footer">
                 <div class="modal-content">
                     <h4>JavaScript</h4>
-                    <p>I have a large amount of experience in the use of JavaScript for a variety of purposes, including:</p>
+                    <p class="light grey-text text-darken-4 paragraph">I have a large amount of experience in the use of JavaScript for a variety of purposes, including:</p>
                     <h5>Web form validation</h5>
-                    <p>I have used JavaScript on a number of occasions to validate input for web forms; utilizing RegEx to validate input such as email addresses.</p>
+                    <p class="light grey-text text-darken-4 paragraph">I have used JavaScript on a number of occasions to validate input for web forms; utilizing RegEx to validate input such as email addresses.</p>
                     <h5>Mathematical Calculations</h5>
-                    <p>On a number of occasions I have used JavaScript to perform rather complex mathematical operations on sets of numbers that have been input by a user.</p>
+                    <p class="light grey-text text-darken-4 paragraph">On a number of occasions I have used JavaScript to perform rather complex mathematical operations on sets of numbers that have been input by a user.</p>
                     <h5>Application Logic</h5>
-                    <p>I have utlilized JavaScript to perform application logic on a number of occasions, using JS to display and hide HTML elements based upon logic implemented in JavaScript.</p>
-                    <p>I have also used a small amount of JQuery to develop this site, a skill which I am looking to expand upon in the future. I am also looking to expand my knowledge to include technologies such as NodeJS and AngularJS.</p>
+                    <p class="light grey-text text-darken-4 paragraph">I have utlilized JavaScript to perform application logic on a number of occasions, using JS to display and hide HTML elements based upon logic implemented in JavaScript.</p>
+                    <p class="light grey-text text-darken-4 paragraph">I have also used a small amount of JQuery to develop this site, a skill which I am looking to expand upon in the future. I am also looking to expand my knowledge to include technologies such as NodeJS and AngularJS.</p>
                 </div>
                 <div class="modal-footer">
                     <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
@@ -76,7 +76,7 @@ ob_start();
 
             <div id="modalJava" class="modal">
                 <div class="parallax-container popout-frame-image-container">
-                    <a class="btn-flat waves-effect waves-light popout-back-btn">
+                    <a class="btn-flat waves-effect waves-light popout-back-btn modal-close">
                         <i class="mdi-navigation-arrow-back white-text"></i>
                     </a>
                     <div class="parallax popout-frame-image"><img src="/img/about/javaPic.png"></div>
