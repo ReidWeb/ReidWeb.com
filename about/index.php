@@ -96,7 +96,7 @@ ob_start();
                 </div>
             </div>
 
-            <div id="modalCsharp" class="modal modal-fixed-footer">
+            <div id="modalCsharp" class="modal">
                 <div class="popout-frame-image-container" id="c-sharp-image-container">
                     <a class="btn-flat waves-effect popout-back-btn modal-close">
                         <i class="mdi-navigation-arrow-back black-text"></i>
