@@ -12,6 +12,8 @@
         <!-- JS -->
         <script src="/js/master.js"></script>
 
+        <!--Social Icon Font -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <?php echo $headerContent; ?>
     </head>
     <body>

@@ -23,7 +23,9 @@
         font-size:large;
         float:left;
     }
-
-
-
-
+.social-icon{
+    float:right;
+    height:100%;
+}
+#social-icons{
+}
