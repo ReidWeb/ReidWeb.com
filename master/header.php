@@ -12,6 +12,11 @@
         <!-- JS -->
         <script src="/js/master.js"></script>
 
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="/js/materialize.js"></script>
+        <script src="/js/init.js"></script>
+
         <!--Social Icon Font -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <?php echo $headerContent; ?>
