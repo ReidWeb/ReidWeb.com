@@ -62,6 +62,10 @@
         background-color: #ffffff;
         background-image: url("/img/about/cSharpPic.png");
 }
+#js-image-container {
+        background-color: #0c1021;
+        background-image: url("/img/about/jsPic.png");
+}
 .popout-back-btn{
     position:absolute;
     left:0;

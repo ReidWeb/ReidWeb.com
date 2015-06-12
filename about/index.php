@@ -65,7 +65,12 @@ include_once("../master/header.php");
 
 
         </div>
-        <div id="modalJS" class="modal modal-fixed-footer">
+        <div id="modalJS" class="modal">
+            <div class="popout-frame-image-container" id="js-image-container">
+                    <a class="btn-flat waves-effect waves-light popout-back-btn modal-close">
+                        <i class="mdi-navigation-arrow-back white-text"></i>
+                    </a>
+                </div>
                 <div class="modal-content">
                     <h4>JavaScript</h4>
                     <p class="light grey-text text-darken-4 paragraph">I have a large amount of experience in the use of JavaScript for a variety of purposes, including:</p>
@@ -76,9 +81,6 @@ include_once("../master/header.php");
                     <h5>Application Logic</h5>
                     <p class="light grey-text text-darken-4 paragraph">I have utlilized JavaScript to perform application logic on a number of occasions, using JS to display and hide HTML elements based upon logic implemented in JavaScript.</p>
                     <p class="light grey-text text-darken-4 paragraph">I have also used a small amount of JQuery to develop this site, a skill which I am looking to expand upon in the future. I am also looking to expand my knowledge to include technologies such as NodeJS and AngularJS.</p>
-                </div>
-                <div class="modal-footer">
-                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
                 </div>
             </div>
 
