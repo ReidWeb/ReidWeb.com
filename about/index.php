@@ -117,7 +117,12 @@ include_once("../master/header.php");
                 </div>
             </div>
 
-            <div id="modalBash" class="modal modal-fixed-footer">
+            <div id="modalBash" class="modal">
+                <div class="popout-frame-image-container" id="bash-image-container">
+                    <a class="btn-flat waves-effect waves-light popout-back-btn modal-close">
+                        <i class="mdi-navigation-arrow-back white-text"></i>
+                    </a>
+                </div>
                 <div class="modal-content">
                     <h4>Bash</h4>
                     <p>I have utilised bash to 'automate' a number of systems on both my Linux server and laptop. While Bash may not neccessarily be viewed as a 'programming' language, the automated systems that it is enabled me to develop have been extremely useful.</p>
@@ -126,9 +131,6 @@ include_once("../master/header.php");
                     <p>The script is open sourced under the MIT license and can be found on <a href="https://github.com/ReidWeb/linuxmotd" target="_blank">GitHub</a>.</p>
                     <h5>Build Process Automation</h5>
                     <p>I have utilized bash scripting to automate processes that are completed when building a project using my Jenkins build server. I have written a number of different scripts to automate tasks such as: generating Javadocs for each branch of a git repository and copy them to a web-accessable directory and automatically 'mirroring' a git repository to another remote server when a build is triggered.</p>
-                </div>
-                <div class="modal-footer">
-                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
                 </div>
             </div>
 

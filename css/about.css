@@ -66,6 +66,10 @@
         background-color: #0c1021;
         background-image: url("/img/about/jsPic.png");
 }
+#bash-image-container {
+        background-color: #000000;
+        background-image: url("/img/about/bashPic.png");
+}
 .popout-back-btn{
     position:absolute;
     left:0;
