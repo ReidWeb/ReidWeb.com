@@ -26,6 +26,11 @@
     bottom:-25px;
     right:19%;
 }
+#web-jumper {
+    position:absolute;
+    margin-top: -25px;
+    right:19%;
+}
 .paragraph {
     font-size: large;
 }
@@ -34,6 +39,11 @@
     margin-top: 80px;
 }
 #programming-image {
+    height:100%;
+    width:100%;
+}
+#web-summary-image {
+    margin-top: 20px;
     height:100%;
     width:100%;
 }
