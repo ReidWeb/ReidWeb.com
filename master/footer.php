@@ -34,7 +34,7 @@
                 <a class="white-text" href="https://keybase.io/peterreid"><i class="social-icon mdi-communication-vpn-key" style="font-size:20px;"></i></a>
             </div>
             <div style="float:right;height:100%;margin-top:19px;">
-                <a class="white-text" href="https://twitter.com/peterreid29"><i class="social-icon fa fa-twitter fa-lg"></i></a>
+                <a class="white-text" href="https://twitter.com/reidweb"><i class="social-icon fa fa-twitter fa-lg"></i></a>
             </div>
             <div style="float:right;height:100%;margin-top:18px;">
                 <a class="white-text" href="https://uk.linkedin.com/in/reidweb"><i class="social-icon fa fa-linkedin fa-lg"></i></a>
