@@ -4,7 +4,6 @@ $headerContent ="<link href='../css/about.css' type='text/css' rel='stylesheet' 
   <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
   <script src='../js/smoothscroll.js'></script>
   <script src='../js/about.js'></script>
-  <script src='../js/headerImage.js'></script>
   ";
 include_once("../master/header.php");
 ?>
@@ -13,7 +12,7 @@ include_once("../master/header.php");
         <img class="responsive-img circle z-depth-2" src="../img/avatar.jpg" alt="peter reid" id="avatarImage"/>
         <h1 class="header center white-text">Hello world, my name is Peter Reid</h1>
         <div class="row center">
-            <h5 class="header col s12 light blue-grey-text text-darken-4">I am a programmer focussing on Web and Mobile development, and this is my site. Feel free to have a look around!</h5>
+            <h5 class="header col s12 light blue-grey-text text-darken-4 ">I am a programmer focussing on Web and Mobile development, and this is my site. Feel free to have a look around!</h5>
         </div>
         <div class="row center">
             <a href="/about" id="download-button" class="btn-large waves-effect waves-dark blue-grey lighten-5  light-blue-text text-darken-4 z-depth-2">Find out About Me</a>
@@ -35,7 +34,7 @@ include_once("../master/header.php");
             </a>
 
             <div class="col s12 m4 l3">
-                <img class="responsive-img circle z-depth-2" src="/img/avatar.jpg" alt="peter reid" id="who-am-i-image"/>
+                <img class="responsive-img circle z-depth-2 scrollflow -slide-right -opacity" src="/img/avatar.jpg" alt="peter reid" id="who-am-i-image"/>
 
             </div>
             <div class="col s12 m8 l9">

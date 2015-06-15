@@ -8,22 +8,13 @@ $(document).ready(function(){
     $('.modal-trigger').leanModal();
   });
 
-//Modal dialogs
-
-  $('#modalJS').openModal();
-  $('#modalJS').closeModal();
-  $('#modalJava').openModal();
-  $('#modalJava').closeModal();
-  $('#modalCsharp').openModal();
-  $('#modalCsharp').closeModal();
-  $('#modalBash').openModal();
-  $('#modalBash').closeModal();
 
 //Scrolling animations
 $( document ).ready( function( )
 {
     new ScrollFlow();
 } );
+
 // Header image
 $(document).ready(function() {
   function setHeight() {
