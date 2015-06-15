@@ -54,6 +54,8 @@
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="/js/materialize.js"></script>
 <script src="/js/init.js"></script>
+<!-- scrollflow -->
+<script src="../js/eskju.jquery.scrollflow.js"></script>
 
 </body>
 </html>

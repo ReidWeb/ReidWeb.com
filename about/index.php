@@ -25,12 +25,7 @@ include_once("../master/header.php");
     </div>
 </div>
 <div id="content-container">
-    <div class="parallax-container">
-        <div class="parallax"><img src="/img/parallax-san-fran-city.jpg"></div>
-        <div class="container" id="header-container">
-            <h1 class="header left white-text" id="title">About Me</h1>
 
-        </div>
     </div>
 
     <div class="section white" id="who-am-i-container">
@@ -45,8 +40,8 @@ include_once("../master/header.php");
             </div>
             <div class="col s12 m8 l9">
                 <!-- Note that "m8 l9" was added -->
-                <h1 class="light grey-text text-darken-4 header">Who am I?</h1>
-                <p class="light grey-text text-darken-4 paragraph">
+                <h1 class="light grey-text text-darken-4 header scrollflow -pop -opacity">Who am I?</h1>
+                <p class="light grey-text text-darken-4 paragraph scrollflow -slide-top -opacity">
                     Hi, my name is Peter Reid and I am a young programmer from just outside Belfast, Northern Ireland.<br/><br/>I have a passion for all things computing related; with a particular focus on computer programming. I have programming experience in a variety of different languages - you can find out more about my programming experience below.<br/><br/>My particular focus at present in software development is on the 'Web' and 'Mobile'; with the intention of improving my skills in these areas by developing applications/sites.<br/><br/>
                     I am currently studying a Foundation Degree in Software Engineering at Belfast Metropolitan College in conjunction with the University of Ulster. I hope to progress to study Software Engineering at university beginning 2016.
 
