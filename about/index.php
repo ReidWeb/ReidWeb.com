@@ -59,7 +59,7 @@
             <div class="row center">
                 <h5 class="header col s12 light blue-grey-text text-darken-4">I am a programmer focussing on Web and Mobile development, and this is my site. Feel free to have a look around!</h5>
             </div>
-            <div class="row center" style="margin-top:15%;">
+            <div class="row center" style="margin-top:14%;">
                 <a  id="download-button" class="white-text smoothScroll" href="#download-button" style="font-size:32px;"><i class="small mdi-hardware-keyboard-arrow-down"></i> Scroll Down <i class="small mdi-hardware-keyboard-arrow-down"></i></a>
             </div>
             <br/>
