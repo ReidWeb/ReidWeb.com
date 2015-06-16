@@ -18,11 +18,13 @@
         <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
         <script src='../js/smoothscroll.js'></script>
         <script src='../js/about.js'></script>
+
+
     </head>
 
-    <div class="section no-pad-bot light-blue lighten-2" id="index-banner">
+    <div class="section no-pad-bot light-blue lighten-2 z-depth-0" id="index-banner">
         <div class="navbar-fixed" id="fixed-bar">
-            <nav class="transparent" role="navigation">
+            <nav class="transparent" role="navigation" id="desktop-nav-about">
                 <div class="nav-wrapper container">
                     <a id="logo-container" href="/" class="brand-logo blue-grey-text text-darken-4 thin">Peter Reid</a>
                     <ul class="right hide-on-med-and-down">
