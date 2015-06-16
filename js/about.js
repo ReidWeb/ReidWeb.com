@@ -29,7 +29,7 @@ $(window).scroll(function() {
     var windowHeight = $(window).innerHeight();
     var backgroundAlpha;
 
-    if ($(this).scrollTop() > 56 && backgroundAlpha != 1) {
+    if (backgroundAlpha != 1) {
         percentage = scrollPos / $(window).height();
         //Increase alpha of bg
         percentage = scrollPos / ($(window).height() - $( "#desktop-nav-about" ).height());
