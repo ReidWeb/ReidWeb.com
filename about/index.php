@@ -20,9 +20,9 @@
         <script src='../js/about.js'></script>
     </head>
 
-    <div class="section no-pad-bot light-blue lighten-2 z-depth-1" id="index-banner">
+    <div class="section no-pad-bot light-blue lighten-2" id="index-banner">
         <div class="navbar-fixed" id="fixed-bar">
-            <nav class="white lighten-1" role="navigation">
+            <nav class="transparent" role="navigation">
                 <div class="nav-wrapper container">
                     <a id="logo-container" href="/" class="brand-logo blue-grey-text text-darken-4 thin">Peter Reid</a>
                     <ul class="right hide-on-med-and-down">
