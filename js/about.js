@@ -36,10 +36,10 @@ $(window).scroll(function() {
         $( "#desktop-nav-about" ).css('background', 'rgba(255, 255, 255,' + percentage + ')');
         console.log(percentage);
 
-        if ($(this).scrollTop() >= $(window).height()){
+        if (percentage >= 1){
             $( "#desktop-nav-about" ).addClass( "z-depth-1" )
         }
-        if ($(this).scrollTop() < $(window).height()){
+        else {
             $( "#desktop-nav-about" ).removeClass( "z-depth-1" )
         }
         if (scrollPos < 101){
