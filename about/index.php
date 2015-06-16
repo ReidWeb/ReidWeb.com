@@ -49,10 +49,6 @@
             </nav>
         </div>
 
-        <script>
-            setSelectedPage();
-        </script>
-
         <div class="container">
             <img class="responsive-img circle z-depth-2" src="../img/avatar.jpg" alt="peter reid" id="bannerAvatarImage"/>
             <h1 class="header center white-text">Hello world, my name is Peter Reid</h1>
@@ -74,9 +70,6 @@
 
     <div class="section white" id="who-am-i-container">
         <div class="row container">
-            <!--<a class="btn-floating btn-large waves-effect waves-light  light-blue lighten-1 smoothScroll z-depth-2" id="who-am-i-jumper" href="#title">
-                <i class="mdi-hardware-keyboard-arrow-down white-text"></i>
-            </a>-->
 
             <div class="col s12 m4 l3">
                 <img class="responsive-img circle z-depth-2" src="/img/avatar.jpg" alt="peter reid" id="who-am-i-image"/>
