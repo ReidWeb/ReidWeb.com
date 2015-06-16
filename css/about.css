@@ -66,8 +66,24 @@
     margin-top: 10px;
 }
 .language-item{
-    font-size:large;
-    color:#0091ea;
+    font-size:16pt;
+    color:#9e9e9e;
+    font-weight: 500;
+}
+.language-item-sub{
+    margin-top:3px;
+    color:#424242;
+    margin-bottom: 10px;
+}
+.language-item-more{
+    font-size:14pt;
+    color:#40c4ff;
+    float:right;
+    font-weight: 400;
+}
+
+.language-item:hover{
+    text-decoration: underline;
 }
 .popout-frame-image-container{
     height:250px;
@@ -107,12 +123,24 @@
 .quality-paragraph{
         font-size:large;
 }
+#download-button{
+    color:white;
+    font-size:32px;
+}
 
 /*Create z-depth-0 class for use in header*/
 .z-depth-0, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
   -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12); }
+
+    #programming-list{
+        width:45%;
+    }
+    #design-list{
+        width:60%;
+    }
+
 
 /*Small Devices*/
 @media (max-width: 949px){
@@ -130,6 +158,13 @@
         margin-top:25%;
         margin-right:25%;
         margin-left: 25%;
+    }
+
+    #programming-list{
+        width:100%;
+    }
+    #design-list{
+        width:100%;
     }
 
 }

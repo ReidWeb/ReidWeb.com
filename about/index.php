@@ -55,8 +55,8 @@
             <div class="row center">
                 <h5 class="header col s12 light blue-grey-text text-darken-4">I am a programmer focussing on Web and Mobile development, and this is my site. Feel free to have a look around!</h5>
             </div>
-            <div class="row center" style="margin-top:14%;">
-                <a  id="download-button" class="white-text smoothScroll" href="#download-button" style="font-size:32px;"><i class="small mdi-hardware-keyboard-arrow-down"></i> Scroll Down <i class="small mdi-hardware-keyboard-arrow-down"></i></a>
+            <div class="row center" style="margin-top:14%;margin-bottom:0px;" id="scroll-down-button-div">
+                <a  id="download-button" class="smoothScroll" href="#download-button"><i class="small mdi-hardware-keyboard-arrow-down"></i> Scroll Down <i class="small mdi-hardware-keyboard-arrow-down"></i></a>
             </div>
             <br/>
             <br/>
@@ -103,19 +103,28 @@
                 <p class="light grey-text text-darken-4 paragraph">
                     I have experience in a variety of programming languages: (click each language to learn more)
                 </p>
-
-                <ul>
-                    <li>•<a class="modal-trigger language-item" href="#modalJava"> Java</a></li>
-                    <li>•<a class="modal-trigger language-item" href="#modalCsharp"> C#</a></li>
-                    <li>•<a class="modal-trigger language-item" href="#modalJS"> JavaScript</a></li>
-                    <li>•<a class="modal-trigger language-item" href="#modalBash"> Bash</a></li>
-                </ul>
-                <p class="light grey-text text-darken-4 paragraph">In the immediate future I am looking to expand my knowledge of programming languages to include both PHP and Ruby</p>
+                <div id="programming-list">
+                    <ul>
+                        <li><a class="modal-trigger language-item" href="#modalJava">Java</a>
+                            <p class="language-item-sub">Desktop application development <a class="modal-trigger language-item-more" href="#modalJava">MORE</a></p>
+                        </li>
+                        <li><a class="modal-trigger language-item" href="#modalCsharp">C#</a>
+                            <p class="language-item-sub">Server-side Programming with ASP.NET <a class="modal-trigger language-item-more" href="#modalCsharp">MORE</a></p>
+                        </li>
+                        <li><a class="modal-trigger language-item" href="#modalJS">JavaScript</a>
+                            <p class="language-item-sub">Client-side scripting<a class="modal-trigger language-item-more" href="#modalJS">MORE</a></p>
+                        </li>
+                        <li><a class="modal-trigger language-item" href="#modalBash">Bash</a>
+                            <p class="language-item-sub">Task automation in Linux <a class="modal-trigger language-item-more" href="#modalBash">MORE</a></p>
+                        </li>
+                    </ul>
+                </div>
+                <p class="light grey-text text-darken-4 paragraph" style="clear:left;">In the immediate future I am looking to expand my knowledge of programming languages to include both PHP and Ruby</p>
 
             </div>
 
 
-            <div class="col s12 m4 l3" style="margin-top:30px;">
+            <div class="col s12 m4 l3" style="margin-top:7%;">
                 <img class="responsive-img circle z-depth-2" src="/img/programmingSummaryPic.jpg" alt="Programming image" id="programming-image"/>
             </div>
 
@@ -145,12 +154,16 @@
                 <p class="light grey-text text-darken-4 paragraph">
                     While my primary focus is not on design, I do have experience in both designing applications and implementing the design of applications.
                 </p>
-
+<div id="design-list">
                 <ul>
-                    <li>•<a class="modal-trigger language-item" href="#modalHTML"> HTML & CSS</a></li>
-                    <li>•<a class="modal-trigger language-item" href="#modalGraphicDesign"> Graphic Design</a></li>
+                    <li><a class="modal-trigger language-item" href="#modalHTML">HTML & CSS</a>
+                    <p class="language-item-sub">Web design, responsive web design and server-side code integration<a class="modal-trigger language-item-more" href="#modalHTML">MORE</a></p>
+                    </li>
+                    <li><a class="modal-trigger language-item" href="#modalGraphicDesign">Graphic Design</a>
+                    <p class="language-item-sub">Graphic design for displays and for print.<a class="modal-trigger language-item-more" href="#modalGraphicDesign">MORE</a></p>
+                    </li>
                 </ul>
-
+</div>
             </div>
 
         </div>

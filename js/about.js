@@ -21,8 +21,6 @@ $(document).ready(function() {
     });
 });
 
-headerFadeInPoint = 56;
-
 //Fade in header on scroll
 $(window).scroll(function() {
     var scrollPos = $(window).scrollTop();
@@ -34,7 +32,6 @@ $(window).scroll(function() {
         //Increase alpha of bg
         percentage = scrollPos / ($(window).height() - $( "#desktop-nav-about" ).height());
         $( "#desktop-nav-about" ).css('background', 'rgba(255, 255, 255,' + percentage + ')');
-        console.log(percentage);
 
         if (percentage >= 1){
             $( "#desktop-nav-about" ).addClass( "z-depth-1" )
