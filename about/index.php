@@ -24,7 +24,7 @@
 
     <div class="section no-pad-bot light-blue lighten-2 z-depth-0" id="index-banner">
         <div class="navbar-fixed" id="fixed-bar">
-            <nav class="transparent" role="navigation" id="desktop-nav-about">
+            <nav style="background: rgba(255, 255, 255, 0.0);" role="navigation" id="desktop-nav-about">
                 <div class="nav-wrapper container">
                     <a id="logo-container" href="/" class="brand-logo blue-grey-text text-darken-4 thin">Peter Reid</a>
                     <ul class="right hide-on-med-and-down">

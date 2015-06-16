@@ -1,36 +1,49 @@
 $(document).ready(function(){
-      $('.parallax').parallax();
-    });
+    $('.parallax').parallax();
+});
 
 
- $(document).ready(function(){
+$(document).ready(function(){
     // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
     $('.modal-trigger').leanModal();
-  });
+});
 
 // Header image
 $(document).ready(function() {
-  function setHeight() {
-    windowHeight = $(window).innerHeight();
-    $('#index-banner').css('min-height', windowHeight);
-  };
-  setHeight();
-
-  $(window).resize(function() {
+    function setHeight() {
+        windowHeight = $(window).innerHeight();
+        $('#index-banner').css('min-height', windowHeight);
+    };
     setHeight();
-  });
+
+    $(window).resize(function() {
+        setHeight();
+    });
 });
 
 headerFadeInPoint = 56;
 
 //Fade in header on scroll
 $(window).scroll(function() {
-    if ($(this).scrollTop() > headerFadeInPoint && $( "#desktop-nav-about" ).hasClass("transparent")) {
+    var scrollPos = $(window).scrollTop();
+    var windowHeight = $(window).innerHeight();
+    var backgroundAlpha;
 
-        $( "#index-banner" ).removeClass( "z-depth-0",800 );
-        $( "#desktop-nav-about" ).removeClass( "transparent" ).fadeOut(100).addClass( "white z-depth-1").fadeIn("slow");
-    } else if ($(this).scrollTop() <= headerFadeInPoint && $( "#desktop-nav-about" ).hasClass("white")) {
-        $( "#index-banner" ).addClass( "z-depth-0" );
-        $( "#desktop-nav-about" ).removeClass( "white z-depth-1" ).fadeOut(100).addClass( "transparent" ).fadeIn("slow");
+    if ($(this).scrollTop() > 56 && backgroundAlpha != 1) {
+        percentage = scrollPos / $(window).height();
+        //Increase alpha of bg
+        percentage = scrollPos / ($(window).height() - $( "#desktop-nav-about" ).height());
+        $( "#desktop-nav-about" ).css('background', 'rgba(255, 255, 255,' + percentage + ')');
+        console.log(percentage);
+
+        if ($(this).scrollTop() >= $(window).height()){
+            $( "#desktop-nav-about" ).addClass( "z-depth-1" )
+        }
+        if ($(this).scrollTop() < $(window).height()){
+            $( "#desktop-nav-about" ).removeClass( "z-depth-1" )
+        }
+        if (scrollPos < 101){
+            $( "#desktop-nav-about" ).css('background', 'rgba(255, 255, 255,0)');
+        }
     }
 });
