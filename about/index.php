@@ -105,10 +105,10 @@
                 </p>
 
                 <ul>
-                    <li><a class="modal-trigger grey-text text-darken-1 language-item" href="#modalJava">• Java</a></li>
-                    <li><a class="modal-trigger grey-text text-darken-1 language-item" href="#modalCsharp">• C#</a></li>
-                    <li><a class="modal-trigger grey-text text-darken-1 language-item" href="#modalJS">• JavaScript</a></li>
-                    <li><a class="modal-trigger grey-text text-darken-1 language-item" href="#modalBash">• Bash</a></li>
+                    <li>•<a class="modal-trigger language-item" href="#modalJava"> Java</a></li>
+                    <li>•<a class="modal-trigger language-item" href="#modalCsharp"> C#</a></li>
+                    <li>•<a class="modal-trigger language-item" href="#modalJS"> JavaScript</a></li>
+                    <li>•<a class="modal-trigger language-item" href="#modalBash"> Bash</a></li>
                 </ul>
                 <p class="light grey-text text-darken-4 paragraph">In the immediate future I am looking to expand my knowledge of programming languages to include both PHP and Ruby</p>
 
@@ -147,9 +147,8 @@
                 </p>
 
                 <ul>
-                    <li><a class="modal-trigger grey-text text-darken-1 language-item" href="#modalJava">• HTML</a></li>
-                    <li><a class="modal-trigger grey-text text-darken-1 language-item" href="#modalCsharp">• CSS</a></li>
-                    <li><a class="modal-trigger grey-text text-darken-1 language-item" href="#modalJS">• Graphic Design</a></li>
+                    <li>•<a class="modal-trigger language-item" href="#modalHTML"> HTML & CSS</a></li>
+                    <li>•<a class="modal-trigger language-item" href="#modalGraphicDesign"> Graphic Design</a></li>
                 </ul>
 
             </div>
@@ -230,6 +229,26 @@
             <p>I have utilized bash scripting to automate processes that are completed when building a project using my Jenkins build server. I have written a number of different scripts to automate tasks such as: generating Javadocs for each branch of a git repository and copy them to a web-accessable directory and automatically 'mirroring' a git repository to another remote server when a build is triggered.</p>
         </div>
     </div>
+
+    <div id="modalHTML" class="modal">
+        <div class="popout-frame-image-container" id="html-image-container">
+            <a class="btn-flat waves-effect waves-light popout-back-btn modal-close">
+                <i class="mdi-navigation-arrow-back white-text"></i>
+            </a>
+        </div>
+        <div class="modal-content">
+            <h4>HTML & CSS</h4>
+            <p>I have a large amount of experience in CSS, and both HTML5 and XHTML which I have accumulated from a number of projects in my academic and non-academic work. The majority of my experience is in developing websites, however I do have experience in developing Windows 8 applications with web technologies.</p>
+            <h5>Front End Frameworks</h5>
+            <p>I have utilised a number of different front-end frameworks to develop a number of sites. I have recently been using <a href="http://materializecss.com/" target="_blank">Materialize</a> to develop websites that are designed with Google's <a href="https://www.google.com/design/spec/material-design/introduction.html" target="_blank">'Material Design'</a> design languages in mind. I have also used <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> versions 2 and 3 in the past.</p>
+            <h5>Responsive Design</h5>
+            <p>I am experienced in designing websites that provide a excellent user experience on any device. I have experience in this both with the use of a design framework and without one.</p>
+            <h5>Dynamic Websites</h5>
+            <p>I have utilised ASP.NET (C#) to develop dynamic websites where the content changes dependent on the user. I am aiming to expand my knowledge of web development to include PHP and NodeJS in the future.</p>
+            <h5>Templating</h5>
+            <p>I have experience in utilising 'templates' to simplify the development of sites, I have experience in doing this in both ASP.NET(C#) and PHP.</p>
+        </div>
     </div>
 
-<?php include_once("../master/footer.php"); ?>
+
+    <?php include_once("../master/footer.php"); ?>

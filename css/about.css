@@ -67,6 +67,7 @@
 }
 .language-item{
     font-size:large;
+    color:#0091ea;
 }
 .popout-frame-image-container{
     height:250px;
@@ -89,6 +90,10 @@
         background-color: #000000;
         background-image: url("/img/about/bashPic.png");
 }
+#html-image-container {
+        background-color: #202020;
+        background-image: url("/img/about/htmlPic.png");
+}
 .popout-back-btn{
     position:absolute;
     left:0;
@@ -103,7 +108,13 @@
         font-size:large;
 }
 
+/*Create z-depth-0 class for use in header*/
+.z-depth-0, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+  -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12); }
 
+/*Small Devices*/
 @media (max-width: 949px){
     .modal{
         width:100%;
@@ -122,12 +133,7 @@
     }
 
 }
-
-.z-depth-0, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
-  -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
-  -moz-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
-  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12); }
-
+/*Large Devices*/
 @media (min-width: 950px){
     #avatarImage{
         width:24%;
