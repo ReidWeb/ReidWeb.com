@@ -28,4 +28,8 @@
     margin:0 5px 0 5px;
     height:100%;
 }
-
+/*Override default footer*/
+footer.page-footer {
+  margin-top: 0px;
+  padding-top: 0px;
+  background-color: #ee6e73; }
