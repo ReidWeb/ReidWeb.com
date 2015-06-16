@@ -59,8 +59,8 @@
             <div class="row center">
                 <h5 class="header col s12 light blue-grey-text text-darken-4">I am a programmer focussing on Web and Mobile development, and this is my site. Feel free to have a look around!</h5>
             </div>
-            <div class="row center">
-                <a href="/about" id="download-button" class="btn-large waves-effect waves-dark blue-grey lighten-5  light-blue-text text-darken-4 z-depth-2">Find out About Me</a>
+            <div class="row center" style="margin-top:15%;">
+                <a  id="download-button" class="white-text smoothScroll" href="#download-button" style="font-size:32px;"><i class="small mdi-hardware-keyboard-arrow-down"></i> Scroll Down <i class="small mdi-hardware-keyboard-arrow-down"></i></a>
             </div>
             <br/>
             <br/>
@@ -84,7 +84,7 @@
             </div>
             <div class="col s12 m8 l9">
                 <!-- Note that "m8 l9" was added -->
-                <h1 class="light grey-text text-darken-4 header">Who am I?</h1>
+                <h1 class="light grey-text text-darken-4 header" id="who-am-i-title">Who am I?</h1>
                 <p class="light grey-text text-darken-4 paragraph">
                     Hi, my name is Peter Reid and I am a young programmer from just outside Belfast, Northern Ireland.<br/><br/>I have a passion for all things computing related; with a particular focus on computer programming. I have programming experience in a variety of different languages - you can find out more about my programming experience below.<br/><br/>My particular focus at present in software development is on the 'Web' and 'Mobile'; with the intention of improving my skills in these areas by developing applications/sites.<br/><br/>
                     I am currently studying a Foundation Degree in Software Engineering at Belfast Metropolitan College in conjunction with the University of Ulster. I hope to progress to study Software Engineering at university beginning 2016.
