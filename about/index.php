@@ -198,7 +198,7 @@
 
             <h4>Java</h4>
             <p>I have a large amount of experience in the use of Java for the development of desktop applications.</p>
-            <p>A large amount of this experience was aqquired during my education, however parts of my knowledge were aqquired through my own research.</p>
+            <p>A large amount of this experience was aqquired during my education, however parts of my knowledge were acquired through my own research.</p>
             <p>In future, I am looking to further develop my Java skills and knowledge by developing Android applications.</p>
             <h5>Object Oriented Programming with Java</h5>
             <p>My first experiences of object oriented programming originate from my use of Java. I have utilized OOP to develop a number of applications in Java both on a personal basis and on an academic basis.</p>
