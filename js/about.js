@@ -21,16 +21,15 @@ $(document).ready(function() {
   });
 });
 
-windowHeightMinus = $(window).innerHeight() - (0.06*$(window).innerHeight());
-console.log(windowHeightMinus);
+headerFadeInPoint = 56;
 
 //Fade in header on scroll
 $(window).scroll(function() {
-    if ($(this).scrollTop() > windowHeightMinus && $( "#desktop-nav-about" ).hasClass("transparent")) {
+    if ($(this).scrollTop() > headerFadeInPoint && $( "#desktop-nav-about" ).hasClass("transparent")) {
 
         $( "#index-banner" ).removeClass( "z-depth-0",800 );
         $( "#desktop-nav-about" ).removeClass( "transparent" ).fadeOut(100).addClass( "white z-depth-1").fadeIn("slow");
-    } else if ($(this).scrollTop() <= windowHeightMinus && $( "#desktop-nav-about" ).hasClass("white")) {
+    } else if ($(this).scrollTop() <= headerFadeInPoint && $( "#desktop-nav-about" ).hasClass("white")) {
         $( "#index-banner" ).addClass( "z-depth-0" );
         $( "#desktop-nav-about" ).removeClass( "white z-depth-1" ).fadeOut(100).addClass( "transparent" ).fadeIn("slow");
     }
