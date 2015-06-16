@@ -32,4 +32,8 @@
 footer.page-footer {
   margin-top: 0px;
   padding-top: 0px;
-  background-color: #ee6e73; }
+  background-color: #ee6e73;
+}
+.social-icon-anchor{
+    color:#ffffff;
+}
