@@ -1,46 +1,89 @@
-<?php
-$pagetitle = "About Me | Peter Reid";
-$headerContent ="<link href='../css/about.css' type='text/css' rel='stylesheet' media='screen,projection'/>
-  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
-  <script src='../js/smoothscroll.js'></script>
-  <script src='../js/about.js'></script>
-  ";
-include_once("../master/header.php");
-?>
-<div class="section no-pad-bot light-blue lighten-2 z-depth-1" id="index-banner">
-    <div class="container">
-        <img class="responsive-img circle z-depth-2" src="../img/avatar.jpg" alt="peter reid" id="avatarImage"/>
-        <h1 class="header center white-text">Hello world, my name is Peter Reid</h1>
-        <div class="row center">
-            <h5 class="header col s12 light blue-grey-text text-darken-4">I am a programmer focussing on Web and Mobile development, and this is my site. Feel free to have a look around!</h5>
-        </div>
-        <div class="row center">
-            <a href="/about" id="download-button" class="btn-large waves-effect waves-dark blue-grey lighten-5  light-blue-text text-darken-4 z-depth-2">Find out About Me</a>
-        </div>
-        <br/>
-        <br/>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+        <title>About Me | Peter Reid</title>
+
+        <!-- CSS  -->
+        <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+        <!-- JS -->
+        <script src="/js/master.js"></script>
+
+        <!--Social Icon Font -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link href='../css/about.css' type='text/css' rel='stylesheet' media='screen,projection'/>
+        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
+        <script src='../js/smoothscroll.js'></script>
+        <script src='../js/about.js'></script>
+    </head>
+
+    <div class="section no-pad-bot light-blue lighten-2 z-depth-1" id="index-banner">
+        <div class="navbar-fixed" id="fixed-bar">
+            <nav class="white lighten-1" role="navigation">
+                <div class="nav-wrapper container">
+                    <a id="logo-container" href="/" class="brand-logo blue-grey-text text-darken-4 thin">Peter Reid</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li id="homeLink"><a href="/" class="blue-grey-text text-darken-4">Home</a></li>
+                        <li id="projectsLink"><a href="#" class="blue-grey-text text-darken-4">Projects</a></li>
+                        <li id="blogLink"><a href="#" class="blue-grey-text text-darken-4">Blog</a></li>
+                        <li id="aboutLink"><a href="/about" class="blue-grey-text text-darken-4">About Me</a></li>
+                        <li id="contactLink"><a href="#" class="blue-grey-text text-darken-4">Contact</a></li>
+                    </ul>
 
 
+                    <ul id="nav-mobile" class="side-nav white z-depth-5">
+                        <div id="nav-mobile-header"><img class="responsive-img circle z-depth-1" src="/img/avatar.jpg" alt="peter reid"/><a id="logo-container" href="/" class="brand-logo white-text bold">peter reid</a></div>
+                        <li id="homeLinkMob" class="blue-grey-text text-darken-4"><a href="/"><i class="tiny mdi-action-home left blue-grey-text text-darken-4"></i>Home</a></li>
+                        <li id="projectsLinkMob" class="blue-grey-text text-darken-4"><a href="#"><i class="tiny mdi-av-web left 1  blue-grey-text text-darken-4"></i>Projects</a></li>
+                        <li id="blogLinkMob" class="blue-grey-text text-darken-4"><a href="#"><i class="tiny mdi-action-speaker-notes left blue-grey-text text-darken-4"></i>Blog</a></li>
+                        <li id="aboutLinkMob" class="blue-grey-text text-darken-4"><a href="/about"><i class="tiny mdi-social-person left blue-grey-text text-darken-4"></i>About Me</a></li>
+                        <li id="contactLinkMob" class="blue-grey-text text-darken-4"><a href="#"><i class="tiny mdi-communication-email left blue-grey-text text-darken-4"></i>Contact</a></li>
+                    </ul>
+                    <a href="#" data-activates="nav-mobile" class="button-collapse blue-grey-text text-darken-4"><i class="mdi-navigation-menu"></i></a>
+                </div>
+            </nav>
+        </div>
+
+        <script>
+            setSelectedPage();
+        </script>
+
+        <div class="container">
+            <img class="responsive-img circle z-depth-2" src="../img/avatar.jpg" alt="peter reid" id="bannerAvatarImage"/>
+            <h1 class="header center white-text">Hello world, my name is Peter Reid</h1>
+            <div class="row center">
+                <h5 class="header col s12 light blue-grey-text text-darken-4">I am a programmer focussing on Web and Mobile development, and this is my site. Feel free to have a look around!</h5>
+            </div>
+            <div class="row center">
+                <a href="/about" id="download-button" class="btn-large waves-effect waves-dark blue-grey lighten-5  light-blue-text text-darken-4 z-depth-2">Find out About Me</a>
+            </div>
+            <br/>
+            <br/>
+
+
+        </div>
     </div>
-</div>
-<div id="content-container">
+    <div id="content-container">
 
     </div>
 
     <div class="section white" id="who-am-i-container">
         <div class="row container">
-            <a class="btn-floating btn-large waves-effect waves-light  light-blue lighten-1 smoothScroll z-depth-2" id="who-am-i-jumper" href="#title">
+            <!--<a class="btn-floating btn-large waves-effect waves-light  light-blue lighten-1 smoothScroll z-depth-2" id="who-am-i-jumper" href="#title">
                 <i class="mdi-hardware-keyboard-arrow-down white-text"></i>
-            </a>
+            </a>-->
 
             <div class="col s12 m4 l3">
-                <img class="responsive-img circle z-depth-2 scrollflow -slide-right -opacity" src="/img/avatar.jpg" alt="peter reid" id="who-am-i-image"/>
+                <img class="responsive-img circle z-depth-2" src="/img/avatar.jpg" alt="peter reid" id="who-am-i-image"/>
 
             </div>
             <div class="col s12 m8 l9">
                 <!-- Note that "m8 l9" was added -->
-                <h1 class="light grey-text text-darken-4 header scrollflow -pop -opacity">Who am I?</h1>
-                <p class="light grey-text text-darken-4 paragraph scrollflow -slide-top -opacity">
+                <h1 class="light grey-text text-darken-4 header">Who am I?</h1>
+                <p class="light grey-text text-darken-4 paragraph">
                     Hi, my name is Peter Reid and I am a young programmer from just outside Belfast, Northern Ireland.<br/><br/>I have a passion for all things computing related; with a particular focus on computer programming. I have programming experience in a variety of different languages - you can find out more about my programming experience below.<br/><br/>My particular focus at present in software development is on the 'Web' and 'Mobile'; with the intention of improving my skills in these areas by developing applications/sites.<br/><br/>
                     I am currently studying a Foundation Degree in Software Engineering at Belfast Metropolitan College in conjunction with the University of Ulster. I hope to progress to study Software Engineering at university beginning 2016.
 
@@ -192,6 +235,6 @@ include_once("../master/header.php");
             <p>I have utilized bash scripting to automate processes that are completed when building a project using my Jenkins build server. I have written a number of different scripts to automate tasks such as: generating Javadocs for each branch of a git repository and copy them to a web-accessable directory and automatically 'mirroring' a git repository to another remote server when a build is triggered.</p>
         </div>
     </div>
-</div>
+    </div>
 
 <?php include_once("../master/footer.php"); ?>
