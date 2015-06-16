@@ -8,13 +8,6 @@ $(document).ready(function(){
     $('.modal-trigger').leanModal();
   });
 
-
-//Scrolling animations
-$( document ).ready( function( )
-{
-    new ScrollFlow();
-} );
-
 // Header image
 $(document).ready(function() {
   function setHeight() {
