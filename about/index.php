@@ -183,17 +183,17 @@
                 </p>
                 <div id="programming-list">
                     <ul>
-                        <li><a class="modal-trigger language-item" href="#modalJava">Version Control</a>
+                        <li><a class="modal-trigger language-item" href="#modalVC">Version Control</a>
                             <p class="language-item-sub">Git & Subversion<a class="modal-trigger language-item-more" href="#modalVC">MORE</a></p>
                         </li>
-                        <li><a class="modal-trigger language-item" href="#modalJava">Development Tools</a>
-                            <p class="language-item-sub">IDEs and Continuous Integration<a class="modal-trigger language-item-more" href="#modalJava">MORE</a></p>
+                        <li><a class="modal-trigger language-item" href="#modalIDE">Development Tools</a>
+                            <p class="language-item-sub">IDEs and Continuous Integration<a class="modal-trigger language-item-more" href="#modalIDE">MORE</a></p>
                         </li>
-                        <li><a class="modal-trigger language-item" href="#modalJava">SQL</a>
-                            <p class="language-item-sub">SQL Scripting & SQL database utilisation <a class="modal-trigger language-item-more" href="#modalJava">MORE</a></p>
+                        <li><a class="modal-trigger language-item" href="#modalDB">Databases</a>
+                            <p class="language-item-sub">Database Design & SQL Database Development<a class="modal-trigger language-item-more" href="#modalDB">MORE</a></p>
                         </li>
-                        <li><a class="modal-trigger language-item" href="#modalCsharp">Linux</a>
-                            <p class="language-item-sub">Linux desktop & Linux system administration <a class="modal-trigger language-item-more" href="#modalCsharp">MORE</a></p>
+                        <li><a class="modal-trigger language-item" href="#modalLinux">Linux</a>
+                            <p class="language-item-sub">Linux desktop & Linux system administration <a class="modal-trigger language-item-more" href="#modalLinux">MORE</a></p>
                         </li>
                     </ul>
                 </div>
@@ -229,9 +229,9 @@
                 <p class="light grey-text text-darken-4 paragraph">
                     <div id="academic-list">
                     <ul>
-                        <li><a class="modal-trigger language-item" href="#modalJava">Foundation Degree in Software Engineering</a>
+                        <li><a class="modal-trigger language-item" href="#modalFDSE">Foundation Degree in Software Engineering</a>
                             <p class="education-institution">University of Ulster</p>
-                            <p class="education-year">2014-Present<a class="modal-trigger language-item-more" href="#modalJava">MORE</a></p>
+                            <p class="education-year">2014-Present<a class="modal-trigger language-item-more" href="#modalFDSE">MORE</a></p>
                         </li>
                     </ul>
                 </div>
