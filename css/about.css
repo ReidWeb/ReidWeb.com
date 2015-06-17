@@ -90,6 +90,11 @@
      background-color: #202020;
      background-image: url("/img/about/htmlPic.png");
 }
+#design-image-container {
+     background-color: #ffffff;
+     background-image: url("/img/about/designPic.jpg");
+}
+
  .popout-back-btn{
      position:absolute;
      left:0;

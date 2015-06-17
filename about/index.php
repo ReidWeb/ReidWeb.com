@@ -153,16 +153,16 @@
                 <p class="light grey-text text-darken-4 paragraph">
                     While my primary focus is not on design, I do have experience in both designing applications and implementing the design of applications.
                 </p>
-<div id="design-list">
-                <ul>
-                    <li><a class="modal-trigger language-item" href="#modalHTML">HTML & CSS</a>
-                    <p class="language-item-sub">Web design, responsive web design and server-side code integration<a class="modal-trigger language-item-more" href="#modalHTML">MORE</a></p>
-                    </li>
-                    <li><a class="modal-trigger language-item" href="#modalGraphicDesign">Graphic Design</a>
-                    <p class="language-item-sub">Graphic design for displays and for print.<a class="modal-trigger language-item-more" href="#modalGraphicDesign">MORE</a></p>
-                    </li>
-                </ul>
-</div>
+                <div id="design-list">
+                    <ul>
+                        <li><a class="modal-trigger language-item" href="#modalHTML">HTML & CSS</a>
+                            <p class="language-item-sub">Web design, responsive web design and server-side code integration<a class="modal-trigger language-item-more" href="#modalHTML">MORE</a></p>
+                        </li>
+                        <li><a class="modal-trigger language-item" href="#modalGraphicDesign">Graphic Design</a>
+                            <p class="language-item-sub">Graphic design for digital and physical media.<a class="modal-trigger language-item-more" href="#modalGraphicDesign">MORE</a></p>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
         </div>
@@ -248,6 +248,7 @@
                 <i class="mdi-navigation-arrow-back white-text"></i>
             </a>
         </div>
+
         <div class="modal-content">
             <h4>HTML & CSS</h4>
             <p>I have a large amount of experience in CSS, and both HTML5 and XHTML which I have accumulated from a number of projects in my academic and non-academic work. The majority of my experience is in developing websites, however I do have experience in developing Windows 8 applications with web technologies.</p>
@@ -262,5 +263,20 @@
         </div>
     </div>
 
+    <div id="modalGraphicDesign" class="modal">
+        <div class="popout-frame-image-container" id="design-image-container">
+            <a class="btn-flat waves-effect waves-dark popout-back-btn modal-close">
+                <i class="mdi-navigation-arrow-back black-text"></i>
+            </a>
+        </div>
+        <div class="modal-content">
+            <h4>Graphic Design</h4>
+            <p>I have had approximately six years of experience in amateur graphic design using Adobe Photoshop. I also have experience in the use of GIMP.</p>
+            <h5>Graphic Design for Digital Media</h5>
+            <p>I have created graphics for digital media on numerous occasions; for use in websites and desktop applications. I have experience in creating 'pleasing' graphics that form part of an intuitive user interface.</p>
+            <h5>Graphic Design for Physical Media</h5>
+            <p>While I have less experience in designing for physical media than I do for digital media; I do have experience in designing for physical media. I am aware of the various different requirements for designing for physical media as opposed to for digital media.</p>
+        </div>
+    </div>
 
     <?php include_once("../master/footer.php"); ?>
