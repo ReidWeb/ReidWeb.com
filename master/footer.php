@@ -1,7 +1,7 @@
 <footer class="page-footer ">
     <div class="footer-copyright grey darken-3">
         <div class="container">
-            © 2015 Peter Reid | Built with <a class=" white-text" href="http://materializecss.com">Materialize</a>
+            © 2015 Peter Reid
             <div style="float:right;height:100%;">
                 <a class="social-icon-anchor" href="https://keybase.io/peterreid"><i class="social-icon mdi-communication-vpn-key" style="font-size:20px;"></i></a>
             </div>
