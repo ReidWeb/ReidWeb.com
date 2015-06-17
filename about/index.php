@@ -63,9 +63,6 @@
 
         </div>
     </div>
-    <div id="content-container">
-
-    </div>
 
     <div class="section white" id="who-am-i-container">
         <div class="row container">
@@ -137,8 +134,6 @@
 
     </div>
 
-
-
     <div class="parallax-container" style="height:250px;">
         <div class="parallax"><img src="/img/parallax-shard.jpg"></div>
     </div>
@@ -163,7 +158,7 @@
                         </li>
                     </ul>
                     <div style="height:1px;">
-                        <a class="btn-floating btn-large waves-effect waves-light  light-blue lighten-1 smoothScroll z-depth-2" id="tech-jumper" href="#design-container">
+                        <a class="btn-floating btn-large waves-effect waves-light  light-blue lighten-1 smoothScroll z-depth-2" id="tech-jumper" href="#tech-container">
                             <i class="mdi-hardware-keyboard-arrow-down white-text"></i>
                         </a>
 
@@ -179,7 +174,7 @@
         <div class="parallax"><img src="/img/parallax-singapore.jpg"></div>
     </div>
 
-    <div class="section white" id="programming-section">
+    <div class="section white" id="tech-container">
         <div class="row container">
             <div class="col s12 m8 l9">
                 <h2 class="header thin">Technical Skills</h2>
@@ -190,6 +185,9 @@
                     <ul>
                         <li><a class="modal-trigger language-item" href="#modalJava">Version Control</a>
                             <p class="language-item-sub">Git & Subversion<a class="modal-trigger language-item-more" href="#modalJava">MORE</a></p>
+                        </li>
+                        <li><a class="modal-trigger language-item" href="#modalJava">Development Tools</a>
+                            <p class="language-item-sub">IDEs and Continuous Integration<a class="modal-trigger language-item-more" href="#modalJava">MORE</a></p>
                         </li>
                         <li><a class="modal-trigger language-item" href="#modalJava">SQL</a>
                             <p class="language-item-sub">SQL Scripting & SQL database utilisation <a class="modal-trigger language-item-more" href="#modalJava">MORE</a></p>
@@ -207,11 +205,51 @@
             </div>
 
         </div>
+        <div style="height:1px;">
+        <a class="btn-floating btn-large waves-effect waves-light  light-blue lighten-1 smoothScroll z-depth-2" id="academic-jumper" href="#academic-container">
+            <i class="mdi-hardware-keyboard-arrow-down white-text"></i>
+        </a>
+
+    </div>
+
+    </div>
+
+
+    <div class="parallax-container" style="height:250px;">
+        <div class="parallax"><img src="/img/parallax-san-fran-city.jpg"></div>
+    </div>
+
+    <div class="section white" id="academic-container">
+        <div class="row container">
+            <div class="col s12 m4 l3">
+                <img class="responsive-img circle z-depth-2" src="/img/about/webSummaryPic.png" alt="Web Image" id="web-summary-image"/>
+            </div>
+            <div class="col s12 m8 l9">
+                <h2 class="header thin">Education</h2>
+                <p class="light grey-text text-darken-4 paragraph">
+                    <div id="academic-list">
+                    <ul>
+                        <li><a class="modal-trigger language-item" href="#modalJava">Foundation Degree in Software Engineering</a>
+                            <p class="education-institution">University of Ulster</p>
+                            <p class="education-year">2014-Present<a class="modal-trigger language-item-more" href="#modalJava">MORE</a></p>
+                        </li>
+                    </ul>
+                </div>
+                </p>
+
+            </div>
+
+        </div>
 
     </div>
 
     <div class="parallax-container" style="height:250px;">
-        <div class="parallax"><img src="/img/parallax-san-fran-city.jpg"></div>
+        <div class="section" id="academic-container">
+            <div class="row container">
+
+            </div>
+        </div>
+        <div class="parallax"><img src="/img/parallax-shard2.jpg"></div>
     </div>
 
     <!-- modals -->
