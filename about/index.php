@@ -184,7 +184,7 @@
                 <div id="programming-list">
                     <ul>
                         <li><a class="modal-trigger language-item" href="#modalJava">Version Control</a>
-                            <p class="language-item-sub">Git & Subversion<a class="modal-trigger language-item-more" href="#modalJava">MORE</a></p>
+                            <p class="language-item-sub">Git & Subversion<a class="modal-trigger language-item-more" href="#modalVC">MORE</a></p>
                         </li>
                         <li><a class="modal-trigger language-item" href="#modalJava">Development Tools</a>
                             <p class="language-item-sub">IDEs and Continuous Integration<a class="modal-trigger language-item-more" href="#modalJava">MORE</a></p>
@@ -356,6 +356,22 @@
             <p>I have created graphics for digital media on numerous occasions; for use in websites and desktop applications. I have experience in creating 'pleasing' graphics that form part of an intuitive user interface.</p>
             <h5>Graphic Design for Physical Media</h5>
             <p>While I have less experience in designing for physical media than I do for digital media; I do have experience in designing for physical media. I am aware of the various different requirements for designing for physical media as opposed to for digital media.</p>
+        </div>
+    </div>
+
+    <div id="modalVC" class="modal">
+        <div class="popout-frame-image-container" id="vc-image-container">
+            <a class="btn-flat waves-effect waves-light popout-back-btn modal-close">
+                <i class="mdi-navigation-arrow-back white-text"></i>
+            </a>
+        </div>
+        <div class="modal-content">
+            <h4>Version Control</h4>
+            <p>I have been using version control with all my work since the 2013, I'm particularly experienced in Git - however, I do have experience in Subversion also.</p>
+            <h5>Git Version Control</h5>
+            <p>I have been using Git version control ever since my work placement in 2013, I am familiar with the strengths and weaknesses of Git and other Distributed Version Control Systems. I have experience both as a user of Git and as an administrator of a Git version control server. I store all of my academic work in Git repositories, and all of my personal projects are also stored in git.</p>
+            <h5>Subversion</h5>
+            <p>Although I am mainly experienced in Git, I do have experience in Centralised Version Systems; in particular Subversion. I have done some work in Subversion so that I am familiar with the core concepts in relation to Subversion and other centralised version control systems.</p>
         </div>
     </div>
 

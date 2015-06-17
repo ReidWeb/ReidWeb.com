@@ -118,6 +118,10 @@
      background-color: #ffffff;
      background-image: url("/img/about/designPic.jpg");
 }
+#vc-image-container {
+     background-color: #000000;
+     background-image: url("/img/about/versionControlSummary.png");
+}
 
  .popout-back-btn{
      position:absolute;
