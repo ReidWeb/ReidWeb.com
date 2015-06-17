@@ -11,25 +11,11 @@
     left: 0;
 }
 
-
-#title {
-    position: absolute;
-    bottom: 0;
-}
-
-.quality-paragraph {
-    font-size: large;
-}
-
 #index-banner {
     background-image: url("/img/pattern1.png");
     background-repeat: repeat;
 }
 
-#who-am-i-jumper {
-    position:absolute;
-    top:-25px;
-}
 #programming-jumper {
     position:absolute;
     bottom:-25px;
@@ -120,9 +106,6 @@
     background-image:url("/img/pattern1.png");
 }
 
-.quality-paragraph{
-        font-size:large;
-}
 #download-button{
     color:white;
     font-size:32px;
@@ -147,12 +130,6 @@
     .modal{
         width:100%;
     }
-    #avatarImage{
-        width:50%;
-        margin-top:1%;
-        margin-right:25%;
-        margin-left: 25%;
-    }
     #bannerAvatarImage{
         width:50%;
         margin-top:25%;
@@ -170,12 +147,6 @@
 }
 /*Large Devices*/
 @media (min-width: 950px){
-    #avatarImage{
-        width:24%;
-        margin-top:1%;
-        margin-right:38%;
-        margin-left: 38%;
-    }
     #bannerAvatarImage{
         width:24%;
         margin-top:17%;
