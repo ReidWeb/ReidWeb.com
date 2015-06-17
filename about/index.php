@@ -100,7 +100,7 @@
             <div class="col s12 m8 l9">
                 <h2 class="header thin">Programming</h2>
                 <p class="light grey-text text-darken-4 paragraph">
-                    I have experience in a variety of programming languages: (click each language to learn more)
+                    I have experience in a variety of programming languages:
                 </p>
                 <div id="programming-list">
                     <ul>
@@ -162,14 +162,56 @@
                             <p class="language-item-sub">Graphic design for digital and physical media.<a class="modal-trigger language-item-more" href="#modalGraphicDesign">MORE</a></p>
                         </li>
                     </ul>
+                    <div style="height:1px;">
+                        <a class="btn-floating btn-large waves-effect waves-light  light-blue lighten-1 smoothScroll z-depth-2" id="tech-jumper" href="#design-container">
+                            <i class="mdi-hardware-keyboard-arrow-down white-text"></i>
+                        </a>
+
+                    </div>
                 </div>
             </div>
 
         </div>
 
     </div>
+
     <div class="parallax-container" style="height:250px;">
         <div class="parallax"><img src="/img/parallax-singapore.jpg"></div>
+    </div>
+
+    <div class="section white" id="programming-section">
+        <div class="row container">
+            <div class="col s12 m8 l9">
+                <h2 class="header thin">Technical Skills</h2>
+                <p class="light grey-text text-darken-4 paragraph">
+                    I have accumulated a number of technical skills that can be utilised in my programming. These are:
+                </p>
+                <div id="programming-list">
+                    <ul>
+                        <li><a class="modal-trigger language-item" href="#modalJava">Version Control</a>
+                            <p class="language-item-sub">Git & Subversion<a class="modal-trigger language-item-more" href="#modalJava">MORE</a></p>
+                        </li>
+                        <li><a class="modal-trigger language-item" href="#modalJava">SQL</a>
+                            <p class="language-item-sub">SQL Scripting & SQL database utilisation <a class="modal-trigger language-item-more" href="#modalJava">MORE</a></p>
+                        </li>
+                        <li><a class="modal-trigger language-item" href="#modalCsharp">Linux</a>
+                            <p class="language-item-sub">Linux desktop & Linux system administration <a class="modal-trigger language-item-more" href="#modalCsharp">MORE</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="col s12 m4 l3" style="margin-top:2%;">
+                <img class="responsive-img circle z-depth-2" src="/img/programmingSummaryPic.jpg" alt="Technical image" id="tech-image"/>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="parallax-container" style="height:250px;">
+        <div class="parallax"><img src="/img/parallax-san-fran-city.jpg"></div>
     </div>
 
     <!-- modals -->

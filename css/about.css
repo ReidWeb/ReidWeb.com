@@ -22,6 +22,11 @@
      margin-top: -25px;
      right:19%;
 }
+ #tech-jumper {
+     position:absolute;
+     margin-top: 7px;
+     right:19%;
+}
  .paragraph {
      font-size: large;
 }
