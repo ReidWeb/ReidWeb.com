@@ -189,7 +189,7 @@
                         <li><a class="modal-trigger language-item" href="#modalIDE">Development Tools</a>
                             <p class="language-item-sub">IDEs and Continuous Integration<a class="modal-trigger language-item-more" href="#modalIDE">MORE</a></p>
                         </li>
-                        <li><a class="modal-trigger language-item" href="#modalDB">Databases</a>
+                        <li><a class="modal-trigger language-item" href="#modalDB">Database Design & Development</a>
                             <p class="language-item-sub">Database Design & SQL Database Development<a class="modal-trigger language-item-more" href="#modalDB">MORE</a></p>
                         </li>
                         <li><a class="modal-trigger language-item" href="#modalLinux">Linux</a>
