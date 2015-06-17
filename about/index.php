@@ -195,12 +195,15 @@
                         <li><a class="modal-trigger language-item" href="#modalLinux">Linux</a>
                             <p class="language-item-sub">Linux desktop & Linux system administration <a class="modal-trigger language-item-more" href="#modalLinux">MORE</a></p>
                         </li>
+                        <li><a class="modal-trigger language-item" href="#modalMethods">Development Methodologies</a>
+                            <p class="language-item-sub">Scrum & SSADM <a class="modal-trigger language-item-more" href="#modalMethods">MORE</a></p>
+                        </li>
                     </ul>
                 </div>
             </div>
 
 
-            <div class="col s12 m4 l3" style="margin-top:6%;">
+            <div class="col s12 m4 l3" style="margin-top:8%;">
                 <img class="responsive-img circle z-depth-2" src="/img/about/techSummaryPic.png" alt="Technical image" id="tech-image"/>
             </div>
 
