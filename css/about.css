@@ -1,157 +1,143 @@
 /* Custom Stylesheet */
-/**
- * Styling for about me page
- */
-#fixed-bar{
-    position: fixed;
-    width: 100%;
-    height: 100px;
-    z-index: 50;
-    top: 0;
-    left: 0;
+/** * Styling for about me page */
+ #fixed-bar{
+     position: fixed;
+     width: 100%;
+     height: 100px;
+     z-index: 50;
+     top: 0;
+     left: 0;
 }
-
-#index-banner {
-    background-image: url("/img/pattern1.png");
-    background-repeat: repeat;
+ #index-banner {
+     background-image: url("/img/pattern1.png");
+     background-repeat: repeat;
 }
-
-#programming-jumper {
-    position:absolute;
-    bottom:-25px;
-    right:19%;
+ #programming-jumper {
+     position:absolute;
+     bottom:-25px;
+     right:19%;
 }
-#web-jumper {
-    position:absolute;
-    margin-top: -25px;
-    right:19%;
+ #web-jumper {
+     position:absolute;
+     margin-top: -25px;
+     right:19%;
 }
-.paragraph {
-    font-size: large;
+ .paragraph {
+     font-size: large;
 }
-
-#who-am-i-image {
-    margin-top: 80px;
+ #who-am-i-image {
+     margin-top: 80px;
 }
-#programming-image {
-    height:100%;
-    width:100%;
+ #programming-image {
+     height:100%;
+     width:100%;
 }
-#web-summary-image {
-    margin-top: 20px;
-    height:100%;
-    width:100%;
+ #web-summary-image {
+     margin-top: 20px;
+     height:100%;
+     width:100%;
 }
-.parallax-container {
-      height: 350px;
+ .parallax-container {
+     height: 350px;
 }
-#who-am-i-container{
-    position: relative;
+ #who-am-i-container{
+     position: relative;
 }
-#programming-section img{
-    margin-top: 10px;
+ #programming-section img{
+     margin-top: 10px;
 }
-.language-item{
-    font-size:16pt;
-    color:#9e9e9e;
-    font-weight: 500;
+ .language-item{
+     font-size:16pt;
+     color:#9e9e9e;
+     font-weight: 500;
 }
-.language-item-sub{
-    margin-top:3px;
-    color:#424242;
-    margin-bottom: 10px;
+ .language-item-sub{
+     margin-top:3px;
+     color:#424242;
+     margin-bottom: 10px;
 }
-.language-item-more{
-    font-size:14pt;
-    color:#40c4ff;
-    float:right;
-    font-weight: 400;
+ .language-item-more{
+     font-size:14pt;
+     color:#40c4ff;
+     float:right;
+     font-weight: 400;
 }
-
-.language-item:hover{
-    text-decoration: underline;
+ .language-item:hover{
+     text-decoration: underline;
 }
-.popout-frame-image-container{
-    height:250px;
-    width:100%;
-    background-repeat: no-repeat;
+ .popout-frame-image-container{
+     height:250px;
+     width:100%;
+     background-repeat: no-repeat;
 }
-#java-image-container {
-        background-color: #272822;
-        background-image: url("/img/about/javaPic.png");
+ #java-image-container {
+     background-color: #272822;
+     background-image: url("/img/about/javaPic.png");
 }
-#c-sharp-image-container {
-        background-color: #ffffff;
-        background-image: url("/img/about/cSharpPic.png");
+ #c-sharp-image-container {
+     background-color: #ffffff;
+     background-image: url("/img/about/cSharpPic.png");
 }
-#js-image-container {
-        background-color: #0c1021;
-        background-image: url("/img/about/jsPic.png");
+ #js-image-container {
+     background-color: #0c1021;
+     background-image: url("/img/about/jsPic.png");
 }
-#bash-image-container {
-        background-color: #000000;
-        background-image: url("/img/about/bashPic.png");
+ #bash-image-container {
+     background-color: #000000;
+     background-image: url("/img/about/bashPic.png");
 }
-#html-image-container {
-        background-color: #202020;
-        background-image: url("/img/about/htmlPic.png");
+ #html-image-container {
+     background-color: #202020;
+     background-image: url("/img/about/htmlPic.png");
 }
-.popout-back-btn{
-    position:absolute;
-    left:0;
-    top:10px;
+ .popout-back-btn{
+     position:absolute;
+     left:0;
+     top:10px;
 }
-
-#index-banner{
-    background-image:url("/img/pattern1.png");
+ #index-banner{
+     background-image:url("/img/pattern1.png");
 }
-
-#download-button{
-    color:white;
-    font-size:32px;
+ #download-button{
+     color:white;
+     font-size:32px;
 }
-
 /*Create z-depth-0 class for use in header*/
-.z-depth-0, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
-  -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
-  -moz-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
-  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12); }
-
-    #programming-list{
-        width:45%;
-    }
-    #design-list{
-        width:60%;
-    }
-
-
+ .z-depth-0 {
+     -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
+     -moz-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
+     box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
+}
+ #programming-list{
+     width:45%;
+}
+ #design-list{
+     width:60%;
+}
 /*Small Devices*/
-@media (max-width: 949px){
-    .modal{
-        width:100%;
+ @media (max-width: 949px){
+     .modal{
+         width:100%;
     }
-    #bannerAvatarImage{
-        width:50%;
-        margin-top:25%;
-        margin-right:25%;
-        margin-left: 25%;
+     #bannerAvatarImage{
+         width:50%;
+         margin-top:25%;
+         margin-right:25%;
+         margin-left: 25%;
     }
-
-    #programming-list{
-        width:100%;
+     #programming-list{
+         width:100%;
     }
-    #design-list{
-        width:100%;
+     #design-list{
+         width:100%;
     }
-
 }
 /*Large Devices*/
-@media (min-width: 950px){
-    #bannerAvatarImage{
-        width:24%;
-        margin-top:17%;
-        margin-right:38%;
-        margin-left: 38%;
+ @media (min-width: 950px){
+     #bannerAvatarImage{
+         width:24%;
+         margin-top:17%;
+         margin-right:38%;
+         margin-left: 38%;
     }
-
 }
