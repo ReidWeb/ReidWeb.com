@@ -42,5 +42,27 @@ $(window).scroll(function() {
         if (scrollPos < 101){
             $( "#desktop-nav-about" ).css('background', 'rgba(255, 255, 255,0)');
         }
+
+        //Find the bottom of header banner div and take away 20%
+        var bannerBottom = $('#index-banner').position().top+$('#index-banner').outerHeight(true);
+        bannerBottom =  0.75 * bannerBottom;
+        //Fade out banner scroll button upon being passed
+        if (scrollPos > bannerBottom){
+            $ ( "#download-button" ).fadeOut("slow");
+        } else {
+            $ ( "#download-button" ).fadeIn("slow");
+        }
+
+
+        //Find the bottom of header banner div and take away 20%
+        var whoAmIBottom = $('#who-am-i-container').position().top+$('#who-am-i-container').outerHeight(true);
+        whoAmIBottom =  0.75 * whoAmIBottom;
+        //Fade out banner scroll button upon being passed
+        if (scrollPos > whoAmIBottom){
+            $ ( "#programming-jumper" ).fadeOut("fast");
+        } else {
+            $ ( "#programming-jumper" ).fadeIn("fast");
+        }
+
     }
 });
