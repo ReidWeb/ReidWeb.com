@@ -48,9 +48,9 @@ $(window).scroll(function() {
         bannerBottom =  0.75 * bannerBottom;
         //Fade out banner scroll button upon being passed
         if (scrollPos > bannerBottom){
-            $ ( "#download-button" ).fadeOut("slow");
+            $ ( "#download-button" ).fadeOut(200);
         } else {
-            $ ( "#download-button" ).fadeIn("slow");
+            $ ( "#download-button" ).fadeIn(200);
         }
 
 
@@ -59,7 +59,7 @@ $(window).scroll(function() {
         whoAmIBottom =  0.75 * whoAmIBottom;
         //Fade out banner scroll button upon being passed
         if (scrollPos > whoAmIBottom){
-            $ ( "#programming-jumper" ).fadeOut("fast");
+            $ ( "#programming-jumper" ).fadeOut(300);
         } else {
             $ ( "#programming-jumper" ).fadeIn("fast");
         }
