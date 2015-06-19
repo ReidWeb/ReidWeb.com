@@ -80,12 +80,5 @@ $(window).scroll(function() {
         $ ( "#programming-jumper" ).fadeIn("fast");
     }
 
-    var bannerTextBottom = $('#banner-text').position().top+$('#banner-text').outerHeight(true);
-    //Once the user starts scrolling progress to about me div
-    if (scrollPos > 200 && jumpScrollActivated == 0) {
-        $('html, body').animate({scrollTop: $("#download-button").offset().top}, 1000);
-        jumpScrollActivated = 1;
-    }
-
 });
 
