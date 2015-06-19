@@ -52,7 +52,7 @@
             <img class="responsive-img circle z-depth-2" src="../img/avatar.jpg" alt="peter reid" id="bannerAvatarImage"/>
             <h1 class="header center white-text">Hello world, my name is Peter Reid</h1>
             <div class="row center">
-                <h5 class="header col s12 light blue-grey-text text-darken-4">I am a programmer focussing on Web and Mobile development, and this is my site. Feel free to have a look around!</h5>
+                <h5 class="header col s12 light blue-grey-text text-darken-4" id="banner-text">I am a programmer focussing on Web and Mobile development, and this is my site. Feel free to have a look around!</h5>
             </div>
             <div class="row center" style="margin-top:14%;margin-bottom:0px;" id="scroll-down-button-div">
                 <a  id="download-button" class="smoothScroll" href="#download-button"><i class="small mdi-hardware-keyboard-arrow-down"></i> Scroll Down <i class="small mdi-hardware-keyboard-arrow-down"></i></a>

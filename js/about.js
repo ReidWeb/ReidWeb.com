@@ -1,3 +1,10 @@
+//Boolean to determine if scroller has been triggered
+if (+$('#banner-text').outerHeight(true) < 100){
+    var jumpScrollActivated = 0;
+} else {
+    var jumpScrollActivated = 1;
+}
+
 $(document).ready(function(){
     $('.parallax').parallax();
 });
@@ -21,6 +28,14 @@ $(document).ready(function() {
     });
 });
 
+
+function scrollGo(id){
+    // Remove "link" from the ID
+    id = id.replace("link", "");
+    // Scroll
+    $('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
+}
+
 //Fade in header on scroll
 $(window).scroll(function() {
     var scrollPos = $(window).scrollTop();
@@ -42,27 +57,35 @@ $(window).scroll(function() {
         if (scrollPos < 101){
             $( "#desktop-nav-about" ).css('background', 'rgba(255, 255, 255,0)');
         }
-
-        //Find the bottom of header banner div and take away 20%
-        var bannerBottom = $('#index-banner').position().top+$('#index-banner').outerHeight(true);
-        bannerBottom =  0.75 * bannerBottom;
-        //Fade out banner scroll button upon being passed
-        if (scrollPos > bannerBottom){
-            $ ( "#download-button" ).fadeOut(200);
-        } else {
-            $ ( "#download-button" ).fadeIn(200);
-        }
-
-
-        //Find the bottom of header banner div and take away 20%
-        var whoAmIBottom = $('#who-am-i-container').position().top+$('#who-am-i-container').outerHeight(true);
-        whoAmIBottom =  0.75 * whoAmIBottom;
-        //Fade out banner scroll button upon being passed
-        if (scrollPos > whoAmIBottom){
-            $ ( "#programming-jumper" ).fadeOut(300);
-        } else {
-            $ ( "#programming-jumper" ).fadeIn("fast");
-        }
-
     }
+
+    //Find the bottom of header banner div and take away 20%
+    var bannerBottom = $('#index-banner').position().top+$('#index-banner').outerHeight(true);
+    bannerBottom =  0.75 * bannerBottom;
+    //Fade out banner scroll button upon being passed
+    if (scrollPos > bannerBottom){
+        $ ( "#download-button" ).fadeOut(200);
+    } else {
+        $ ( "#download-button" ).fadeIn(200);
+    }
+
+
+    //Find the bottom of header banner div and take away 20%
+    var whoAmIBottom = $('#who-am-i-container').position().top+$('#who-am-i-container').outerHeight(true);
+    whoAmIBottom =  0.75 * whoAmIBottom;
+    //Fade out banner scroll button upon being passed
+    if (scrollPos > whoAmIBottom){
+        $ ( "#programming-jumper" ).fadeOut(300);
+    } else {
+        $ ( "#programming-jumper" ).fadeIn("fast");
+    }
+
+    var bannerTextBottom = $('#banner-text').position().top+$('#banner-text').outerHeight(true);
+    //Once the user starts scrolling progress to about me div
+    if (scrollPos > 200 && jumpScrollActivated == 0) {
+        $('html, body').animate({scrollTop: $("#download-button").offset().top}, 1000);
+        jumpScrollActivated = 1;
+    }
+
 });
+
