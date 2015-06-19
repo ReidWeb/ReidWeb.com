@@ -157,6 +157,10 @@
      -moz-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
      box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
 }
+/*Override modal*/
+ .modal {
+     max-height: 80%;
+}
  #programming-list{
      width:45%;
 }
@@ -185,6 +189,11 @@
     }
      #academic-list{
          width:100%;
+    }
+    /*Override modal*/
+     .modal {
+         max-height: 100%;
+         width: 100%;
     }
 }
 /*Large Devices*/
