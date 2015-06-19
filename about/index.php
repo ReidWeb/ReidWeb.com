@@ -247,9 +247,8 @@
     </div>
 
 <div class="parallax-container" style="height:250px;">
-    <div class="section" id="academic-container">
+    <div class="section" id="contact-container">
         <div class="row container">
-
         </div>
     </div>
     <div class="parallax"><img src="/img/parallax-shard2.jpg"></div>
