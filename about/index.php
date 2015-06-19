@@ -263,14 +263,15 @@
     </div>
     <div class="modal-content">
         <h4>JavaScript</h4>
-        <p class="light grey-text text-darken-4 paragraph">I have a large amount of experience in the use of JavaScript for a variety of purposes, including:</p>
+        <p>I have a large amount of experience in the use of JavaScript for a variety of purposes, including:</p>
         <h5>Web form validation</h5>
-        <p class="light grey-text text-darken-4 paragraph">I have used JavaScript on a number of occasions to validate input for web forms; utilizing RegEx to validate input such as email addresses.</p>
+        <p>I have used JavaScript on a number of occasions to validate input for web forms; utilizing RegEx to validate input such as email addresses.</p>
         <h5>Mathematical Calculations</h5>
-        <p class="light grey-text text-darken-4 paragraph">On a number of occasions I have used JavaScript to perform rather complex mathematical operations on sets of numbers that have been input by a user.</p>
+        <p>On a number of occasions I have used JavaScript to perform rather complex mathematical operations on sets of numbers that have been input by a user.</p>
         <h5>Application Logic</h5>
-        <p class="light grey-text text-darken-4 paragraph">I have utlilized JavaScript to perform application logic on a number of occasions, using JS to display and hide HTML elements based upon logic implemented in JavaScript.</p>
-        <p class="light grey-text text-darken-4 paragraph">I have also used a small amount of JQuery to develop this site, a skill which I am looking to expand upon in the future. I am also looking to expand my knowledge to include technologies such as NodeJS and AngularJS.</p>
+        <p>I have utlilized JavaScript to perform application logic on a number of occasions, using JS to display and hide HTML elements based upon logic implemented in JavaScript.</p>
+        <h5>JQuery</h5>
+        <p>I have a little experience in JQuery which I gained during the development of this site. I am looking to expand my knowledge of JQuery in the future, I also aim to learn other JavaScript frameworks to include NodeJS and AngularJS.</p>
     </div>
 </div>
 
