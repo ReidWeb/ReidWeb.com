@@ -139,6 +139,12 @@
     background-image: url("/img/about/fdsePic.png");
     background-size: 100% 100%;
 }
+#fdse-image-container {
+    background-color: #b3b3b3;
+    background-image: url("/img/about/devToolsPic.png");
+    background-size: 100% 100%;
+}
+
 .popout-back-btn{
     position:absolute;
     left:0;
