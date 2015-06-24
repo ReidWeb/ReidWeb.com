@@ -37,3 +37,6 @@ footer.page-footer {
 .social-icon-anchor{
     color:#ffffff;
 }
+.social-icon-anchor:hover {
+  color: #40c4ff;
+}
