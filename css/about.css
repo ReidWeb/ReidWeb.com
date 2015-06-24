@@ -164,6 +164,10 @@
     color: white;
     font-size: 32px;
 }
+#banner-button{
+    margin-top:14%;
+    margin-bottom:0px;
+}
 
 /*Create z-depth-0 class for use in header*/
 
@@ -249,4 +253,14 @@ nav {
     #academic-list{
         width:64%;
     }
+    #bannerAvatarImage {
+        width: 24%;
+        margin-top: 7%;
+        margin-right: 38%;
+        margin-left: 38%;
+    }
+    #banner-button{
+    margin-top:1%;
+    margin-bottom:0px;
+}
 }
