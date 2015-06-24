@@ -1,6 +1,9 @@
 /* Custom Stylesheet */
+
+
 /** * Styling for about me page */
-#fixed-bar{
+
+#fixed-bar {
     position: fixed;
     width: 100%;
     height: 100px;
@@ -13,24 +16,24 @@
     background-repeat: repeat;
 }
 #programming-jumper {
-    position:absolute;
-    bottom:-25px;
-    right:19%;
+    position: absolute;
+    bottom: -25px;
+    right: 19%;
 }
 #web-jumper {
-    position:absolute;
+    position: absolute;
     margin-top: -25px;
-    right:19%;
+    right: 19%;
 }
 #tech-jumper {
-    position:absolute;
+    position: absolute;
     margin-top: 7px;
-    right:19%;
+    right: 19%;
 }
 #academic-jumper {
-    position:absolute;
+    position: absolute;
     margin-top: -15px;
-    right:19%;
+    right: 19%;
 }
 .paragraph {
     font-size: large;
@@ -39,71 +42,71 @@
     margin-top: 80px;
 }
 #programming-image {
-    height:100%;
-    width:100%;
+    height: 100%;
+    width: 100%;
 }
 #web-summary-image {
     margin-top: 20px;
-    height:100%;
-    width:100%;
+    height: 100%;
+    width: 100%;
 }
 .parallax-container {
     height: 350px;
 }
-#who-am-i-container{
+#who-am-i-container {
     position: relative;
 }
-#programming-section img{
+#programming-section img {
     margin-top: 10px;
 }
-.language-item{
-    font-size:16pt;
-    color:#9e9e9e;
+.language-item {
+    font-size: 16pt;
+    color: #9e9e9e;
     font-weight: 500;
 }
-.language-item-sub{
-    margin-top:3px;
-    color:#424242;
+.language-item-sub {
+    margin-top: 3px;
+    color: #424242;
     margin-bottom: 10px;
 }
-.language-item-more{
-    font-size:14pt;
-    color:#40c4ff;
-    float:right;
+.language-item-more {
+    font-size: 14pt;
+    color: #40c4ff;
+    float: right;
     font-weight: 400;
 }
-.language-item:hover{
-    color:#424242;
+.language-item:hover {
+    color: #424242;
 }
-.education-institution{
-    font-size:14pt;
+.education-institution {
+    font-size: 14pt;
     font-weight: 400;
     margin-bottom: 0;
     margin-top: 2px;
 }
-.edu-modal-inst{
-    font-size:16pt;
+.edu-modal-inst {
+    font-size: 16pt;
     font-weight: 400;
     margin-bottom: 0;
-    color:#9e9e9e;
+    color: #9e9e9e;
     font-weight: 500;
 }
-.education-year{
-    margin-top:3px;
-    color:#9e9e9e;
+.education-year {
+    margin-top: 3px;
+    color: #9e9e9e;
     font-size: large;
     margin-bottom: 10px;
 }
-.edu-modal-year{
-    font-size:14pt;
+.edu-modal-year {
+    font-size: 14pt;
     font-weight: 400;
     margin-bottom: 0;
     margin-top: 2px;
-    color:#9e9e9e;
+    color: #9e9e9e;
 }
-.popout-frame-image-container{
-    height:250px;
-    width:100%;
+.popout-frame-image-container {
+    height: 250px;
+    width: 100%;
     background-repeat: no-repeat;
 }
 #java-image-container {
@@ -144,63 +147,74 @@
     background-image: url("/img/about/devMethodsPic.jpg");
     background-size: 100% auto;
 }
-
 #fdse-image-container {
     background-color: #000000;
     background-image: url("/img/about/devToolsPic.png");
     background-size: 100% 100%;
 }
+.popout-back-btn {
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+#index-banner {
+    background-image: url("/img/pattern1.png");
+}
+#download-button {
+    color: white;
+    font-size: 32px;
+}
 
-.popout-back-btn{
-    position:absolute;
-    left:0;
-    top:10px;
-}
-#index-banner{
-    background-image:url("/img/pattern1.png");
-}
-#download-button{
-    color:white;
-    font-size:32px;
-}
 /*Create z-depth-0 class for use in header*/
-.z-depth-0, nav {
+
+.z-depth-0,
+nav {
     -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
     -moz-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
     box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
 }
+
 /*Override modal*/
+
 .modal {
     max-height: 80%;
 }
-#programming-list{
-    width:45%;
+#programming-list {
+    width: 45%;
 }
-#academic-list{
-    width:46%;
+#academic-list {
+    width: 46%;
 }
-#design-list{
-    width:60%;
+#design-list {
+    width: 60%;
 }
+#tech-list {
+    width: 45%;
+}
+
 /*Small Devices*/
-@media (max-width: 949px){
-    .modal{
-        width:100%;
+
+@media (max-width: 949px) {
+    .modal {
+        width: 100%;
     }
-    #bannerAvatarImage{
-        width:50%;
-        margin-top:25%;
-        margin-right:25%;
+    #bannerAvatarImage {
+        width: 50%;
+        margin-top: 25%;
+        margin-right: 25%;
         margin-left: 25%;
     }
-    #programming-list{
-        width:100%;
+    #programming-list {
+        width: 100%;
     }
-    #design-list{
-        width:100%;
+    #tech-list {
+        width: 100%;
     }
-    #academic-list{
-        width:100%;
+    #design-list {
+        width: 100%;
+    }
+    #academic-list {
+        width: 100%;
     }
     /*Override modal*/
     .modal {
@@ -208,12 +222,31 @@
         width: 100%;
     }
 }
-/*Large Devices*/
-@media (min-width: 950px){
-    #bannerAvatarImage{
-        width:24%;
-        margin-top:17%;
-        margin-right:38%;
+
+/*Large and medium Devices*/
+
+@media (min-width: 950px) {
+    #bannerAvatarImage {
+        width: 24%;
+        margin-top: 17%;
+        margin-right: 38%;
         margin-left: 38%;
+    }
+}
+
+/*Medium devices */
+
+@media (min-width: 950px) and (max-width: 1400px) {
+    #programming-list {
+        width: 55%;
+    }
+    #design-list {
+        width: 85%;
+    }
+    #tech-list {
+        width: 65%;
+    }
+    #academic-list{
+        width:64%;
     }
 }

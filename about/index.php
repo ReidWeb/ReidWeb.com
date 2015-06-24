@@ -181,7 +181,7 @@
                 <p class="light grey-text text-darken-4 paragraph">
                     I have accumulated a number of technical skills that can be utilised in my programming. These are:
                 </p>
-                <div id="programming-list">
+                <div id="tech-list">
                     <ul>
                         <li><a class="modal-trigger language-item" href="#modalVC">Version Control</a>
                             <p class="language-item-sub">Git & Subversion<a class="modal-trigger language-item-more" href="#modalVC">MORE</a></p>
