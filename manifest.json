@@ -1,6 +1,48 @@
 {
-  "short_name": "ReidWeb.com",
-  "name": "Peter Reid | ReidWeb.com",
-  "start_url": "index.html",
-  "display": "browser"
+    "short_name": "ReidWeb.com",
+    "name": "Peter Reid | ReidWeb.com",
+    "icons": [
+        {
+            "src": "/img/icons/launcher-icon-0-75x.png",
+            "sizes": "36x36"
+        },
+        {
+            "src": "/img/icons/launcher-icon-1x.png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "/img/icons/launcher-icon-1-5x.png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "/img/icons/launcher-icon-2x.png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/img/icons/launcher-icon-3x.png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "/img/icons/launcher-icon-4x.png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/img/icons/favicon-128.png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "/img/icons/apple-touch-icon-152x152.png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "/img/icons/apple-touch-icon-144x144.png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "/img/icons/favicon-196x196.png",
+            "sizes": "196x196"
+        }
+    ],
+    "start_url": "index.html",
+    "display": "browser"
 }
