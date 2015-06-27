@@ -9,13 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="87.515144mm"
-   height="89.515144mm"
-   viewBox="0 0 310.09299 317.17965"
+   width="83.515144mm"
+   height="83.515144mm"
+   viewBox="0 0 295.91976 295.9198"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="logo2.svg">
+   sodipodi:docname="logoBlue.svg"
+   inkscape:export-filename="C:\Users\Peter\Source\ReidWeb (Material)\img\icons\vector-graphics\logoBlue.png"
+   inkscape:export-xdpi="141.87543"
+   inkscape:export-ydpi="141.87543">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -26,15 +29,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="194.2098"
-     inkscape:cy="145.40514"
+     inkscape:cx="133.73033"
+     inkscape:cy="138.31858"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     fit-margin-left="5"
-     fit-margin-right="5"
-     fit-margin-top="7"
-     fit-margin-bottom="5"
+     fit-margin-left="3"
+     fit-margin-right="3"
+     fit-margin-top="3"
+     fit-margin-bottom="3"
      inkscape:window-width="1920"
      inkscape:window-height="1018"
      inkscape:window-x="-8"
@@ -56,16 +59,16 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-15.669268,-244.74159)">
+     transform="translate(-22.755882,-258.91482)">
     <circle
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:1;stroke:#4fc3f7;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4136"
        cx="170.71577"
        cy="406.87473"
        r="132.32999" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:274.22393799px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:274.22393799px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4fc3f7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="53.512665"
        y="499.98203"
        id="text4138"
@@ -75,6 +78,6 @@
          id="tspan4140"
          x="53.512665"
          y="499.98203"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Kaushan Script';-inkscape-font-specification:'Kaushan Script'">R </tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Kaushan Script';-inkscape-font-specification:'Kaushan Script';fill:#4fc3f7;fill-opacity:1">R </tspan></text>
   </g>
 </svg>
