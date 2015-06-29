@@ -19,6 +19,6 @@
             "sizes": "196x196"
         }
     ],
-    "start_url": "index.html",
+    "start_url": "index.php",
     "display": "browser"
 }
