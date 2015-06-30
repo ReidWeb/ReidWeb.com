@@ -158,6 +158,10 @@
     background-image: url("/img/about/devToolsPic.png");
     background-size: 100% 100%;
 }
+#linux-image-container {
+    background-color: #ffffff;
+    background-image: url("/img/about/databaseSummaryPic.png");
+}
 #db-image-container {
     background-color: #ffffff;
     background-image: url("/img/about/databaseSummaryPic.png");
@@ -165,7 +169,7 @@
 #dev-methods-image-container {
     background-color: #000000;
     background-image: url("/img/about/devMethodsPic.jpg");
-    background-size: 100% auto;
+    background-size: 100%;
 }
 #fdse-image-container {
     background-color: #000000;

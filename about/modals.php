@@ -168,6 +168,30 @@
     </div>
 </div>
 
+<div id="modalLinux" class="modal">
+    <div class="popout-frame-image-container" id="bash-image-container">
+        <a class="btn-flat waves-effect waves-light popout-back-btn modal-close">
+            <i class="mdi-navigation-arrow-back white-text"></i>
+        </a>
+    </div>
+    <div class="modal-content">
+        <h4>Linux</h4>
+        <p>Lorem ipsum</p>
+    </div>
+</div>
+
+<div id="modalMethods" class="modal">
+    <div class="popout-frame-image-container" id="dev-methods-image-container">
+        <a class="btn-flat waves-effect waves-light popout-back-btn modal-close">
+            <i class="mdi-navigation-arrow-back white-text"></i>
+        </a>
+    </div>
+    <div class="modal-content">
+        <h4>Development Methodologies</h4>
+        <p>Lorem ipsum</p>
+    </div>
+</div>
+
 <div id="modalFDSE" class="modal">
     <div class="popout-frame-image-container" id="fdse-image-container">
         <a class="btn-flat waves-effect waves-light popout-back-btn modal-close">
