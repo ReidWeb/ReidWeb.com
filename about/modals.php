@@ -124,6 +124,7 @@
     </div>
 </div>
 
+
 <div id="modalIDE" class="modal">
     <div class="popout-frame-image-container" id="dev-tools-image-container">
         <a class="btn-flat waves-effect waves-light popout-back-btn modal-close">
@@ -152,6 +153,18 @@
             <li>• <b>GitHub</b> - I am experienced in the use of <a href="https://github.com" target="_blank">GitHub</a> for managing the source code of personal and team projects.</li>
             <li>• <b>Jenkins</b> - I am experienced in the use of the <a href="https://jenkins-ci.org/" target="_blank">Jenkins</a> Continuous Integration Server product for automated deployment and basic testing of my projects.</li>
         </ul>
+    </div>
+</div>
+
+<div id="modalDB" class="modal">
+    <div class="popout-frame-image-container" id="db-image-container">
+        <a class="btn-flat waves-effect waves-light popout-back-btn modal-close">
+            <i class="mdi-navigation-arrow-back white-text"></i>
+        </a>
+    </div>
+    <div class="modal-content">
+        <h4>Database Design & Development</h4>
+        <p>Lorem ipsum</p>
     </div>
 </div>
 
