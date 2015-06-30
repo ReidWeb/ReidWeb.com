@@ -158,6 +158,10 @@
     background-image: url("/img/about/devToolsPic.png");
     background-size: 100% 100%;
 }
+#db-image-container {
+    background-color: #ffffff;
+    background-image: url("/img/about/databaseSummaryPic.png");
+}
 #dev-methods-image-container {
     background-color: #000000;
     background-image: url("/img/about/devMethodsPic.jpg");
