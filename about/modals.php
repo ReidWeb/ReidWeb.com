@@ -160,7 +160,13 @@
     </div>
     <div class="modal-content">
         <h4>Database Design & Development</h4>
-        <p>Lorem ipsum</p>
+        <p>I have experience in the design and development of relational database systems from my education. I have designed multiple databases and implemented them as part of academic projects</p>
+        <h5>Database Design</h5>
+        <p>I have experience in designing database systems for both SQL and MS Access. In designing databases I utilize a multiple step approach, with steps such as requirements analysis, E-R diagram creation, Logical database design and physical database design.</p>
+        <h5>SQL</h5>
+        <p>I have experience in both 'implementing' my designed databases through SQL scripting and also in using SQL to 'access' a database from a Java application. I am experienced in both Microsoft SQL and MySQL.</p>
+        <h5>Microsoft Access</h5>
+        <p>While Microsoft Access is not often deployed in an enterprise environment, I have extensive experience in developing database applications in MS access. The skills I have learnt from my use of MS Access are easily transferable to other solutions.</p>
     </div>
 </div>
 
