@@ -116,7 +116,7 @@
     </div>
     <div class="modal-content">
         <h4>Version Control</h4>
-        <p>I have been using version control with all my work since the 2013, I'm particularly experienced in Git - however, I do have experience in Subversion also.</p>
+        <p>I have been using version control with all my work since 2013, I'm particularly experienced in Git - however, I do have experience in Subversion also.</p>
         <h5>Git Version Control</h5>
         <p>I have been using Git version control ever since my work placement in 2013, I am familiar with the strengths and weaknesses of Git and other Distributed Version Control Systems. I have experience both as a user of Git and as an administrator of a Git version control server. I store all of my academic work in Git repositories, and all of my personal projects are also stored in git.</p>
         <p>I have experience in a variety of Git workflows including: <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank">gitflow workflow</a>,<a href="https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow" target="_blank"> feature branch workflow</a> and <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/centralized-workflow" target="_blank">centralized workflow.</a></p>
