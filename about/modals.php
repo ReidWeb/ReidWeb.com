@@ -230,11 +230,11 @@
         <h4>Foundation Degree in Software Engineering</h4>
         <h5 class="edu-modal-inst">University of Ulster & Belfast Metropolitan College</h5>
         <h5 class="edu-modal-year">2014-Present</h5>
-        <p>Between September 2014 and June 2016, I am studying on a Foundation Degree in Software Engineering at Belfast Metropolitan College, with the University of Ulster Jordanstown setting the curriculum for the course and acting as the awarding body.</p>
+        <p>I am studying on a Foundation Degree in Software Engineering at Belfast Metropolitan College, with the University of Ulster Jordanstown setting the curriculum for the course and acting as the awarding body. The course commenced in September 2014 and will complete in June 2016. The course consists of 1.5 years of 'learning' and a 600 hour minimum work placement, to be completed in the second semester of the second year.</p>
         <h5>Academic Performance</h5>
-        <p>My academic performance at the end of year one placed me as the highest scoring student in the academic year; with an average modular mark of 85%, and average assessment mark of 90%.</p>
+        <p>My academic performance at the end of year one placed me as the highest scoring student in the academic year; with an average modular mark of 85%, and average assessment mark of 90%. For this I was awarded an 'Academic Excellence' award, which I recieved in June 2015.</p>
         <h5>Future Ambitions</h5>
-        <p>In future I hope to progress onto further study at university, at present I am progressing towards second year entry to a BEng in Software Engineering.</p>
+        <p>In future I hope to progress onto further study at university, at present I am progressing towards second year entry for a BEng in Software Engineering.</p>
         <h5>Course Content</h5>
         <p>The course comprised of modules relating to the following: </p>
         <ul>
