@@ -100,7 +100,7 @@
         <h4>Graphic Design</h4>
         <p>I have had approximately six years of experience in amateur graphic design using Adobe Photoshop. I also have experience in the use of GIMP.</p>
         <h5>Graphic Design for Digital Media</h5>
-        <p>I have created graphics for digital media on numerous occasions; for use in websites and desktop applications. I have experience in creating 'pleasing' graphics that form part of an intuitive user interface.</p>
+        <p>I have created graphics for digital media on numerous occasions; for use in websites and desktop applications. I have experience in creating 'pleasing' graphics that form part of an intuitive user interface. I have some experience in vector graphic design using InkScape to design the logo/icon for this website.</p>
         <h5>Graphic Design for Physical Media</h5>
         <p>While I have less experience in designing for physical media than I do for digital media; I do have experience in designing for physical media. I am aware of the various different requirements for designing for physical media as opposed to for digital media.</p>
     </div>
