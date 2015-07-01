@@ -5,9 +5,9 @@ if (+$('#banner-text').outerHeight(true) < 100) {
     var jumpScrollActivated = 1;
 }
 
-$(document).ready(function () {
+/*$(document).ready(function () {
     $('.parallax').parallax();
-});
+});*/
 
 
 $(document).ready(function () {
