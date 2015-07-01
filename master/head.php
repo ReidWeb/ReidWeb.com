@@ -15,9 +15,9 @@
     <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
     <!-- JS -->
-    <script src="/js/master.js"></script>
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
     <script src="/js/materialize.js"></script>
+    <script src="/js/master.js"></script>
 
     <!--Social Icon Font -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
