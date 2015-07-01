@@ -167,13 +167,13 @@
     </div>
     <div class="modal-content">
         <h4>Database Design & Development</h4>
-        <p>I have experience in the design and development of relational database systems from my education. I have designed multiple databases and implemented them as part of academic projects</p>
+        <p>I have experience in the design and development of relational database systems from my education. I have designed multiple databases and implemented them as part of academic projects.</p>
         <h5>Database Design</h5>
         <p>I have experience in designing database systems for both SQL and MS Access. In designing databases I utilize a multiple step approach, with steps such as requirements analysis, E-R diagram creation, Logical database design and physical database design.</p>
         <h5>SQL</h5>
         <p>I have experience in both 'implementing' my designed databases through SQL scripting and also in using SQL to 'access' a database from a Java application. I am experienced in both Microsoft SQL and MySQL.</p>
         <h5>Microsoft Access</h5>
-        <p>While Microsoft Access is not often deployed in an enterprise environment, I have extensive experience in developing database applications in MS access. The skills I have learnt from my use of MS Access are easily transferable to other solutions.</p>
+        <p>While Microsoft Access is not often deployed in an enterprise environment, I have extensive experience in developing database applications with it. The skills I have learnt from my use of MS Access are easily transferable to other solutions.</p>
     </div>
 </div>
 
@@ -185,18 +185,18 @@
     </div>
     <div class="modal-content">
         <h4>Linux</h4>
-        <p>I have experience in the use of Linux both on the server and the desktop; the most of my experience is in Debian based distributions, however I do have some experience in Red Hat based distributions.</p>
+        <p>I have experience in the use of Linux both on the server and the desktop; the most of my experience is in Debian based distributions, however I do also have some experience in using Red Hat based distributions.</p>
         <h5>Server Administration</h5>
         <p>I have experience in administrating my own Linux server - running Debian Stable. I use my server to provide a variety of self-hosted services to myself and others, including:</p>
         <ul>
-            <li>• <b>Web Server</b> - Running <a href="http://nginx.org/" target="_blank">Nginx</a> and PHP-FPM</li>
-            <li>• <b>GitLab instance</b> - A private <a href="https://about.gitlab.com/" target="_blank">GitLab CE</a> instance for source code hosting.</li>
-            <li>• <b>Jenkins CI Instance</b> - A private <a href="https://jenkins-ci.org/" target="_blank">Jenkins</a> Continuous Integration Server instance, for users of my GitLab instance.</li>
-            <li>• <b>File Storage</b> - I manage a private online storage solution using <a href="https://owncloud.org/" target="_blank">OwnCloud</a> and PHP-FPM</li>
-            <li>• <b>Server Monitoring</b> - I manage a server monitoring solution using  <a href="https://www.observium.org/" target="_blank">Observium</a> to provide a monitoring solution for my servers and those of others.</li>
+            <li>• <b>Web Server</b> - I manage a web server running <a href="http://nginx.org/" target="_blank">Nginx</a> and PHP-FPM</li>
+            <li>• <b>GitLab instance</b> - I operate a private <a href="https://about.gitlab.com/" target="_blank">GitLab CE</a> instance as a private git version control server.</li>
+            <li>• <b>Jenkins CI Instance</b> - I operate a private <a href="https://jenkins-ci.org/" target="_blank">Jenkins</a> Continuous Integration Server instance, for users of my GitLab instance.</li>
+            <li>• <b>File Storage</b> - I operate a private online storage instance using <a href="https://owncloud.org/" target="_blank">OwnCloud</a> and PHP-FPM</li>
+            <li>• <b>Server Monitoring</b> - I operate a server monitoring instance using  <a href="https://www.observium.org/" target="_blank">Observium</a> to provide a monitoring solution for my servers and those of others.</li>
         </ul>
         <h5>Desktop</h5>
-        <p>I also have experience in using Linux as desktop OS. My current OS of choice is Elementary OS Freya (based upon Ubuntu 14.04); although I have experience in other Ubuntu derivatives and in Fedora Desktop.</p>
+        <p>I also have experience in using Linux as a desktop operating system. My current distro of choice is Elementary OS Freya (based upon Ubuntu 14.04); although I have experience in other Ubuntu derivatives and with Fedora Desktop.</p>
         <p>I have experience in using GNOME 3 based (GNOME 3.x, Pantheon, Cinnamon & Unity) and MATE desktop environments. I am also looking to try out KDE in the future.</p>
     </div>
 </div>
