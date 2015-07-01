@@ -13,7 +13,7 @@
         <h5>Mathematical Calculations</h5>
         <p>On a number of occasions I have used JavaScript to perform rather complex mathematical operations on sets of numbers that have been input by a user.</p>
         <h5>Application Logic</h5>
-        <p>I have utlilized JavaScript to perform application logic on a number of occasions, using JS to display and hide HTML elements based upon logic implemented in JavaScript.</p>
+        <p>I have utilised JavaScript to perform application logic on a number of occasions, using JS to display and hide HTML elements based upon logic implemented in JavaScript.</p>
         <h5>JQuery</h5>
         <p>I have a little experience in JQuery which I gained during the development of this site. I am looking to expand my knowledge of JQuery in the future, I also aim to learn other JavaScript frameworks to include NodeJS and AngularJS.</p>
     </div>
@@ -29,7 +29,7 @@
 
         <h4>Java</h4>
         <p>I have a large amount of experience in the use of Java for the development of desktop applications.</p>
-        <p>A large amount of this experience was aqquired during my education, however parts of my knowledge were acquired through my own research.</p>
+        <p>A large amount of this experience was acquired during my education, however parts of my knowledge were acquired through my own research.</p>
         <p>In future, I am looking to further develop my Java skills and knowledge by developing Android applications.</p>
         <h5>Object Oriented Programming with Java</h5>
         <p>My first experiences of object oriented programming originate from my use of Java. I have utilized OOP to develop a number of applications in Java both on a personal basis and on an academic basis.</p>
@@ -48,7 +48,9 @@
         <h4>C#</h4>
         <p>My experience of C# stems from my use of C# as a part of ASP.NET websites during my education. In future I hope to expand my knowledge of C# to the use of C# for both 'traditional' Windows desktop applications and Windows 10 'universal' applications.</p>
         <h5>Server side scripting</h5>
-        <p>I have utilised C# along with ASP.NET to a 'eCommerce' site with a basic content management system. I utilised C# to load content into the page dynamically based upon an external data source. I also utilised C# to develop a 'cart' system for the site.</p>
+        <p>I have utilised C# along with ASP.NET to an 'ecommerce' site with a basic content management system. I utilised C# to load content into the page dynamically based upon an external data source. I also utilised C# to develop a 'cart' system for the site.</p>
+        <h5>Master pages</h5>
+        <p>I have experience in utilising 'master pages' to simplify the development of sites using ASP.NET and C#.</p>
     </div>
 </div>
 
@@ -60,12 +62,12 @@
     </div>
     <div class="modal-content">
         <h4>Bash</h4>
-        <p>I have utilised bash to 'automate' a number of systems on both my Linux server and laptop. While Bash may not neccessarily be viewed as a 'programming' language, the automated systems that it is enabled me to develop have been extremely useful.</p>
+        <p>I have utilised bash to 'automate' a number of systems on both my Linux server and laptop. While Bash may not necessarily be viewed as a 'programming' language, the automated systems that it is enabled me to develop have been extremely useful.</p>
         <h5>Server MOTD Script</h5>
         <p>One of my earliest uses of Bash was to develop a dynamically generated 'Message of the Day' script for my Linux server. I wanted a means by which I could easily view the 'health' of the system when logging in over SSH; as such I developed a script that displayed information such as the disk and CPU usage of the system when logging in.</p>
         <p>The script is open sourced under the MIT license and can be found on <a href="https://github.com/ReidWeb/linuxmotd" target="_blank">GitHub</a>.</p>
         <h5>Build Process Automation</h5>
-        <p>I have utilized bash scripting to automate processes that are completed when building a project using my Jenkins build server. I have written a number of different scripts to automate tasks such as: generating Javadocs for each branch of a git repository and copy them to a web-accessable directory and automatically 'mirroring' a git repository to another remote server when a build is triggered.</p>
+        <p>I have utilized bash scripting to automate processes that are completed when building a project using my Jenkins build server. I have written a number of different scripts to automate tasks such as: generating Javadoc documentation for each branch of a git repository and copy them to a web-accessible directory and automatically 'mirroring' a git repository to another remote server when a build is triggered.</p>
     </div>
 </div>
 
@@ -85,7 +87,7 @@
         <p>I am experienced in designing websites that provide a excellent user experience on any device. I have experience in this both with the use of a design framework and without one.</p>
         <h5>Dynamic Websites</h5>
         <p>I have utilised ASP.NET (C#) to develop dynamic websites where the content changes dependent on the user. I am aiming to expand my knowledge of web development to include PHP and NodeJS in the future.</p>
-        <h5>Templating</h5>
+        <h5>Web Page Templating</h5>
         <p>I have experience in utilising 'templates' to simplify the development of sites, I have experience in doing this in both ASP.NET(C#) and PHP.</p>
     </div>
 </div>
@@ -178,7 +180,7 @@
     </div>
     <div class="modal-content">
         <h4>Linux</h4>
-        <p>I have experience in thge use of Linux both on the server and the desktop; the most of my experience is in Debian based distributions, however I do have some experience in Red Hat based distributions.</p>
+        <p>I have experience in the use of Linux both on the server and the desktop; the most of my experience is in Debian based distributions, however I do have some experience in Red Hat based distributions.</p>
         <h5>Server Administration</h5>
         <p>I have experience in administrating my own Linux server - running Debian Stable. I use my server to provide a variety of self-hosted services to myself and others, including:</p>
         <ul>
@@ -204,7 +206,7 @@
         <h4>Development Methodologies</h4>
         <p>I have experience in a number of different development methodologies, this is experience that I have accumulated both through my academic studies and my personal projects.</p>
         <h5>Scrum</h5>
-        <p>I have experience in the use of the Scrum from my work experience, and from my group project as part of my Foundation Degree. I have fulfiled the role of Scrum master and have also fulfiled the role of a team member. I have experience in using a variety of Scrum tools including: <a href="https://www.visualstudio.com/en-us/get-started/work/work-in-sprints-vs" target="_blank">Visual Studio Online</a>Visual Studio Online, <a href="https://trello.com/" target="_blank">Trello</a> and <a href="https://taiga.io/" target="_blank">Taiga</a>.</p>
+        <p>I have experience in the use of the Scrum from my work experience, and from my group project as part of my Foundation Degree. I have fulfilled the role of Scrum master and have also fulfilled the role of a team member. I have experience in using a variety of Scrum tools including: <a href="https://www.visualstudio.com/en-us/get-started/work/work-in-sprints-vs" target="_blank">Visual Studio Online</a>, <a href="https://trello.com/" target="_blank">Trello</a> and <a href="https://taiga.io/" target="_blank">Taiga</a>.</p>
         <h5>SSADM</h5>
         <p>I have experience in the use of the structured systems analysis and design method as a development methodology during my Foundation Degree. I used SSADM during multiple assignments, and was assessed on my use of it.</p>
         <h5>Other Methodologies</h5>
@@ -232,11 +234,11 @@
         <p>The course comprised of modules relating to the following: </p>
         <ul>
             <li>• <b>Programming</b> - Object oriented programming in Java 7, utilising SQL databases and Java Swing GUIs also.</li>
-            <li>• <b>Web Programming</b> - Web development in XHTML and CSS with ASP.NET and C#. Projects included development of a ecommerce site with integrated CMS.</li>
-            <li>• <b>Database Development</b> - Design and devlopment of database systems using both Microsoft SQL Server and Microsoft Access.</li>
-            <li>• <b>Systems Development Methdodologies</b> - A variety of development methodologies were taught as part of a module, other assignments utilised Agile Scrum, while some utilised SSADM.</li>
+            <li>• <b>Web Programming</b> - Web development in XHTML and CSS with ASP.NET and C#. Projects included development of an ecommerce site with integrated CMS.</li>
+            <li>• <b>Database Development</b> - Design and development of database systems using both Microsoft SQL Server and Microsoft Access.</li>
+            <li>• <b>Systems Development Methodologies</b> - A variety of development methodologies were taught as part of a module, other assignments utilised Agile Scrum, while some utilised SSADM.</li>
             <li>• <b>Computer Hardware</b> - Covered a variety of topics including: various different computer components and the skills and knowledge required to build a computer. Content also covered some networking.</li>
-            <li>• <b>Operating Systems</b> - Content covered included binary, hexadecimal and ocatal numbering systems as well as various mathematical topics in relation to these numbering sysytems. A small amount of assembly was also covered.</li>
+            <li>• <b>Operating Systems</b> - Content covered included binary, hexadecimal and octal numbering systems as well as various mathematical topics in relation to these number systems. A small amount of assembly was also covered.</li>
         </ul>
     </div>
 </div>
