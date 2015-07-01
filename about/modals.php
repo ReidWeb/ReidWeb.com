@@ -15,7 +15,7 @@
         <h5>Application Logic</h5>
         <p>I have utilised JavaScript to perform application logic on a number of occasions, using JS to display and hide HTML elements based upon logic implemented in JavaScript.</p>
         <h5>JQuery</h5>
-        <p>I have a little experience in JQuery which I gained during the development of this site. I am looking to expand my knowledge of JQuery in the future, I also aim to learn other JavaScript frameworks to include NodeJS and AngularJS.</p>
+        <p>I have a little experience in JQuery which I gained during the development of this site. I am looking to expand my knowledge of JQuery in the future, I also aim to learn other JavaScript frameworks including NodeJS and AngularJS.</p>
     </div>
 </div>
 
