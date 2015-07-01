@@ -202,7 +202,13 @@
     </div>
     <div class="modal-content">
         <h4>Development Methodologies</h4>
-        <p>Lorem ipsum</p>
+        <p>I have experience in a number of different development methodologies, this is experience that I have accumulated both through my academic studies and my personal projects.</p>
+        <h5>Scrum</h5>
+        <p>I have experience in the use of the Scrum from my work experience, and from my group project as part of my Foundation Degree. I have fulfiled the role of Scrum master and have also fulfiled the role of a team member. I have experience in using a variety of Scrum tools including: <a href="https://www.visualstudio.com/en-us/get-started/work/work-in-sprints-vs" target="_blank">Visual Studio Online</a>Visual Studio Online, <a href="https://trello.com/" target="_blank">Trello</a> and <a href="https://taiga.io/" target="_blank">Taiga</a>.</p>
+        <h5>SSADM</h5>
+        <p>I have experience in the use of the structured systems analysis and design method as a development methodology during my Foundation Degree. I used SSADM during multiple assignments, and was assessed on my use of it.</p>
+        <h5>Other Methodologies</h5>
+        <p>I have knowledge of a number of other development methodologies - for example - Kanban.</p>
     </div>
 </div>
 
