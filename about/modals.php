@@ -178,7 +178,19 @@
     </div>
     <div class="modal-content">
         <h4>Linux</h4>
-        <p>Lorem ipsum</p>
+        <p>I have experience in thge use of Linux both on the server and the desktop; the most of my experience is in Debian based distributions, however I do have some experience in Red Hat based distributions.</p>
+        <h5>Server Administration</h5>
+        <p>I have experience in administrating my own Linux server - running Debian Stable. I use my server to provide a variety of self-hosted services to myself and others, including:</p>
+        <ul>
+            <li>• <b>Web Server</b> - Running <a href="http://nginx.org/" target="_blank">Nginx</a> and PHP-FPM</li>
+            <li>• <b>GitLab instance</b> - A private <a href="https://about.gitlab.com/" target="_blank">GitLab CE</a> instance for source code hosting.</li>
+            <li>• <b>Jenkins CI Instance</b> - A private <a href="https://jenkins-ci.org/" target="_blank">Jenkins</a> Continuous Integration Server instance, for users of my GitLab instance.</li>
+            <li>• <b>File Storage</b> - I manage a private online storage solution using <a href="https://owncloud.org/" target="_blank">OwnCloud</a> and PHP-FPM</li>
+            <li>• <b>Server Monitoring</b> - I manage a server monitoring solution using  <a href="https://www.observium.org/" target="_blank">Observium</a> to provide a monitoring solution for my servers and those of others.</li>
+        </ul>
+        <h5>Desktop</h5>
+        <p>I also have experience in using Linux as desktop OS. My current OS of choice is Elementary OS Freya (based upon Ubuntu 14.04); although I have experience in other Ubuntu derivatives and in Fedora Desktop.</p>
+        <p>I have experience in using GNOME 3 based (GNOME 3.x, Pantheon, Cinnamon & Unity) and MATE desktop environments. I am also looking to try out KDE in the future.</p>
     </div>
 </div>
 
