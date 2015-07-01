@@ -229,4 +229,4 @@ include_once("master/head.php");
     </div>
 
     <?php include_once("indexModals.php"); ?>
-    <?php include_once("/master/footer.php"); ?>
+    <?php include_once("master/footer.php"); ?>
