@@ -10,10 +10,10 @@ include_once("master/head.php");
     <div class="section no-pad-bot light-blue lighten-2 z-depth-0" id="index-banner">
         <div class="navbar-fixed" id="fixed-bar">
             <nav style="background: rgba(255, 255, 255, 0.0);" role="navigation" id="desktop-nav-about">
-                <?php include_once("/master/navContent.php"); ?>
+                <?php include_once("master/navContent.php"); ?>
             </nav>
         </div>
-            <?php include_once("/master/navContentMobile.php"); ?>
+            <?php include_once("master/navContentMobile.php"); ?>
 
         <!-- End Nav -->
 
