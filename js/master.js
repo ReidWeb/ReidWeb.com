@@ -10,9 +10,9 @@ function setSelectedPage(){
             document.getElementById("homeLink").setAttribute("class","active");
             document.getElementById("homeLinkMob").setAttribute("class","active");
             break;
-        case "/about/":
-            document.getElementById("aboutLink").setAttribute("class","active");
-            document.getElementById("aboutLinkMob").setAttribute("class","active");
+        case "/contact/":
+            document.getElementById("contactLink").setAttribute("class","active");
+            document.getElementById("contactLinkMob").setAttribute("class","active");
             break;
     }
 
