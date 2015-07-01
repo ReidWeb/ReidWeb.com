@@ -212,7 +212,7 @@
             <li>• <b>Database Development</b> - Design and devlopment of database systems using both Microsoft SQL Server and Microsoft Access.</li>
             <li>• <b>Systems Development Methdodologies</b> - A variety of development methodologies were taught as part of a module, other assignments utilised Agile Scrum, while some utilised SSADM.</li>
             <li>• <b>Computer Hardware</b> - Covered a variety of topics including: various different computer components and the skills and knowledge required to build a computer. Content also covered some networking.</li>
-            <li>• <b>Operating Systems</b> - Content covered included binary, hexadecimal and ocatal numbering systems as well as various mathematical topics in relation to binary. Assembly programming also covered.</li>
+            <li>• <b>Operating Systems</b> - Content covered included binary, hexadecimal and ocatal numbering systems as well as various mathematical topics in relation to these numbering sysytems. A small amount of assembly was also covered.</li>
         </ul>
     </div>
 </div>
