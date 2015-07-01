@@ -137,18 +137,19 @@
         <h5>IDEs</h5>
         <p>I have a large amount of experience in the following IDEs:</p>
         <ul>
-            <li>• <b>Visual Studio</b> - I am experienced in the use of Visual Studio 2012 and 2013 for desktop, web and Windows App development. I am also experienced in the use of Visual Studio's source control integration.</li>
-            <li>• <b>NetBeans</b> - I am experienced in the use of Netbeans as a Java IDE for both Java 7 and Java 8.</li>
+            <li>• <b>Visual Studio</b> - I am experienced in the use of <a href="https://www.visualstudio.com/" target="_blank">Visual Studio</a> 2012 and 2013 for desktop, web and Windows App development. I am also experienced in the use of Visual Studio's source control integration.</li>
+            <li>• <b>NetBeans</b> - I am experienced in the use of <a href="https://netbeans.org/" target="_blank">NetBeans</a> as a Java IDE for both Java 7 and Java 8.</li>
+            <li>• <b>Brackets</b> - I have recently been using <a href="http://brackets.io/" target="_blank">Brackets</a> for the development of this website.</li>
         </ul>
         <p>I also have some experience in the following IDEs:</p>
         <ul>
-            <li>• <b>Android Studio/IntelliJ IDEA</b> - I have some experience in the use of IDEs derived from IntelliJ IDEA. I intend to expand my experience within IntelliJ IDEA in the future.</li>
-            <li>• <b>Eclipse</b> - I have a small amount of experience using Eclipse as an IDE for Java 7.</li>
+            <li>• <b>Android Studio/IntelliJ IDEA</b> - I have some experience in the use of IDEs derived from <a href="https://www.jetbrains.com/idea/" target="_blank">IntelliJ IDEA</a>. I intend to expand my experience within IntelliJ IDEA in the future.</li>
+            <li>• <b>Eclipse</b> - I have a small amount of experience using <a href="https://eclipse.org/" target="_blank">Eclipse</a> as an IDE for Java 7.</li>
         </ul>
         <h5>Other Developer Tools</h5>
         <p>I have experience in a variety of development tools aside from IDEs. Firstly, I have experience in the following Source Control products:</p>
         <ul>
-            <li>• <b>Team Foundation Server/Visual Studio Online</b> - I have experience in the use of Microsoft's source control and product collaboration system for product development. I am mainly experienced in the use of the git source control component of the product within <a href="https://visualstudio.com" target="_blank">Visual Studio Online</a>.</li>
+            <li>• <b>Team Foundation Server/Visual Studio Online</b> - I have experience in the use of Microsoft's source control and product collaboration system for product development. I am mainly experienced in the use of the git source control component of the product within <a href="https://www.visualstudio.com/products/what-is-visual-studio-online-vs" target="_blank">Visual Studio Online</a>.</li>
             <li>• <b>GitLab</b> - I am experienced in both administration and use of <a href="http://gitlab.org" target="_blank">GitLab</a> to manage the source code for my projects.</li>
             <li>• <b>GitHub</b> - I am experienced in the use of <a href="https://github.com" target="_blank">GitHub</a> for managing the source code of personal and team projects.</li>
             <li>• <b>Jenkins</b> - I am experienced in the use of the <a href="https://jenkins-ci.org/" target="_blank">Jenkins</a> Continuous Integration Server product for automated deployment and basic testing of my projects.</li>
