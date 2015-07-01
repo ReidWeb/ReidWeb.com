@@ -119,7 +119,7 @@
         <p>I have been using version control with all my work since 2013, I'm particularly experienced in Git - however, I do have experience in Subversion also.</p>
         <h5>Git Version Control</h5>
         <p>I have been using Git version control ever since my work placement in 2013, I am familiar with the strengths and weaknesses of Git and other Distributed Version Control Systems. I have experience both as a user of Git and as an administrator of a Git version control server. I store all of my academic work in Git repositories, and all of my personal projects are also stored in git.</p>
-        <p>I have experience in a variety of Git workflows including: <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank">gitflow workflow</a>,<a href="https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow" target="_blank"> feature branch workflow</a> and <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/centralized-workflow" target="_blank">centralized workflow.</a></p>
+        <p>I have experience in a variety of Git workflows including: the <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank">gitflow workflow</a>,<a href="https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow" target="_blank"> feature branch workflow</a> and <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/centralized-workflow" target="_blank">centralized workflow.</a></p>
         <p>During my Foundation Degree I assisted teaching staff in the use and documentation of Git for tracking group projects - this allowed teaching staff to track how much each student contributed towards the group project and also empowered easier collaboration between team members.</p>
         <h5>Subversion</h5>
         <p>Although I am mainly experienced in Git, I do have experience in Centralised Version Systems; in particular Subversion. I have done some work in Subversion so that I am familiar with the core concepts in relation to Subversion and other centralised version control systems.</p>
@@ -128,6 +128,11 @@
 
 
 <div id="modalIDE" class="modal">
+   <div style="height:20px;">
+        <a class="btn-flat waves-effect waves-dark popout-back-btn modal-close">
+            <i class="mdi-navigation-arrow-back blak-text"></i>
+        </a>
+    </div>
     <div class="modal-content">
         <h4>Development Tools</h4>
         <p>I have experience in a variety of IDEs and a variety of other developer tools.</p>
@@ -136,7 +141,7 @@
         <ul>
             <li>• <b>Visual Studio</b> - I am experienced in the use of <a href="https://www.visualstudio.com/" target="_blank">Visual Studio</a> 2012 and 2013 for desktop, web and Windows App development. I am also experienced in the use of Visual Studio's source control integration.</li>
             <li>• <b>NetBeans</b> - I am experienced in the use of <a href="https://netbeans.org/" target="_blank">NetBeans</a> as a Java IDE for both Java 7 and Java 8.</li>
-            <li>• <b>Brackets</b> - I have recently been using <a href="http://brackets.io/" target="_blank">Brackets</a> for the development of this website.</li>
+            <li>• <b>Brackets</b> - I have recently been using <a href="http://brackets.io/" target="_blank">Brackets</a> for the development of this website, and have used it in the past for other projects.</li>
         </ul>
         <p>I also have some experience in the following IDEs:</p>
         <ul>
@@ -147,7 +152,7 @@
         <p>I have experience in a variety of development tools aside from IDEs. Firstly, I have experience in the following Source Control products:</p>
         <ul>
             <li>• <b>Team Foundation Server/Visual Studio Online</b> - I have experience in the use of Microsoft's source control and product collaboration system for product development. I am mainly experienced in the use of the git source control component of the product within <a href="https://www.visualstudio.com/products/what-is-visual-studio-online-vs" target="_blank">Visual Studio Online</a>.</li>
-            <li>• <b>GitLab</b> - I am experienced in both administration and use of <a href="http://gitlab.org" target="_blank">GitLab</a> to manage the source code for my projects.</li>
+            <li>• <b>GitLab</b> - I am experienced in both administration and use of <a href="https://about.gitlab.com/" target="_blank">GitLab</a> to manage the source code for my projects.</li>
             <li>• <b>GitHub</b> - I am experienced in the use of <a href="https://github.com" target="_blank">GitHub</a> for managing the source code of personal and team projects.</li>
             <li>• <b>Jenkins</b> - I am experienced in the use of the <a href="https://jenkins-ci.org/" target="_blank">Jenkins</a> Continuous Integration Server product for automated deployment and basic testing of my projects.</li>
         </ul>
