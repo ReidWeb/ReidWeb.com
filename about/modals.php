@@ -126,11 +126,6 @@
 
 
 <div id="modalIDE" class="modal">
-    <div class="popout-frame-image-container" id="dev-tools-image-container">
-        <a class="btn-flat waves-effect waves-light popout-back-btn modal-close">
-            <i class="mdi-navigation-arrow-back white-text"></i>
-        </a>
-    </div>
     <div class="modal-content">
         <h4>Development Tools</h4>
         <p>I have experience in a variety of IDEs and a variety of other developer tools.</p>
