@@ -1,16 +1,22 @@
 <?php
 $pagetitle = "Contact | Peter Reid";
-$headerContent ="";
+$headerContent ="<link href='/css/contact.css' type='text/css' rel='stylesheet' media='screen,projection'/>";
 include_once("../master/header.php");
 ?>
-<div class="section no-pad-bot light-blue lighten-2 z-depth-1" id="index-banner">
 
-</div>
+    <div id="contact-banner">
+        <div class="glass">
+        <div class="container">
+            <h1 class="header white-text" style="margin:0; padding-top:170px;">Contact</h1>
+        </div>
+
+        </div>
+    </div>
 
 
-<div class="container">
+    <div class="container">
 
-</div>
+    </div>
 
 
-<?php include_once("../master/footer.php"); ?>
+    <?php include_once("../master/footer.php"); ?>
