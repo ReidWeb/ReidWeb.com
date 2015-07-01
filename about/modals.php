@@ -50,7 +50,7 @@
         <h5>Server side scripting</h5>
         <p>I have utilised C# along with ASP.NET to an 'ecommerce' site with a basic content management system. I utilised C# to load content into the page dynamically based upon an external data source. I also utilised C# to develop a 'cart' system for the site.</p>
         <h5>Master pages</h5>
-        <p>I have experience in utilising 'master pages' to simplify the development of sites using ASP.NET and C#.</p>
+        <p>I have experience in utilising ASP.NET and C# to create 'master pages' to simplify the development of websites.</p>
     </div>
 </div>
 
