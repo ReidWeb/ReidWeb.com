@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-$pagetitle = "About | Peter Reid";
-$headerContent ="<link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'><link href='../css/about.css' type='text/css' rel='stylesheet' media='screen,projection'/><script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script><script src='../js/smoothscroll.js'></script><script src='../js/about.js'></script>";
-include_once("../master/head.php");
+$pagetitle = "Home | Peter Reid";
+$headerContent ="<link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'><link href='/css/index.css' type='text/css' rel='stylesheet' media='screen,projection'/><script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script><script src='/js/smoothscroll.js'></script><script src='/js/about.js'></script>";
+include_once("master/head.php");
 ?>
 
 
     <div class="section no-pad-bot light-blue lighten-2 z-depth-0" id="index-banner">
         <div class="navbar-fixed" id="fixed-bar">
             <nav style="background: rgba(255, 255, 255, 0.0);" role="navigation" id="desktop-nav-about">
-                <?php include_once("../master/navContent.php"); ?>
+                <?php include_once("/master/navContent.php"); ?>
             </nav>
         </div>
-            <?php include_once("../master/navContentMobile.php"); ?>
+            <?php include_once("/master/navContentMobile.php"); ?>
 
         <!-- End Nav -->
 
         <div class="container">
-            <img class="responsive-img circle z-depth-2" src="../img/avatar.jpg" alt="peter reid" id="bannerAvatarImage" />
+            <img class="responsive-img circle z-depth-2" src="/img/avatar.jpg" alt="peter reid" id="bannerAvatarImage" />
             <h1 id="header-title" class="header center white-text">Hello world, my name is Peter Reid</h1>
             <div class="row center">
                 <h5 class="header col s12 light blue-grey-text text-darken-4" id="banner-text">I am a programmer focussing on Web and Mobile development, and this is my site. Feel free to have a look around!</h5>
@@ -228,5 +228,5 @@ include_once("../master/head.php");
         <div class="parallax"><img src="/img/parallax-shard2.jpg"></div>
     </div>
 
-    <?php include_once("modals.php"); ?>
-    <?php include_once("../master/footer.php"); ?>
+    <?php include_once("indexModals.php"); ?>
+    <?php include_once("/master/footer.php"); ?>
