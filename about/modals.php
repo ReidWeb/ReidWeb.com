@@ -154,8 +154,8 @@
 
 <div id="modalDB" class="modal">
     <div class="popout-frame-image-container" id="db-image-container">
-        <a class="btn-flat waves-effect waves-light popout-back-btn modal-close">
-            <i class="mdi-navigation-arrow-back white-text"></i>
+        <a class="btn-flat waves-effect waves-dark popout-back-btn modal-close">
+            <i class="mdi-navigation-arrow-back blak-text"></i>
         </a>
     </div>
     <div class="modal-content">
