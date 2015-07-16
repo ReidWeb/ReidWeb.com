@@ -16,6 +16,18 @@ module.exports = function (grunt) {
       }]
             }
         },
+        htmlmin: { // Task
+            options: { // Target options
+                removeComments: true,
+                collapseWhitespace: true
+            },
+            files: { // Dictionary of files
+                expand: true,
+                cwd: '',
+                src: '{,*/}*.php',
+                dest: 'build'
+            }
+        },
         cssmin: {
             target: {
                 files: [{
@@ -53,7 +65,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
+    grunt.loadNpmTasks('grunt-contrib-htmlmin');
 
     // Default task(s).
-    grunt.registerTask('default', 'watch', ['uglify', 'cssmin']);
+    grunt.registerTask('default', 'watch', ['uglify', 'cssmin', 'htmlmin']);
 };
