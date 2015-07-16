@@ -21,6 +21,14 @@
     </div>
 </footer>
 
+<!-- CSS  -->
+<link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+<!-- Master Style -->
+<link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+
+<!--Social Icon Font -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 <!--  Scripts-->
 <!-- JS -->
@@ -30,6 +38,7 @@
 <script src="/js/materialize.js"></script>
 
 <?php echo $footerContent; ?>
-<script src="/js/init.js"></script>
-</body>
-</html>
+    <script src="/js/init.js"></script>
+    </body>
+
+    </html>
