@@ -2,7 +2,7 @@
 <html lang="en">
 <?php
 $pagetitle = "Home | Peter Reid";
-$headerContent ="<link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'><link href='/css/index.css' type='text/css' rel='stylesheet' media='screen,projection'/><script src='/js/smoothscroll.js'></script><script src='/js/index.js'></script>";
+$headerContent ="<link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'><link href='/css/index.css' type='text/css' rel='stylesheet' media='screen,projection'/>";
 include_once("master/head.php");
 ?>
 
@@ -13,24 +13,24 @@ include_once("master/head.php");
                 <?php include_once("master/navContent.php"); ?>
             </nav>
         </div>
-            <?php include_once("master/navContentMobile.php"); ?>
+        <?php include_once("master/navContentMobile.php"); ?>
 
-        <!-- End Nav -->
+            <!-- End Nav -->
 
-        <div class="container">
-            <img class="responsive-img circle z-depth-2" src="/img/avatar.jpg" alt="peter reid" id="bannerAvatarImage" />
-            <h1 id="header-title" class="header center white-text">Hello world, my name is Peter Reid</h1>
-            <div class="row center">
-                <h5 class="header col s12 light blue-grey-text text-darken-4" id="banner-text">I am a programmer focussing on Web and Mobile development, and this is my site. Feel free to have a look around!</h5>
+            <div class="container">
+                <img class="responsive-img circle z-depth-2" src="/img/avatar.jpg" alt="peter reid" id="bannerAvatarImage" />
+                <h1 id="header-title" class="header center white-text">Hello world, my name is Peter Reid</h1>
+                <div class="row center">
+                    <h5 class="header col s12 light blue-grey-text text-darken-4" id="banner-text">I am a programmer focussing on Web and Mobile development, and this is my site. Feel free to have a look around!</h5>
+                </div>
+                <div class="row center" id="banner-button" id="scroll-down-button-div">
+                    <a id="download-button" class="smoothScroll" href="#download-button"><i class="small mdi-hardware-keyboard-arrow-down"></i> Scroll Down <i class="small mdi-hardware-keyboard-arrow-down"></i></a>
+                </div>
+                <br/>
+                <br/>
+
+
             </div>
-            <div class="row center" id="banner-button" id="scroll-down-button-div">
-                <a id="download-button" class="smoothScroll" href="#download-button"><i class="small mdi-hardware-keyboard-arrow-down"></i> Scroll Down <i class="small mdi-hardware-keyboard-arrow-down"></i></a>
-            </div>
-            <br/>
-            <br/>
-
-
-        </div>
     </div>
 
     <div class="section white" id="who-am-i-container">
@@ -229,4 +229,5 @@ include_once("master/head.php");
     </div>
 
     <?php include_once("indexModals.php"); ?>
-    <?php include_once("master/footer.php"); ?>
+        <?php $footerContent ="<script src='/js/smoothscroll.js'></script><script src='/js/index.js'></script>";
+include_once("master/footer.php"); ?>

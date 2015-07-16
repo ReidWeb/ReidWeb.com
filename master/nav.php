@@ -6,8 +6,3 @@
     </nav>
 </div>
 
-
-<script>
-    setSelectedPage();
-
-</script>

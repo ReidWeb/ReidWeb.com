@@ -1,6 +1,6 @@
 <?php
 $pagetitle = "Contact | Peter Reid";
-$headerContent ="<link href='/css/contact.css' type='text/css' rel='stylesheet' media='screen,projection'/><script src='/js/contact.js'></script>";
+$headerContent ="<link href='/css/contact.css' type='text/css' rel='stylesheet' media='screen,projection'/>";
 include_once("../master/header.php");
 ?>
     <div id="content">
@@ -29,4 +29,10 @@ include_once("../master/header.php");
         </div>
     </div>
 
-    <?php include_once("../master/footer.php"); ?>
+    <?php
+$footerContent = "<script src='/js/contact.js'></script>";
+include_once("../master/footer.php"); ?>
+<script>
+    setSelectedPage();
+
+</script>
