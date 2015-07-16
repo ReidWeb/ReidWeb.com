@@ -27,17 +27,6 @@ module.exports = function (grunt) {
       }]
             }
         },
-        compress: {
-            main: {
-                options: {
-                    mode: 'gzip'
-                },
-                expand: true,
-                cwd: 'build/js',
-                src: ['**/*'],
-                dest: 'build/js/'
-            }
-        },
         imagemin: {
             target: {
                 options: {
@@ -63,9 +52,8 @@ module.exports = function (grunt) {
 
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
-    grunt.loadNpmTasks('grunt-contrib-compress');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
 
     // Default task(s).
-    grunt.registerTask('default', 'watch', ['uglify', 'cssmin', 'compress']);
+    grunt.registerTask('default', 'watch', ['uglify', 'cssmin']);
 };
