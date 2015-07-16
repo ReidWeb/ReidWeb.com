@@ -2,7 +2,7 @@
 <html lang="en">
 <?php
 $pagetitle = "Home | Peter Reid";
-$headerContent ="<link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'><link href='/build/css/index.min.css' type='text/css' rel='stylesheet' media='screen,projection'/><script src='/build/js/smoothscroll.js'></script><script src='/js/index.js'></script>";
+$headerContent ="<link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'><link href='/build/css/index.min.css' type='text/css' rel='stylesheet' media='screen,projection'/><script src='/build/js/smoothscroll.js'></script><script src='/build/js/index.js'></script>";
 include_once("master/head.php");
 ?>
 
