@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/peterreid
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://reidweb.com
+  * I am peterreid (https://keybase.io/peterreid) on keybase.
+  * I have a public key with fingerprint 5A1A CDC5 52CA 81D6 1EE5  1171 179E CB2F 7161 F353
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "5a1acdc552ca81d61ee51171179ecb2f7161f353",
+            "host": "keybase.io",
+            "key_id": "179ecb2f7161f353",
+            "kid": "0101c3ee3fdeb6969eca9d402366fb99fa0a5e7e7a9e05ccb8194ca9aa53b8fdfae10a",
+            "uid": "d35973fd9ad623f2f973225857e57e19",
+            "username": "peterreid"
+        },
+        "service": {
+            "hostname": "reidweb.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1434041758,
+    "expire_in": 157680000,
+    "prev": "fe728325d41539301421de78f07893769fbc0bb2b72311b8c5f244b13bcc082b",
+    "seqno": 20,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMMwAnicbZJ9TJVVHMfvBVHEcNeCYVkRD1qMXeE5z/tzm+DNRgImvUHKWPC8nAce
+iHsv900Z0LwRpbdZDRDFTUKFWYo6TYGmRBCYwW0C66JrhCA4aswRYHVxwDoPs/86
+O9vZ+f0+38/ZOTs94cG6MH1UQ39iiTD/tr6/y+zSZZZ2NJRholUuxUxlWBFcWRTV
+kg/tNrtqcWImjBaAIMkSTROSwAGZARDSALBo8lASCYUFDFBImsSMWIHVoSWQRhQc
+MEG1ohra5Koyqv4PX7TSwAEOJBJCUpGhyPAMwgRepnCCZBhF5HlFwAUaspAVeIjT
+kiRygKcQIgg0KXKKrAgQ4ALSuVZ0MknzLHLxgswQpEIoaEcQNEezEE3Aa6AD2i1C
+MUS0DTqh3Q5RssKIobJblaD2BtpVHiNadx8UEyRrMcra7FanVbK+jxoFTqfNpOWc
+pTYNRFDuY0WuqFpk9Iwo4IZ2h2q1YCaASMmpak5AkRROAZbmjBjcb1PtMFfVCJpl
+OBwN7RjoRkoFsgRHErRMAZrkSRxQBJAhyyk4y/Eky/CKKOGiSIgsQQIgchKtEBQl
+AlKUJJwjREy7VInFipkIJHUK+cjpUPMtgtNlh1hFd1fOKp0+TLc6JEj7CbqwtYb/
+/sfMNYPuUs+s8MPizW+7H3nPV3Uq3vz0odhNWU3rYvNuzUcOB422TWwcea38bHpe
+XxTZTA3bqgunuyyHsqfWfDOUEkGNen7cdsd9vH6h++71sZhjgb6YjIzEm1EPEkIG
+W14KfXXAZyevPlMdbqV8UtbVwJNvTQcMd2sbCja0TvTYhvc+3N71eScP30vW45Ge
+7w3Vp5OveR4ElQ0Yq9LWHxh5ISn0nGnO/FfKL/Nj8e2Vd9qv7A/9dHvyeOO6i0bf
+pjO+wry47rmKk2SgUdqcWtobvCuhfE9Mavbl8d0fv5O2YJnaGf/njRe90hH3fSow
+fXTjqbXB4S/XvTLZWt/0z9cHHY+ExWW/p6T+7PGPitmZ2qnMlOXWP65D42yvL/07
+31dv7qoLmjzvGHEVDu8xL6ZXnhGe8jxR/PpgEuevs9zfclocGtJ/1tzZd/hE1Ow9
+74excfU9W5mDMxtixo9kjYjN/t9ravo/CUSXjwZX1Sy5sOR9ey+3tBXGGbEGmFaK
+td1qrDznIQ/dXjoZfXt1vyt78lTaseax5/w3DrsjMr5sv3elauGC+nTO8y1zf28L
+4ObeeF9e8SXa3PPGkiFsZCDlt5/HOrLMtUUfDD30H5BjLp7ICd2p/3V9ahJbvmNr
+JLPj6O78JnME5q7L9G9J7CBXLT+buWQIN3kbv6jqCylr/wn0hUyMD0ZfeLfG8S/x
+X6+f
+=kBTY
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/peterreid
+
+==================================================================
+

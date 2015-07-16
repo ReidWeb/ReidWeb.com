@@ -1,0 +1,1 @@
+$(document).ready(function(){function a(){windowHeight=$(window).innerHeight(),windowHeight-=$(".navbar-fixed").height(),windowHeight-=$(".page-footer").height(),$("#content").css("min-height",windowHeight)}a(),$(window).resize(function(){a()})});
