@@ -10,7 +10,7 @@
     <link rel='shortcut icon' type='image/x-icon' href='/img/icons/favicon.ico' />
 
     <!-- CSS  -->
-    <link href="/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <!-- Master Style -->
     <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
