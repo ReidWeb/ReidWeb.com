@@ -1,6 +1,6 @@
 <?php
 $pagetitle = "Contact | Peter Reid";
-$headerContent ="<link href='/build/css/contact.min.css' type='text/css' rel='stylesheet' media='screen,projection'/><script src='/build/js/contact.js'></script>";
+$headerContent ="<link href='/css/contact.css' type='text/css' rel='stylesheet' media='screen,projection'/><script src='/js/contact.js'></script>";
 include_once("../master/header.php");
 ?>
     <div id="content">
