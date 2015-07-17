@@ -1,2 +1,8 @@
 v 1.0.0
   - Initial version of site
+
+v 1.0.1
+  - Speed optimizations applied, optimized with Google Page Insights
+  - 'Build'/Deploy shell script added to allow Jenkins to automate site deployment and optimization
+  - Now using Grunt to optimize resources for faster site loading
+  - Updated to Materialize alpha release v0.97.0
