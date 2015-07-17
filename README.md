@@ -1,6 +1,8 @@
 ReidWeb.com
 ===========
 
+[![Build Status](https://mygitlab.org:4043/buildStatus/icon?job=ReidWeb.com)](https://mygitlab.org:4043/job/ReidWeb.com)
+
 Source code for https://reidweb.com .
 
 ## Can I use this source code for my own website?
