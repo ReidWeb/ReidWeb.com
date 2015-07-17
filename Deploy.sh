@@ -39,6 +39,7 @@ DEVDIR="/home/srv/dev.reidweb.com"
 DIR="pwd"
 # Determine the branch that was checked out by CI Job
 BRANCH="git log -n 1 --pretty=%d HEAD | awk '{print $2;}' | tr -d ')'"
+printf $BRANCH
 
 # Mirror Repository Function
 doMirror() {
@@ -84,7 +85,7 @@ case $1 in
                 printf "Running Script\n"
                 doMirror
                 doDeploy
-                printf "Done:\n"
+                printf "Done\n"
                 exit 2
         ;;
 esac
