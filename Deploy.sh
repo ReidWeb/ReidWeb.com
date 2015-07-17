@@ -63,14 +63,17 @@ doDeploy() {
   printf "Running Grunt tasks\n"
   grunt
   grunt imagemin
+  printf "Emptying Dev Site Directory\n"
+  rm -rf $DEVDIR/*
   printf "Copying fonts to build dir\n"
-  cp -R font/* build/
+  cp -R font/* build/font/
   # Deploy to dev Site
   printf "Deploying to Dev site\n"
   cp -R build/* $DEVDIR
   # If the branch is the master branch deploy to Live Site
   if [[ $BRANCH == "master" ]]; then
     printf "Deploying to Live site\n"
+    rm -rf $LIVEDIR/*
     cp -R build/* $LIVEDIR
   fi
 }
