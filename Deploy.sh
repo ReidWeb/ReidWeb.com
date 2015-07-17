@@ -43,7 +43,7 @@ printf "Branch: $BRANCH \n"
 
 # Mirror Repository Function
 doMirror() {
-  printf "Mirroring Repository:\n"
+  printf "Mirroring Repository\n"
   # Add push branch
   git remote set-url --push origin $MIRRORREPO
   #Push to GitHub
@@ -52,20 +52,20 @@ doMirror() {
 
 # Deployment section
 doDeploy() {
-  printf "Deploying Repository:\n"
+  printf "Deploying Repository\n"
   # Install NPM dependencies
-  printf "Installing NPM dependencies:\n"
+  printf "Installing NPM dependencies\n"
   npm install
   # Run Grunt tasks on site
-  printf "Running Grunt tasks:\n"
+  printf "Running Grunt tasks\n"
   grunt
   grunt imagemin
   # Deploy to dev Site
-  printf "Deploying to Dev site:\n"
+  printf "Deploying to Dev site\n"
   cp -R build/* $DEVDIR
   # If the branch is the master branch deploy to Live Site
   if [[ $BRANCH == "origin/master" ]]; then
-    printf "Deploying to Live site:\n"
+    printf "Deploying to Live site\n"
     cp -R build/* $LIVEDIR
   fi
 }
