@@ -53,14 +53,18 @@ doMirror() {
 doDeploy() {
   printf "Deploying Repository:\n"
   # Install NPM dependencies
+  printf "Installing NPM dependencies:\n"
   npm install
   # Run Grunt tasks on site
+  printf "Running Grunt tasks:\n"
   grunt
   grunt imagemin
   # Deploy to dev Site
+  printf "Deploying to Dev site:\n"
   cp -R build/* $DEVDIR
   # If the branch is the master branch deploy to Live Site
   if [[ $BRANCH == "origin/master" ]]; then
+    printf "Deploying to Live site:\n"
     cp -R build/* $LIVEDIR
   fi
 }
@@ -80,6 +84,7 @@ case $1 in
                 printf "Running Script\n"
                 doMirror
                 doDeploy
+                printf "Done:\n"
                 exit 2
         ;;
 esac
