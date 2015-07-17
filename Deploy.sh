@@ -91,6 +91,6 @@ case $1 in
                 doMirror
                 doDeploy
                 printf "Done\n"
-                exit 2
+                exit 0
         ;;
 esac
