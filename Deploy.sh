@@ -60,6 +60,8 @@ doDeploy() {
   printf "Running Grunt tasks\n"
   grunt
   grunt imagemin
+  printf "Copying fonts to build dir\n"
+  cp -R fonts/* build/
   # Deploy to dev Site
   printf "Deploying to Dev site\n"
   cp -R build/* $DEVDIR
