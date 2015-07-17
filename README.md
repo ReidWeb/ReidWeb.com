@@ -9,7 +9,7 @@ Source code for https://reidweb.com .
 
 The site is built with [Materialize](http://materializecss.com/), PHP, HTML5, CSS3, Javascript and JQuery.
 
-The site is designed with the [Material Design Specification](http://www.google.co.uk/design/spec/material-design/introduction.html)in mind, but does deviate from the design specification in certain regards.
+The site is designed with the [Material Design Specification](http://www.google.co.uk/design/spec/material-design/introduction.html) in mind, but does deviate from the design specification in certain regards.
 
 I am utilizing grunt to automatically optimize and minify the resources for the site, and deploy them to production. The gruntfile, npm package file (for dependencies for grunt tasks), and build script are contained with the project. Feel free to use them as you see fit in accordance with [the MIT License](LICENSE).
 
