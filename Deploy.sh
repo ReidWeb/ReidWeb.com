@@ -44,7 +44,7 @@ BRANCH="git log -n 1 --pretty=%d HEAD | awk '{print $2;}' | tr -d '')'"
 doMirror() {
   printf "Mirroring Repository:\n"
   # Add push branch
-  git remote set-url --push mirrorRepo $MIRRORREPO
+  git remote set-url --push origin $MIRRORREPO
   #Push to GitHub
   git push -uv mirrorRepo $BRANCH
 }
