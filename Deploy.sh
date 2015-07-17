@@ -22,23 +22,23 @@
 
 # SCRIPT CONFIGURATION
 # Origin repository (original)
-ORIGINREPO = "git@mygitlab.org:Peter/ReidWeb.com.git"
+ORIGINREPO="git@mygitlab.org:Peter/ReidWeb.com.git"
 # Repository to mirror to
-MIRRORREPO = "git@github.com:ReidWeb/ReidWeb.com.git"
+MIRRORREPO="git@github.com:ReidWeb/ReidWeb.com.git"
 # Live Site URL
-LIVEURL = "https://reidweb.com"
+LIVEURL="https://reidweb.com"
 # Live Site Directory
-LIVEDIR = "/home/srv/reidweb.com"
+LIVEDIR="/home/srv/reidweb.com"
 # Dev Site URL
-DEVURL = "http://dev.reidweb.com"
+DEVURL="http://dev.reidweb.com"
 # Dev Site Directory
-DEVDIR = "/home/srv/dev.reidweb.com"
+DEVDIR="/home/srv/dev.reidweb.com"
 
 # BEGIN SCRIPT  - Do not edit below here
 # Determine Directory in which located
 DIR="pwd"
 # Determine the branch that was checked out by CI Job
-BRANCH = "git log -n 1 --pretty=%d HEAD | awk '{print $2;}' | tr -d '')'"
+BRANCH="git log -n 1 --pretty=%d HEAD | awk '{print $2;}' | tr -d '')'"
 
 # Mirror Repository Function
 doMirror() {
