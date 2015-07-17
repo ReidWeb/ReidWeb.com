@@ -6,5 +6,6 @@
 
   ga('create', 'UA-36748721-1', 'auto');
   ga('send', 'pageview');
+  ga('set', '&uid', {{USER_ID}});
 
 </script>
