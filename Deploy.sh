@@ -69,7 +69,7 @@ doDeploy() {
   printf "Deploying to Dev site\n"
   cp -R build/* $DEVDIR
   # If the branch is the master branch deploy to Live Site
-  if [[ $BRANCH == "origin/master" ]]; then
+  if [[ $BRANCH == "master" ]]; then
     printf "Deploying to Live site\n"
     cp -R build/* $LIVEDIR
   fi
