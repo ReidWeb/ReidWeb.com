@@ -50,7 +50,7 @@ doMirror() {
   # Add push branch
   git remote set-url --push origin $MIRRORREPO
   #Push to GitHub
-  git push -uv origin $BRANCH
+  git push -uv origin HEAD:$BRANCH
 }
 
 # Deployment section
