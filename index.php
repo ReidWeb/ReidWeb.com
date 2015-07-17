@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 <?php
 $pagetitle = "Home | Peter Reid";
 $headerContent ="<link href='/css/index.css' type='text/css' rel='stylesheet' media='screen,projection'/>";
