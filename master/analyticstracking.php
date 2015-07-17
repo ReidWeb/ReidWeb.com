@@ -15,7 +15,7 @@
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
-    var u="//analytics.reidweb.com/";
+    var u="http://analytics.reidweb.com/";
     _paq.push(['setTrackerUrl', u+'piwik.php']);
     _paq.push(['setSiteId', 2]);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
