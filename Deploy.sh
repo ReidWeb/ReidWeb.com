@@ -38,7 +38,7 @@ DEVDIR="/home/srv/dev.reidweb.com"
 # Determine Directory in which located
 DIR="pwd"
 # Determine the branch that was checked out by CI Job
-BRANCH="git log -n 1 --pretty=%d HEAD | awk '{print $2;}' | tr -d ')'"
+BRANCH="$(git log -n 1 --pretty=%d HEAD | awk '{print $2;}' | tr -d ')')"
 printf "Branch: $BRANCH \n"
 
 # Mirror Repository Function
