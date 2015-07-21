@@ -9,3 +9,4 @@ v 1.0.1
 
 v 1.0.2 (pre-release)
   - Fixed issue with 'scroll down' text button appearing too close to bottom when using chrome with bookmarks enabled
+  - Development site now deploys unoptimized assets

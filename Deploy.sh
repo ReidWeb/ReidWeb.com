@@ -56,6 +56,9 @@ doMirror() {
 # Deployment section
 doDeploy() {
   printf "Deploying Repository\n"
+  # Deploy to dev Site
+  printf "Deploying to Dev site\n"
+  cp -R * $DEVDIR
   # Install NPM dependencies
   printf "Installing NPM dependencies\n"
   npm install
@@ -68,9 +71,6 @@ doDeploy() {
   printf "Copying fonts to build dir\n"
   mkdir build/font/
   cp -R font/* build/font/
-  # Deploy to dev Site
-  printf "Deploying to Dev site\n"
-  cp -R build/* $DEVDIR
   # If the branch is the master branch deploy to Live Site
   if [[ $BRANCH == "master" ]]; then
     printf "Deploying to Live site\n"
