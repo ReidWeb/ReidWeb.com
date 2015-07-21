@@ -22,12 +22,12 @@
 </footer>
 
 <!-- CSS  -->
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
-<!--Social Icon Font -->
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <!-- Master Style -->
 <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 <?php echo $footerContentCSS; ?>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+<!--Social Icon Font -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 <!--  Scripts-->
 <!-- JS -->
