@@ -9,15 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
     <link rel='shortcut icon' type='image/x-icon' href='/img/icons/favicon.ico' />
 
-    <!-- CSS  -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
-    <!-- Master Style -->
-    <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-
-
-    <!--Social Icon Font -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
     <!--Web App Properties-->
     <!-- See documentation: https://developers.google.com/web/fundamentals/device-access/stickyness/ -->
     <!-- Web App Manifest -->
