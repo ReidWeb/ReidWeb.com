@@ -37,7 +37,6 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
 <?php echo $footerContentJS; ?>
 
-<?php echo $footerContent; ?>
   <script src="/js/init.js"></script>
   </body>
 
