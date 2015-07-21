@@ -56,6 +56,8 @@ doMirror() {
 # Deployment section
 doDeploy() {
   printf "Deploying Repository\n"
+  printf "Emptying Dev Site Directory\n"
+  rm -rf $DEVDIR/*
   # Deploy to dev Site
   printf "Deploying to Dev site\n"
   cp -R * $DEVDIR
@@ -66,8 +68,6 @@ doDeploy() {
   printf "Running Grunt tasks\n"
   grunt
   grunt imagemin
-  printf "Emptying Dev Site Directory\n"
-  rm -rf $DEVDIR/*
   printf "Copying fonts to build dir\n"
   mkdir build/font/
   cp -R font/* build/font/
