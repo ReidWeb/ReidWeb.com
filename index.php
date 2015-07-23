@@ -1,6 +1,8 @@
 <?php
 $pagetitle = "Home | Peter Reid";
 $headerContent ="";
+$headerContentCSS ="<link href='/css/index.css' type='text/css' rel='stylesheet' media='screen,projection'/>";
+$headerContentJS ="<script src='/js/smoothscroll.js'></script><script src='/js/index.js'></script>";
 include_once("master/head.php");
 ?>
 
@@ -227,7 +229,4 @@ include_once("master/head.php");
   </div>
 
 
-  <?php
-$footerContentCSS ="<link href='/css/index.css' type='text/css' rel='stylesheet' media='screen,projection'/>";
-        $footerContentJS ="<script src='/js/smoothscroll.js'></script><script src='/js/index.js'></script>";
-include_once("master/footer.php"); ?>
+  <?php include_once("master/footer.php"); ?>
