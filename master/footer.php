@@ -26,7 +26,7 @@
 <!--Social Icon Font -->
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <!-- Master Style -->
-<link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+<link href="https://storage.googleapis.com/cdn.reidweb.com/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 <!-- Page specific css-->
 <?php echo $footerContentCSS; ?>
 

@@ -73,6 +73,11 @@ doDeploy() {
   cp -R font/* build/font/
   # If the branch is the master branch deploy to Live Site
   if [[ $BRANCH == "master" ]]; then
+    printf "Deploying css assets to CDN\n"
+    # Delete large file that does not need to be deployed to CDN
+    rm build/css/materialize.css
+    # Deploy to CDN
+    ~/gsutil/gsutil cp build/css/* gs://cdn.reidweb.com
     printf "Deploying to Live site\n"
     rm -rf $LIVEDIR/*
     cp -R build/* $LIVEDIR
