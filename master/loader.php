@@ -1,4 +1,5 @@
-<script type="text/javascript">
+<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+ <script type="text/javascript">
   $(window).load(function() {
     $(".loader").fadeOut("slow");
   })
