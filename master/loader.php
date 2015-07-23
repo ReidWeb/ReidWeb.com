@@ -1,10 +1,3 @@
-<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
- <script type="text/javascript">
-  $(window).load(function() {
-    $(".loader").fadeOut("slow");
-  });
-
-</script>
 <style>
   .loader {
     position: fixed;
@@ -26,7 +19,7 @@
     text-align: center;
   }
   .vertpadder{
-    height:25%;
+    height:3%;
   }
   /*Small Devices*/
 
@@ -48,18 +41,4 @@
   <div id="logobox"><img id="logo" src="/img/icons/white-icons/mstile-310x310.png"><h1 id="loadText" style="font-family:Roboto,GillSans, Calibri, Trebuchet,sans-serif;color:white;">Loading...</h1></div>
   <div class="vertpadder"></div>
 </div>
- <script type="text/javascript">
-  $(document).ready(function() {
-    function setHeight() {
-      availableHeight = $(window).innerHeight() - $('#logo').innerHeight();
-      $('.vertpadder').css('min-height', availableHeight / 2);
-    }
-    setHeight();
 
-    $(window).resize(function() {
-      setHeight();
-    });
-
-  });
-
-</script>
