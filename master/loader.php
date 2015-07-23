@@ -1,8 +1,3 @@
-<?php
-$pagetitle = "Home | Peter Reid";
-$headerContent ="";
-include_once("head.php");
-?>
 <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
  <script type="text/javascript">
   $(window).load(function() {
