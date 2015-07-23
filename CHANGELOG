@@ -6,3 +6,8 @@ v 1.0.1
   - 'Build'/Deploy shell script added to allow Jenkins to automate site deployment and optimization
   - Now using Grunt to optimize resources for faster site loading
   - Updated to Materialize alpha release v0.97.0
+
+v 1.0.2
+  - Fixed issue with 'scroll down' text button appearing too close to bottom when using chrome with bookmarks enabled
+  - Development site now deploys unoptimized assets
+  - Added 'loading screen' to site

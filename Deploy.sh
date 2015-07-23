@@ -56,23 +56,28 @@ doMirror() {
 # Deployment section
 doDeploy() {
   printf "Deploying Repository\n"
-  # Install NPM dependencies
-  printf "Installing NPM dependencies\n"
-  npm install
-  # Run Grunt tasks on site
-  printf "Running Grunt tasks\n"
-  grunt
-  grunt imagemin
   printf "Emptying Dev Site Directory\n"
   rm -rf $DEVDIR/*
-  printf "Copying fonts to build dir\n"
-  mkdir build/font/
-  cp -R font/* build/font/
   # Deploy to dev Site
   printf "Deploying to Dev site\n"
-  cp -R build/* $DEVDIR
+  cp -R * $DEVDIR
   # If the branch is the master branch deploy to Live Site
   if [[ $BRANCH == "master" ]]; then
+    # Install NPM dependencies
+    printf "Installing NPM dependencies\n"
+    npm install
+    # Run Grunt tasks on site
+    printf "Running Grunt tasks\n"
+    grunt
+    grunt imagemin
+    printf "Copying fonts to build dir\n"
+    mkdir build/font/
+    cp -R font/* build/font/
+    printf "Deploying css assets to CDN\n"
+    # Delete large file that does not need to be deployed to CDN
+    rm build/css/materialize.css
+    # Deploy to CDN
+    ~/gsutil/gsutil cp build/css/* gs://cdn.reidweb.com
     printf "Deploying to Live site\n"
     rm -rf $LIVEDIR/*
     cp -R build/* $LIVEDIR
