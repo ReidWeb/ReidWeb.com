@@ -1,18 +1,13 @@
+<?php
+$pagetitle = "Home | Peter Reid";
+$headerContent ="";
+include_once("head.php");
+?>
 <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
  <script type="text/javascript">
   $(window).load(function() {
     $(".loader").fadeOut("slow");
   })
-  $(document).ready(function() {
-    function setHeight() {
-      availableHeight = $(window).innerHeight() - $('#logorow').innerHeight();
-      $('.padder').css('min-height', availableHeight / 2);
-    }
-    setHeight();
-
-    $(window).resize(function() {
-      setHeight();
-    });
   });
 
 </script>
@@ -30,36 +25,47 @@
   }
 
   #logo {
-    width: 100%;
+    width: 10%;
   }
+  #logobox{
+    width: 100%;
+    text-align: center;
+  }
+  .vertpadder{
+    height:25%;
+  }
+  /*Small Devices*/
 
+@media (max-width: 949px) {
+  #logo {
+    width: 35%;
+  }
+  #loadText {
+    font-size: 24pt;
+  }
+}
 </style>
 
 <div class="loader">
   <div class="progress  light-blue lighten-2" style="margin-top:0%">
     <div class="indeterminate white"></div>
   </div>
-  <div class="row">
-    <div class="col s12 m12 l12 padder"></div>
-  </div>
-  <div id="logorow">
-    <div class="row">
-      <div class="col s4 m4 l5">
-        <p></p>
-      </div>
-      <div class="col s4 m4 l2"><img id="logo" src="/img/icons/white-icons/mstile-310x310.png"></div>
-      <div class="col s4 m4 l5"></div>
-    </div>
-    <div class="row">
-      <div class="col s4 m4 l5">
-        <p></p>
-      </div>
-      <div class="col s4 m4 l2">
-        <h1 class="white-text thin" style="text-align:center;">Loading...</h1></div>
-      <div class="col s4 m4 l5"></div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col s12 m12 l12 padder"></div>
-  </div>
+  <div class="vertpadder"></div>
+  <div id="logobox"><img id="logo" src="/img/icons/white-icons/mstile-310x310.png"><h1 id="loadText" style="font-family:Roboto,GillSans, Calibri, Trebuchet,sans-serif;color:white;">Loading...</h1></div>
+  <div class="vertpadder"></div>
 </div>
+ <script type="text/javascript">
+  $(document).ready(function() {
+    function setHeight() {
+      availableHeight = $(window).innerHeight() - $('#logo').innerHeight();
+      $('.vertpadder').css('min-height', availableHeight / 2);
+    }
+    setHeight();
+
+    $(window).resize(function() {
+      setHeight();
+    });
+
+  });
+
+</script>
