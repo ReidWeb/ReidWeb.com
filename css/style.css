@@ -5,6 +5,9 @@
 .navbar-fixed{
   z-index: 10;
 }
+.nav-mobile{
+ z-index: 10;
+}
 
 #nav-mobile-header{
     height:125px;
