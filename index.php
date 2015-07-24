@@ -231,6 +231,7 @@ include_once("master/head.php");
     <div class="parallax"><img src="/img/parallax-shard2.jpg"></div>
   </div>
 
+<?php include_once("indexModals.php"); ?>
 
   <?php
 $footerContentCSS ="<link href='/css/index.css' type='text/css' rel='stylesheet' media='screen,projection'/>";
