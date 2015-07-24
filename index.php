@@ -68,7 +68,7 @@ include_once("master/head.php");
   <div class="section white" id="programming-section">
     <div class="row container">
       <div class="col s12 m8 l9">
-        <h2 class="header thin">Programming</h2>
+        <h2 class="header thin" id="programmingTitle">Programming</h2>
         <p class="light grey-text text-darken-4 paragraph">
           I have experience in a variety of programming languages:
         </p>

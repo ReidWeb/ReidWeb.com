@@ -235,6 +235,9 @@ nav {
     #programming-list {
         width: 100%;
     }
+  #programmingTitle {
+    font-size: 15vw;
+  }
     #tech-list {
         width: 100%;
     }
