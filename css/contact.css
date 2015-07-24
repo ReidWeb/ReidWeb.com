@@ -4,13 +4,4 @@
     background-size: auto auto;
     z-index: -1;
 }
-.glass {
-    position: relative;
-    padding: 0;
-    margin: 0;
-    border-bottom: 0px solid;
-    background-color: rgba(79, 195, 247, 0.5);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    min-height: 250px;
-    z-index: 100;
-}
+
