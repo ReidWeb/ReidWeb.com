@@ -61,6 +61,7 @@ include_once("master/head.php");
   </div>
 
   <div class="parallax-container" style="height:250px;">
+   <div class="glass"></div>
     <div class="parallax"><img src="/img/parallax-belfast-titanic.jpg"></div>
   </div>
 
@@ -107,6 +108,7 @@ include_once("master/head.php");
   </div>
 
   <div class="parallax-container" style="height:250px;">
+   <div class="glass"></div>
     <div class="parallax"><img src="/img/parallax-shard.jpg"></div>
   </div>
 
@@ -143,6 +145,7 @@ include_once("master/head.php");
   </div>
 
   <div class="parallax-container" style="height:250px;">
+   <div class="glass"></div>
     <div class="parallax"><img src="/img/parallax-singapore.jpg"></div>
   </div>
 
@@ -191,6 +194,7 @@ include_once("master/head.php");
 
 
   <div class="parallax-container" style="height:250px;">
+   <div class="glass"></div>
     <div class="parallax"><img src="/img/parallax-san-fran-city.jpg"></div>
   </div>
 
@@ -219,6 +223,7 @@ include_once("master/head.php");
   </div>
 
   <div class="parallax-container" style="height:250px;">
+   <div class="glass"></div>
     <div class="section" id="contact-container">
       <div class="row container">
       </div>

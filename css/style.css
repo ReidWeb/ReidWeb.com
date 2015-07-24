@@ -2,7 +2,9 @@
 /**
  * Styling for header, navmenu, and footer - common elements between screens
  */
-
+.navbar-fixed{
+  z-index: 10;
+}
 
 #nav-mobile-header{
     height:125px;
@@ -39,4 +41,14 @@ footer.page-footer {
 }
 .social-icon-anchor:hover {
   color: #40c4ff;
+}
+.glass {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    border-bottom: 0px solid;
+    background-color: rgba(79, 195, 247, 0.5);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    min-height: 250px;
+    z-index: 1;
 }
