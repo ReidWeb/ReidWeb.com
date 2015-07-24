@@ -1,23 +1,24 @@
 {
-    "name": "ReidWeb-Com",
-    "version": "1.0.2",
-    "author": "Peter Reid <peter@reidweb.com>",
-    "homepage": "https://www.reidweb.com",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ReidWeb/ReidWeb.com"
-    },
-    "dependencies": {
-        "grunt": "~0.4.5",
-        "grunt-contrib-cssmin": "~0.12.3",
-        "grunt-contrib-compress": "~0.13.0",
-        "grunt-contrib-concat": "~0.5.1",
-        "grunt-contrib-uglify": "~0.5.0",
-        "grunt-contrib-imagemin": "~0.9.4",
-        "imagemin-mozjpeg": "~5.1.0",
-        "imagemin-pngquant": "~4.1.2",
-        "grunt-contrib-watch": "~0.6.1",
-        "grunt-contrib-htmlmin": "~0.4.0"
-    },
-    "license": "MIT"
+  "name": "ReidWeb-Com",
+  "version": "1.0.2",
+  "author": "Peter Reid <peter@reidweb.com>",
+  "homepage": "https://www.reidweb.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ReidWeb/ReidWeb.com"
+  },
+  "dependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-cssmin": "~0.12.3",
+    "grunt-contrib-compress": "~0.13.0",
+    "grunt-contrib-concat": "~0.5.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-imagemin": "~0.9.4",
+    "imagemin-mozjpeg": "~5.1.0",
+    "imagemin-pngquant": "~4.1.2",
+    "imagemin-svgo": "~4.1.2",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-htmlmin": "~0.4.0"
+  },
+  "license": "MIT"
 }

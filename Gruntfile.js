@@ -1,5 +1,6 @@
 var mozjpeg = require('imagemin-mozjpeg');
 var pngquant = require('imagemin-pngquant');
+var svgo = require('imagemin-svgo');
 module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
@@ -44,12 +45,12 @@ module.exports = function (grunt) {
                 options: {
                     optimizationLevel: 3,
                     progressive: true,
-                    use: [pngquant(), mozjpeg()]
+                    use: [pngquant(), mozjpeg(), svgo()]
                 }, // options
                 files: [{
                         expand: true,
                         cwd: 'img/',
-                        src: ['**/*.{png,jpg,jpeg,gif}'],
+                        src: ['**/*.{png,jpg,jpeg,gif,svg}'],
                         dest: 'build/img'
         }] // files
             } // target
