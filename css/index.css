@@ -23,21 +23,25 @@
     position: absolute;
     bottom: -25px;
     right: 19%;
+    z-index: 10;
 }
 #web-jumper {
     position: absolute;
     margin-top: -25px;
     right: 19%;
+  z-index: 10;
 }
 #tech-jumper {
     position: absolute;
     margin-top: 7px;
     right: 19%;
+  z-index: 10;
 }
 #academic-jumper {
     position: absolute;
     margin-top: -15px;
     right: 19%;
+  z-index: 10;
 }
 .paragraph {
     font-size: large;
