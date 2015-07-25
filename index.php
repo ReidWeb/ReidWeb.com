@@ -223,10 +223,13 @@ include_once("master/head.php");
   </div>
 
   <div class="parallax-container" style="height:250px;">
-   <div class="glass"></div>
+   <div class="glass">
     <div class="section" id="contact-container">
-      <div class="row container">
+      <div class="row container" style="text-align:center">
+      <h4 class="white-text thin" style="margin-top:30px; font-size:3.2em;">Looking to contact me?</h4>
+      <a class="waves-effect waves-light btn-large light-blue lighten-2" style="margin-top:10px; " href="/contact">Contact Me</a>
       </div>
+    </div>
     </div>
     <div class="parallax"><img src="/img/parallax-shard2.jpg"></div>
   </div>
