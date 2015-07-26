@@ -64,6 +64,7 @@
 
     <script src="/js/init.js"></script>
     <script>setSelectedPageMobile();</script>
+    <script>consoleEasterEgg();</script>
     </body>
 
     </html>

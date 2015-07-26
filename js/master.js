@@ -26,3 +26,8 @@ function setSelectedPageMobile(){
     }
 
 }
+// Console easter egg
+function consoleEasterEgg () {
+      console.log("Hi, you seem to be looking for the source code for this website. You won't find much in here.");
+      console.log("You can find the full source code for this site at https://github.com/ReidWeb/ReidWeb.com");
+}
