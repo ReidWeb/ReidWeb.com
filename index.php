@@ -201,7 +201,7 @@ include_once("master/head.php");
   <div class="section white" id="academic-container">
     <div class="row container">
       <div class="col s12 m4 l3">
-        <img class="responsive-img circle z-depth-2" src="/img/about/educationSummaryPic.png" alt="Web Image" id="web-summary-image" />
+        <img class="responsive-img circle z-depth-2" src="/img/educationSummaryPic.jpg" alt="Web Image" id="web-summary-image" />
       </div>
       <div class="col s12 m8 l9">
         <h2 class="header thin">Education</h2>
