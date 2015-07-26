@@ -35,9 +35,8 @@
           </div>
 
           <div class="input-field col s12 m6 l6">
-            <div>
               <select>
-                <option value="" disabled selected>Choose your option</option>
+                <option class="light-blue-text text-lighten-2" value="" disabled selected>Choose your option</option>
                 <option value="1">Employment Opportunity</option>
                 <option value="2">Software development services</option>
                 <option value="3">Web development services</option>
@@ -45,7 +44,6 @@
                 <option value="5">Other</option>
               </select>
               <label>Category</label>
-            </div>
 
           </div>
         </div>
