@@ -63,6 +63,7 @@
     </script>
 
     <script src="/js/init.js"></script>
+    <script>setSelectedPageMobile();</script>
     </body>
 
     </html>
