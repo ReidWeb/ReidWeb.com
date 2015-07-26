@@ -15,12 +15,25 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="logo2white.svg"
+   sodipodi:docname="logowhite.svg"
    inkscape:export-filename="C:\Users\Peter\Source\ReidWeb (Material)\img\icons\launcher-icon-0-75x.png"
    inkscape:export-xdpi="11.670802"
    inkscape:export-ydpi="11.670802">
   <defs
-     id="defs4" />
+     id="defs4">
+    <font
+       horiz-adv-x="1024"
+       id="font4136"
+       inkscape:label="font 1">
+      <font-face
+         units-per-em="1024"
+         id="font-face4138"
+         font-family="SVGFont 1" />
+      <missing-glyph
+         d="M0,0h1000v1024h-1000z"
+         id="missing-glyph4140" />
+    </font>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -29,8 +42,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="193.49551"
-     inkscape:cy="145.40514"
+     inkscape:cx="111.17408"
+     inkscape:cy="388.26228"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -69,18 +82,14 @@
        inkscape:export-filename="C:\Users\Peter\Source\ReidWeb (Material)\img\icons\launcher-icon-4x.png"
        inkscape:export-xdpi="62.914154"
        inkscape:export-ydpi="62.914154" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:274.22393799px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       x="53.512665"
-       y="499.98203"
-       id="text4138"
-       sodipodi:linespacing="125%"
-       transform="scale(0.98775022,1.0124017)"><tspan
-         sodipodi:role="line"
-         id="tspan4140"
-         x="53.512665"
-         y="499.98203"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Kaushan Script';-inkscape-font-specification:'Kaushan Script';fill:#ffffff;fill-opacity:1;">R </tspan></text>
+    <g
+       transform="scale(0.98775022,1.0124017)"
+       style="font-style:normal;font-weight:normal;font-size:274.22393799px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text4138">
+      <path
+         d="m 267.68156,348.88464 q 0,13.16274 -6.03293,24.95437 -5.7587,11.51741 -16.17921,20.84102 -10.42051,9.04939 -24.40593,15.35654 -13.98542,6.30715 -30.43886,8.50095 4.11336,12.34007 9.87207,25.50282 6.03292,12.88853 12.88852,24.95438 6.8556,12.06585 14.25965,22.21214 7.40404,10.14628 14.53386,16.72766 -1.37112,2.74224 -4.11335,5.48448 -2.46802,2.74224 -6.03293,4.93603 -3.29069,2.46801 -7.12982,3.83913 -3.56492,1.64535 -6.8556,1.64535 -6.03293,0 -11.51741,-5.7587 -5.48448,-5.75871 -11.24318,-18.09878 -5.48448,-12.61431 -11.79163,-32.35843 -6.03293,-20.01835 -13.43697,-47.98919 -3.01646,0 -6.03293,0 -3.01646,0 -4.66181,-0.54845 -1.91956,-1.09689 -4.11335,-3.83913 -7.40405,15.90499 -13.16275,29.89041 -5.75871,13.98542 -10.42051,27.14817 -4.38759,12.88852 -7.9525,25.2286 -3.29068,12.06585 -5.7587,24.68015 -9.32361,-2.19379 -16.17921,-7.95249 -6.855601,-5.7587 -12.888527,-16.17921 1.096896,-2.46802 2.193791,-4.66181 1.37112,-2.46801 3.290688,-6.58137 1.919567,-4.38759 4.661807,-10.96896 3.016461,-6.58138 7.678271,-17.55033 4.93603,-10.96896 11.5174,-26.87395 6.8556,-15.90499 16.45344,-38.66557 4.38758,-10.14629 7.40405,-17.82456 3.29068,-7.67827 5.7587,-14.53387 2.46801,-7.12982 4.38758,-13.98542 2.19379,-7.12982 4.38759,-16.17921 -12.61431,4.38758 -23.58326,9.87206 -10.69474,5.21025 -17.82456,11.24318 -2.46801,-1.64534 -5.21025,-4.93603 -2.46802,-3.29069 -4.66181,-7.12982 -2.19379,-4.11336 -3.83914,-8.22672 -1.64534,-4.11336 -1.919564,-7.40405 8.226714,-5.48448 20.018344,-10.14628 12.06586,-4.66181 25.50283,-7.9525 13.43697,-3.56491 27.42239,-5.48448 13.98542,-1.91956 26.05128,-1.91956 32.90687,0 51.00565,13.71119 18.09878,13.43698 18.09878,37.02024 z m -66.91064,-23.03482 q -1.91957,2.46802 -6.03293,9.87207 -4.11336,7.40404 -9.59783,17.82455 -5.21026,10.14629 -11.24319,22.21214 -5.7587,12.06585 -11.24318,23.85748 20.5668,0 37.84291,-3.83913 17.2761,-3.83914 29.8904,-10.69473 12.61431,-7.12983 19.4699,-16.45344 7.12983,-9.59784 7.12983,-21.11524 0,-13.7112 -9.87206,-20.84102 -9.87207,-7.40405 -30.43886,-7.40405 -4.66181,0 -9.32362,0.54845 -4.6618,0.27422 -9.87206,0.82267 l 3.29069,5.21025 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Kaushan Script';-inkscape-font-specification:'Kaushan Script';fill:#ffffff;fill-opacity:1"
+         id="path4143" />
+    </g>
   </g>
 </svg>
