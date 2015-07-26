@@ -1,7 +1,27 @@
 #contact-banner {
-    background-image: url("/img/contactBanner.jpg");
+    background-image: url("/img/pattern3.png");
     min-height: 250px;
+    max-height: 400px;
     background-size: auto auto;
     z-index: -1;
 }
-
+.glass{
+  max-height: 300px;
+}
+#content-card{
+  margin-top: 80px;
+}
+#content-card-image-container {
+    height: 250px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-image: url("/img/contactBanner.jpg");
+}
+#content-card-title{
+  font-size: 40pt;
+  padding-left: 20px;
+  position: absolute;
+  bottom: 5px;
+  color: white;
+}
