@@ -46,11 +46,16 @@ printf "Branch: $BRANCH \n"
 
 # Mirror Repository Function
 doMirror() {
-  printf "Mirroring Repository\n"
-  # Add push branch
-  git remote set-url --push origin $MIRRORREPO
-  #Push to GitHub
-  git push -uv origin HEAD:$BRANCH
+  printf "Cloning master repository\n"
+  # Clone a bare version of the master repository
+  git clone --bare $ORIGINREPO tmp
+  cd tmp
+  printf "Pushing to mirror repository\n"
+  # Push to the mirror repository
+  git push --mirror $MIRRORREPO
+  # Remove tmp dir
+  cd ..
+  rm -rf tmp
 }
 
 # Deployment section
