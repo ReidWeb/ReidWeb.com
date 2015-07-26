@@ -115,7 +115,7 @@ include_once("master/head.php");
   <div class="section white" id="design-container">
     <div class="row container">
       <div class="col s12 m4 l3">
-        <img class="responsive-img circle z-depth-2" src="/img/about/webSummaryPic.png" alt="Web Image" id="web-summary-image" />
+        <img class="responsive-img circle z-depth-2" src="/img/webSummaryPic.png" alt="Web Image" id="web-summary-image" />
       </div>
       <div class="col s12 m8 l9">
         <h2 class="header thin">Design</h2>
@@ -179,7 +179,7 @@ include_once("master/head.php");
 
 
       <div class="col s12 m4 l3" style="margin-top:8%;">
-        <img class="responsive-img circle z-depth-2" src="/img/about/techSummaryPic.png" alt="Technical image" id="tech-image" />
+        <img class="responsive-img circle z-depth-2" src="/img/techSummaryPic.png" alt="Technical image" id="tech-image" />
       </div>
 
     </div>
