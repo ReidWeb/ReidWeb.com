@@ -16,3 +16,6 @@ v 1.0.2
   - Fixed issue with 'scroll down' text button appearing too close to bottom when using chrome with bookmarks enabled
   - Development site now deploys unoptimized assets
   - Added 'loading screen' to site
+  
+v 1.1.0 (pre)
+  - 
