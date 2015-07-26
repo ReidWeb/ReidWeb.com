@@ -20,3 +20,6 @@ Yes, feel free to clone this repository and make any modifications to it that yo
 ## Copyright and license
 
 Copyright 2015 Peter Reid, under [the MIT License](LICENSE).
+
+## About this repository
+This repository is a mirror of my [gitlab repsository](https://mygitlab.org/Peter/ReidWeb.com). The repository is automatically mirrored as part of the 'deployment' process for the website.
