@@ -1,27 +1,80 @@
 #contact-banner {
-    background-image: url("/img/pattern3.png");
-    min-height: 250px;
-    max-height: 400px;
-    background-size: auto auto;
-    z-index: -1;
+  background-image: url("/img/pattern3.png");
+  min-height: 250px;
+  max-height: 400px;
+  background-size: auto auto;
+  z-index: -1;
 }
-.glass{
+.glass {
   max-height: 300px;
 }
-#content-card{
+#content-card {
   margin-top: 80px;
 }
 #content-card-image-container {
-    height: 250px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-color: #000000;
-    background-image: url("/img/contactBanner.jpg");
+  height: 250px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  background-image: url("/img/contactBanner.jpg");
 }
-#content-card-title{
+#content-card-title {
   font-size: 40pt;
   padding-left: 20px;
   position: absolute;
   bottom: 5px;
   color: white;
+}
+#content-card-content {
+  padding: 20px;
+  min-height: 500px;
+}
+.content-card-header {
+  margin-bottom: 10px;
+  font-size: 25pt;
+}
+#content-card-content p {
+  padding: 0;
+  margin: 0;
+}
+
+/* label focus color */
+
+.input-field input[type=text]:focus + label {
+  color: #00b0ff;
+}
+
+/* label underline focus color */
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #00b0ff;
+  box-shadow: 0 1px 0 0 #00b0ff;
+}
+
+/* valid color */
+
+.input-field input[type=text].valid {
+  border-bottom: 1px solid #00e676;
+  box-shadow: 0 1px 0 0 #00e676;
+}
+
+/* invalid color */
+
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid #f44336;
+  box-shadow: 0 1px 0 0 #f44336;
+}
+
+/* icon prefix focus color */
+
+.input-field .prefix.active {
+  color: #00b0ff;
+}
+.modal {
+  max-height: 80%;
+}
+@media (max-width: 949px) {
+  .modal {
+    width: 100%;
+  }
 }
