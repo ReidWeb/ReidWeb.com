@@ -38,7 +38,7 @@
     <div class="indeterminate white"></div>
   </div>
   <div class="vertpadder"></div>
-  <div id="logobox"><img id="logo" src="/img/icons/white-icons/mstile-310x310.png"><h1 id="loadText" style="font-family:Roboto,GillSans, Calibri, Trebuchet,sans-serif;color:white;">Loading...</h1></div>
+  <div id="logobox"><img id="logo" src="/img/icons/vector-graphics/logowhite.svg"><h1 id="loadText" style="font-family:Roboto,GillSans, Calibri, Trebuchet,sans-serif;color:white;">Loading...</h1></div>
   <div class="vertpadder"></div>
 </div>
 
