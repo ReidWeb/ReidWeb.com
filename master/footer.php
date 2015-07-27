@@ -20,8 +20,6 @@
     </div>
   </div>
 </footer>
-</body>
-
 <!-- CSS  -->
 <link async rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
 <!--Social Icon Font -->
@@ -35,9 +33,9 @@
   <!--  Scripts-->
   <!-- JS -->
   <script async src='//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
-  <script  async src="/js/master.js"></script>
+  <script async src="/js/master.js"></script>
   <script async src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script  async src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
   <?php echo $footerContentJS; ?>
 
     <!-- Fade out loader upon page load -->
@@ -49,7 +47,14 @@
     </script>
 
     <script src="/js/init.js"></script>
-    <script>setSelectedPageMobile();</script>
-    <script>consoleEasterEgg();</script>
+    <script>
+      setSelectedPageMobile();
+
+    </script>
+    <script>
+      consoleEasterEgg();
+
+    </script>
+    </body>
 
     </html>
