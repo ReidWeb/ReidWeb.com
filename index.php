@@ -3,7 +3,34 @@ $pagetitle = "Home | Peter Reid";
 $headerContent ="";
 include_once("master/head.php");
 ?>
-
+<!-- CSS for above the fold content -->
+<style>
+  .loader { position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 9999; background-color: rgb(79, 195, 247); background-repeat: repeat; }
+#logobox { height: 100%; text-align: center; }
+#logo { height: 100%; }
+.z-depth-0, nav { box-shadow: rgba(0, 0, 0, 0.156863) 0px 0px 0px 0px, rgba(0, 0, 0, 0.117647) 0px 0px 0px 0px; }
+#index-banner { background-image: url(http://reidweb.local/img/pattern1.png); background-repeat: repeat; }
+#fixed-bar { position: fixed; width: 100%; height: 100px; z-index: 50; top: 0px; left: 0px; }
+#nav-mobile a { font-size: large; float: left; }
+#bannerAvatarImage { width: 24%; margin-top: 17%; margin-right: 38%; margin-left: 38%; }
+#banner-button { margin-top: 13%; margin-bottom: 0px; }
+#download-button { color: white; font-size: 32px; }
+.modal { max-height: 80%; }
+.popout-frame-image-container { height: 250px; width: 100%; background-repeat: no-repeat; }
+#js-image-container { background-image: url(http://reidweb.local/img/about/jsPic.png); background-color: rgb(12, 16, 33); }
+.popout-back-btn { position: absolute; left: 0px; top: 10px; }
+#java-image-container { background-image: url(http://reidweb.local/img/about/javaPic.png); background-color: rgb(39, 40, 34); }
+#c-sharp-image-container { background-image: url(http://reidweb.local/img/about/cSharpPic.png); background-color: rgb(255, 255, 255); }
+#bash-image-container { background-image: url(http://reidweb.local/img/about/bashPic.png); background-color: rgb(0, 0, 0); }
+#html-image-container { background-image: url(http://reidweb.local/img/about/htmlPic.png); background-color: rgb(32, 32, 32); }
+#design-image-container { background-image: url(http://reidweb.local/img/about/designPic.jpg); background-color: rgb(255, 255, 255); }
+#vc-image-container { background-image: url(http://reidweb.local/img/about/versionControlSummary.png); background-color: rgb(0, 0, 0); }
+#db-image-container { background-image: url(http://reidweb.local/img/about/databaseSummaryPic.png); background-color: rgb(255, 255, 255); }
+#dev-methods-image-container { background-image: url(http://reidweb.local/img/about/devMethodsPic.jpg); background-color: rgb(0, 0, 0); background-size: 100%; }
+#fdse-image-container { background-image: url(http://reidweb.local/img/about/fdsePic.png); background-color: rgb(0, 0, 0); background-size: 100% 100%; }
+.edu-modal-inst { font-size: 16pt; margin-bottom: 0px; color: rgb(158, 158, 158); font-weight: 500; }
+.edu-modal-year { font-size: 14pt; font-weight: 400; margin-bottom: 0px; margin-top: 2px; color: rgb(158, 158, 158); }
+</style>
 
   <div class="section no-pad-bot light-blue lighten-2 z-depth-0" id="index-banner">
     <div class="navbar-fixed" id="fixed-bar">
