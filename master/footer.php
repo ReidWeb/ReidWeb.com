@@ -39,22 +39,6 @@
   <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
   <?php echo $footerContentJS; ?>
-    <!--Size padding on loader-->
-    <script type="text/javascript">
-      $(document).ready(function() {
-        function setHeight() {
-          availableHeight = $(window).innerHeight() - $('#logo').innerHeight();
-          $('.vertpadder').css('min-height', availableHeight / 2);
-        }
-        setHeight();
-
-        $(window).resize(function() {
-          setHeight();
-        });
-
-      });
-
-    </script>
     <!-- Fade out loader upon page load -->
     <script type="text/javascript">
       $(window).load(function() {
