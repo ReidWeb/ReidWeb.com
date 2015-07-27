@@ -48,7 +48,12 @@
     <meta name="msapplication-wide310x150logo" content="/img/icons/mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="/img/icons/mstile-310x310.png" />
 
-
+  <!-- CSS  -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+<!--Social Icon Font -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<!-- Master Style -->
+<link href="https://storage.googleapis.com/cdn.reidweb.com/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
 
     <?php
