@@ -38,6 +38,7 @@
   <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
   <?php echo $footerContentJS; ?>
+
     <!-- Fade out loader upon page load -->
     <script type="text/javascript">
       $(window).load(function() {
@@ -46,9 +47,11 @@
 
     </script>
 
+<!--
     <script src="/js/init.js"></script>
     <script>setSelectedPageMobile();</script>
     <script>consoleEasterEgg();</script>
+-->
     </body>
 
     </html>
