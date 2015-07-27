@@ -3,7 +3,7 @@ $pagetitle = "Contact | Peter Reid";
 $headerContent ="";
 include_once("../master/header.php");
 ?>
-  <div id="content">
+  <div id="content" style="margin-bottom:70px;">
     <div id="contact-banner">
 
       <div class="container" style="padding-top:10px; z-index:2;">

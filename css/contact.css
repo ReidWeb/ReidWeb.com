@@ -27,7 +27,6 @@
 }
 #content-card-content {
   padding: 20px;
-  min-height: 500px;
 }
 .content-card-header {
   margin-bottom: 10px;
@@ -36,6 +35,10 @@
 #content-card-content p {
   padding: 0;
   margin: 0;
+}
+
+#email-form {
+  padding:20px;
 }
 
 /* label focus color */
