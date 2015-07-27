@@ -61,21 +61,8 @@
             <label for="icon_prefix6">Message</label>
           </div>
         </div>
-        <a class="waves-effect waves-light btn light-blue lighten-2 modal-trigger" data-target="mailFormCaptchaModal" style="float:right;"><i class="material-icons right">send</i>Send</a>
+        <a class="waves-effect waves-light btn light-blue lighten-2" style="float:right;"><i class="material-icons right">send</i>Send</a>
       </form>
-    </div>
-  </div>
-</div>
-<div id="mailFormCaptchaModal" class="modal">
-  <div class="modal-content">
-    Please complete the captcha to submit your message
-    <div class="row">
-      <div class="input-field col s12 m6 l6 ">
-        <div class="g-recaptcha" data-sitekey="6LdDYgoTAAAAALob0XWGu1dcgIlDRGyhC-7m5N8g" style="float:right;"></div>
-      </div>
-      <div class="input-field col s12 m6 l6 ">
-        <a class="waves-effect waves-light btn light-blue lighten-2" style="margin-top:15px;"><i class="material-icons right">send</i>Send</a>
-      </div>
     </div>
   </div>
 </div>
