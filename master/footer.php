@@ -20,6 +20,7 @@
     </div>
   </div>
 </footer>
+</body>
 
 <!-- CSS  -->
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
@@ -47,11 +48,8 @@
 
     </script>
 
-<!--
     <script src="/js/init.js"></script>
     <script>setSelectedPageMobile();</script>
     <script>consoleEasterEgg();</script>
--->
-    </body>
 
     </html>
