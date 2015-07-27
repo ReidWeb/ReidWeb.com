@@ -50,6 +50,10 @@
       consoleEasterEgg();
 
     </script>
+        <?php
+            $base_dir  = $_SERVER['DOCUMENT_ROOT'];
+            include_once($base_dir . "/master/analyticstracking.php");
+        ?>
     </body>
 
     </html>

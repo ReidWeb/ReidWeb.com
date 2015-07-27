@@ -1,6 +1,6 @@
 <?php
 $pagetitle = "Home | Peter Reid";
-$headerContent ="";
+$headerContent ="<link href='/css/index.css' type='text/css' rel='stylesheet' media='screen,projection'/>";
 include_once("master/head.php");
 ?>
 <!-- CSS for above the fold content -->
@@ -264,6 +264,6 @@ include_once("master/head.php");
 <?php include_once("indexModals.php"); ?>
 
   <?php
-$footerContentCSS ="<link href='/css/index.css' type='text/css' rel='stylesheet' media='screen,projection'/>";
+$footerContentCSS ="";
 $footerContentJS ="<script src='/js/smoothscroll.js'></script><script src='/js/index.js'></script>";
 include_once("master/footer.php"); ?>
