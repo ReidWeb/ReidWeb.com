@@ -29,7 +29,7 @@ include_once("../master/header.php");
 
   <?php
 $footerContentCSS = "<link href='/css/contact.css' type='text/css' rel='stylesheet' media='screen,projection'/>";
-$footerContentJS = "<script src='/js/contact.js'></script>";
+$footerContentJS = "<script src='/js/contact.js'></script><script src='https://www.google.com/recaptcha/api.js'></script>";
 include_once("../master/footer.php"); ?>
     <script>
       setSelectedPage();
