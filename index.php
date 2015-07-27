@@ -3,7 +3,7 @@ $pagetitle = "Home | Peter Reid";
 $headerContent ="<link href='/css/index.css' type='text/css' rel='stylesheet' media='screen,projection'/>";
 include_once("master/head.php");
 ?>
-<!-- CSS for above the fold content -->
+<!-- CSS for above the fold content
 <style>
   .loader { position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 9999; background-color: rgb(79, 195, 247); background-repeat: repeat; }
 #logobox { height: 100%; text-align: center; }
@@ -30,7 +30,7 @@ include_once("master/head.php");
 #fdse-image-container { background-image: url(http://reidweb.local/img/about/fdsePic.png); background-color: rgb(0, 0, 0); background-size: 100% 100%; }
 .edu-modal-inst { font-size: 16pt; margin-bottom: 0px; color: rgb(158, 158, 158); font-weight: 500; }
 .edu-modal-year { font-size: 14pt; font-weight: 400; margin-bottom: 0px; margin-top: 2px; color: rgb(158, 158, 158); }
-</style>
+</style>-->
 
   <div class="section no-pad-bot light-blue lighten-2 z-depth-0" id="index-banner">
     <div class="navbar-fixed" id="fixed-bar">
