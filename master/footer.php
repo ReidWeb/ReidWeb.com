@@ -23,21 +23,21 @@
 </body>
 
 <!-- CSS  -->
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+<link async rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
 <!--Social Icon Font -->
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link async rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <!-- Master Style -->
-<link href="https://storage.googleapis.com/cdn.reidweb.com/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+<link async href="https://storage.googleapis.com/cdn.reidweb.com/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 <!-- Page specific css-->
 <?php echo $footerContentCSS; ?>
 
 
   <!--  Scripts-->
   <!-- JS -->
-  <script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
-  <script src="/js/master.js"></script>
-  <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+  <script async src='//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
+  <script  async src="/js/master.js"></script>
+  <script async src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script  async src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
   <?php echo $footerContentJS; ?>
 
     <!-- Fade out loader upon page load -->

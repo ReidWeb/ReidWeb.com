@@ -30,8 +30,8 @@ include_once("../master/header.php");
     </div>
 
     <?php
-$footerContentCSS = "<link href='/css/contact.css' type='text/css' rel='stylesheet' media='screen,projection'/>";
-$footerContentJS = "<script src='/js/contact.js'></script>";
+$footerContentCSS = "<link async href='/css/contact.css' type='text/css' rel='stylesheet' media='screen,projection'/>";
+$footerContentJS = "<script async src='/js/contact.js'></script>";
 include_once("../master/footer.php"); ?>
 <script>
     setSelectedPage();
