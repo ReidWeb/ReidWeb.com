@@ -40,7 +40,7 @@ module.exports = function (grunt) {
             dist: {
                 options: {
                     ignore: ['#added_at_runtime', '.created_by_jQuery'],
-                    stylesheets: ['css/index.css','css/style.css','https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css'],
+                    stylesheets: ['https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css','css/index.css','css/style.css'],
                 },
                 files: {
                     'build/css/indexTidy.css': ['http://reidweb.local/index.php']
