@@ -43,7 +43,7 @@ module.exports = function (grunt) {
                     stylesheets: ['css/index.css','css/style.css','https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css'],
                 },
                 files: {
-                    'build/css/indexTidy.css': ['http://172.0.0.1:5000/index.php']
+                    'build/css/indexTidy.css': ['http://reidweb.local/index.php']
                 }
             }
         },
