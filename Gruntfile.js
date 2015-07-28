@@ -29,6 +29,24 @@ module.exports = function (grunt) {
                 dest: 'build'
             }
         },
+        php: {
+            dist: {
+                options: {
+                    port: 5000
+                }
+            }
+        },
+        uncss: {
+            dist: {
+                options: {
+                    ignore: ['#added_at_runtime', '.created_by_jQuery'],
+                    stylesheets: ['css/index.css','css/style.css','https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css'],
+                },
+                files: {
+                    'build/css/indexTidy.css': ['http://172.0.0.1:5000/index.php']
+                }
+            }
+        },
         cssmin: {
             target: {
                 files: [{
@@ -67,7 +85,10 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
+    grunt.loadNpmTasks('grunt-php');
+    grunt.loadNpmTasks('grunt-uncss');
 
     // Default task(s).
     grunt.registerTask('default', 'watch', ['uglify', 'cssmin', 'htmlmin']);
+    grunt.registerTask('gocss', 'watch', ['php', 'uncss']);
 };
