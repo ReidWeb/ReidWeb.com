@@ -29,13 +29,6 @@ module.exports = function (grunt) {
                 dest: 'build'
             }
         },
-        php: {
-            dist: {
-                options: {
-                    port: 5000
-                }
-            }
-        },
         uncss: {
             dist: {
                 options: {
@@ -85,10 +78,9 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
-    grunt.loadNpmTasks('grunt-php');
     grunt.loadNpmTasks('grunt-uncss');
 
     // Default task(s).
-    grunt.registerTask('default', 'watch', ['uglify', 'cssmin', 'htmlmin']);
-    grunt.registerTask('gocss', 'watch', ['php', 'uncss']);
+    grunt.registerTask('default', 'watch', ['uncss','uglify', 'cssmin', 'htmlmin']);
+    grunt.registerTask('gocss', 'watch', ['uncss']);
 };
