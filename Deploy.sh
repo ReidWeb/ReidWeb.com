@@ -82,7 +82,7 @@ doDeploy() {
   ~/gsutil/gsutil -h "Cache-Control:public,max-age=604800" cp build/css/* gs://cdn.reidweb.com
   # Redeploy to dev site
   printf "Deploying optimized site to Dev site\n"
-  cp -R * $DEVDIR
+  cp -R build/* $DEVDIR
   # If the branch is the master branch deploy to Live Site
   if [[ $BRANCH == "master" ]]; then
     printf "Deploying to Live site\n"
