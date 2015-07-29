@@ -29,17 +29,6 @@ module.exports = function (grunt) {
                 dest: 'build'
             }
         },
-        uncss: {
-            dist: {
-                options: {
-                    ignore: ['#added_at_runtime', '.created_by_jQuery'],
-                    stylesheets: ['https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css','css/index.css','css/style.css'],
-                },
-                files: {
-                    'build/css/indexTidy.css': ['http://reidweb.local/index.php']
-                }
-            }
-        },
         cssmin: {
             target: {
                 files: [{
@@ -78,9 +67,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
-    grunt.loadNpmTasks('grunt-uncss');
 
     // Default task(s).
-    grunt.registerTask('default', 'watch', ['uncss','uglify', 'cssmin', 'htmlmin']);
-    grunt.registerTask('gocss', 'watch', ['uncss']);
+    grunt.registerTask('default', 'watch', ['uglify', 'cssmin', 'htmlmin']);
 };

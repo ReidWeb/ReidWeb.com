@@ -10,9 +10,11 @@
   <link rel='shortcut icon' type='image/x-icon' href='/img/icons/favicon.ico' />
 
   <!-- CSS  -->
-
+  <link async rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+  <!--Social Icon Font -->
   <link async rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <!-- Master Style -->
+  <link async href="https://storage.googleapis.com/cdn.reidweb.com/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <!-- Page specific content -->
   <?php echo $headerContent; ?>
 
