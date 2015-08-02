@@ -2,6 +2,8 @@ ReidWeb.com
 ===========
 
 [![Build Status](https://mygitlab.org:4043/buildStatus/icon?job=ReidWeb.com)](https://mygitlab.org:4043/job/ReidWeb.com)
+[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
+[![npm](https://img.shields.io/npm/v/npm.svg)]()
 
 Source code for https://reidweb.com .
 
