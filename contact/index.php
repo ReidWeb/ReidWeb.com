@@ -3,8 +3,7 @@ $pagetitle = "Contact | Peter Reid";
 $headerContent ="";
 include_once("../master/header.php");
 ?>
-  <div id="content" style="margin-bottom:70px;">
-    <div id="contact-banner">
+  <div id="content">
 
       <div class="container" style="padding-top:10px; z-index:2;">
         <div class="card large" id="content-card">
@@ -22,9 +21,6 @@ include_once("../master/header.php");
 
         </div>
       </div>
-
-    </div>
-
   </div>
 
   <?php
