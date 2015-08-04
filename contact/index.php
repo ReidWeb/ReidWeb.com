@@ -24,8 +24,8 @@ include_once("../master/header.php");
   </div>
 
   <?php
-$footerContentCSS = "<link href='/css/contact.css' type='text/css' rel='stylesheet' media='screen,projection'/>";
-$footerContentJS = "<script src='/js/contact.js'></script>";
+$footerContentCSS ="<link href='/css/contact.css' type='text/css' rel='stylesheet' media='screen,projection'/>";
+$footerContentJS ="<script src='/js/smoothscroll.js'></script><script src='/js/index.js'></script>";
 include_once("../master/footer.php"); ?>
     <script>
       setSelectedPage();
