@@ -1,4 +1,5 @@
 job1:
   script:
+    - ls -alh
     - chomod +x Deploy.sh
     - ./Deploy.sh
