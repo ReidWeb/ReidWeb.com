@@ -47,7 +47,7 @@ include_once("master/head.php");
           <br/>
           <br/>My particular focus at present in software development is on the 'Web' and 'Mobile'; with the intention of improving my skills in these areas by developing applications/sites.
           <br/>
-          <br/> I am currently studying a Foundation Degree in Software Engineering at Belfast Metropolitan College in conjunction with the University of Ulster. I hope to progress to study Software Engineering at university beginning 2016.
+          <br/> I am currently studying a Foundation Degree in Software Engineering at Belfast Metropolitan College in conjunction with Ulster University. I hope to progress to study Software Engineering at university beginning 2016.
 
         </p>
         <a class="btn-floating btn-large waves-effect waves-light  light-blue lighten-1 smoothScroll z-depth-2" id="programming-jumper" href="#programming-section">
@@ -208,7 +208,7 @@ include_once("master/head.php");
           <div id="academic-list">
             <ul>
               <li><a class="modal-trigger language-item" href="#modalFDSE">Foundation Degree in Software Engineering</a>
-                <p class="education-institution">University of Ulster</p>
+                <p class="education-institution">Belfast Metropolitan College and Ulster University</p>
                 <p class="education-year">2014-Present<a class="modal-trigger language-item-more" href="#modalFDSE">MORE</a></p>
               </li>
             </ul>
