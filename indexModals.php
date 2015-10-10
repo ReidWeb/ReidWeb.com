@@ -228,7 +228,7 @@
 
     <div class="modal-content">
         <h4>Foundation Degree in Software Engineering</h4>
-        <h5 class="edu-modal-inst">University of Ulster & Belfast Metropolitan College</h5>
+        <h5 class="edu-modal-inst">Belfast Metropolitan College & Ulster University</h5>
         <h5 class="edu-modal-year">2014-Present</h5>
         <p>I am studying on a Foundation Degree in Software Engineering at Belfast Metropolitan College, with the University of Ulster Jordanstown setting the curriculum for the course and acting as the awarding body. The course commenced in September 2014 and will complete in June 2016. The course consists of 1.5 years of 'learning' and a 600 hour minimum work placement, to be completed in the second semester of the second year.</p>
         <h5>Academic Performance</h5>
