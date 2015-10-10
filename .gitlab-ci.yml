@@ -1,4 +1,4 @@
 job1:
   script:
-    - chomod +x Deploy.sh
+    - chmod +x Deploy.sh
     - ./Deploy.sh
