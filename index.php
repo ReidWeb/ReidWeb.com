@@ -208,7 +208,7 @@ include_once("master/head.php");
           <div id="academic-list">
             <ul>
               <li><a class="modal-trigger language-item" href="#modalFDSE">Foundation Degree in Software Engineering</a>
-                <p class="education-institution">Belfast Metropolitan College and Ulster University</p>
+                <p class="education-institution">Belfast Metropolitan College & Ulster University</p>
                 <p class="education-year">2014-Present<a class="modal-trigger language-item-more" href="#modalFDSE">MORE</a></p>
               </li>
             </ul>
