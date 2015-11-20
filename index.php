@@ -1,6 +1,6 @@
 <?php
 $pagetitle = "Home | Peter Reid";
-$headerContent ="<link href='/css/index.css' type='text/css' rel='stylesheet' media='screen,projection'/><meta name="description" content="I am a programmer focussing on Web and Mobile development, and this is my site. Feel free to have a look around!.">";
+$headerContent ="<link href='/css/index.css' type='text/css' rel='stylesheet' media='screen,projection'/><meta name='description' content='I am a programmer focussing on Web and Mobile development, and this is my site. Feel free to have a look around!.'>";
 include_once("master/head.php");
 ?>
 
