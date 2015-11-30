@@ -47,10 +47,10 @@
     <div class="modal-content">
         <h4>C#</h4>
         <p>My experience of C# stems from my use of C# as a part of ASP.NET websites during my education. In future I hope to expand my knowledge of C# to the use of C# for both 'traditional' Windows desktop applications and Windows 10 'universal' applications.</p>
-        <h5>Server side scripting</h5>
-        <p>I have utilised C# along with ASP.NET to an 'ecommerce' site with a basic content management system. I utilised C# to load content into the page dynamically based upon an external data source. I also utilised C# to develop a 'cart' system for the site.</p>
-        <h5>Master pages</h5>
-        <p>I have experience in utilising ASP.NET and C# to create 'master pages' to simplify the development of websites.</p>
+        <h5>Web forms</h5>
+        <p>I have utilised C# along with ASP.NET Web Forms to develop an 'ecommerce' site with a basic content management system. I utilised C# to load content into the page dynamically based upon an external data source. I also utilised C# to develop a 'cart' system for the site. The appearance of the pages was kept uniform using Master Pages.</p>
+        <h5>MVC</h5>
+        <p>I have recently had my first experience developing web applications using ASP.NET MVC, I developed an insurance quote calculator utilising various javascript and UI frameworks.</p>
     </div>
 </div>
 
