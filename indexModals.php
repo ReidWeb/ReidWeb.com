@@ -139,7 +139,7 @@
         <h5>IDEs</h5>
         <p>I have a large amount of experience in the following IDEs:</p>
         <ul>
-            <li>• <b>Visual Studio</b> - I am experienced in the use of <a href="https://www.visualstudio.com/" target="_blank">Visual Studio</a> 2012 and 2013 for desktop, web and Windows App development. I am also experienced in the use of Visual Studio's source control integration.</li>
+            <li>• <b>Visual Studio</b> - I am experienced in the use of <a href="https://www.visualstudio.com/" target="_blank">Visual Studio</a> 2012, 2013 and 2015 for desktop, web and Windows App development. I am also experienced in the use of Visual Studio's source control integration (Team Explorer).</li>
             <li>• <b>NetBeans</b> - I am experienced in the use of <a href="https://netbeans.org/" target="_blank">NetBeans</a> as a Java IDE for both Java 7 and Java 8.</li>
             <li>• <b>Brackets</b> - I have recently been using <a href="http://brackets.io/" target="_blank">Brackets</a> for the development of this website, and have used it in the past for other projects.</li>
         </ul>
@@ -151,7 +151,7 @@
         <h5>Other Developer Tools</h5>
         <p>I have experience in a variety of development tools aside from IDEs. Firstly, I have experience in the following Source Control products:</p>
         <ul>
-            <li>• <b>Team Foundation Server/Visual Studio Online</b> - I have experience in the use of Microsoft's source control and product collaboration system for product development. I am mainly experienced in the use of the git source control component of the product within <a href="https://www.visualstudio.com/products/what-is-visual-studio-online-vs" target="_blank">Visual Studio Online</a>.</li>
+            <li>• <b>Microsoft Team Foundation Server/Visual Studio Team Services</b> - I have experience in the use of Microsoft's source control and product collaboration system for product development. I am mainly experienced in the use of the git source control component of the product within <a href="https://www.visualstudio.com/products/what-is-visual-studio-online-vs" target="_blank">Visual Studio Team Services</a>.</li>
             <li>• <b>GitLab</b> - I am experienced in both administration and use of <a href="https://about.gitlab.com/" target="_blank">GitLab</a> to manage the source code for my projects.</li>
             <li>• <b>GitHub</b> - I am experienced in the use of <a href="https://github.com" target="_blank">GitHub</a> for managing the source code of personal and team projects.</li>
             <li>• <b>Jenkins</b> - I am experienced in the use of the <a href="https://jenkins-ci.org/" target="_blank">Jenkins</a> Continuous Integration Server product for automated deployment and basic testing of my projects.</li>
@@ -171,7 +171,7 @@
         <h5>Database Design</h5>
         <p>I have experience in designing database systems for both SQL and MS Access. In designing databases I utilize a multiple step approach, with steps such as requirements analysis, E-R diagram creation, Logical database design and physical database design.</p>
         <h5>SQL</h5>
-        <p>I have experience in both 'implementing' my designed databases through SQL scripting and also in using SQL to 'access' a database from a Java application. I am experienced in both Microsoft SQL and MySQL.</p>
+        <p>I have experience in both 'implementing' my designed databases through SQL scripting and also in using SQL to 'access' a database from both Java applications and C# (ASP.NET) web applications. I am experienced in both Microsoft SQL and MySQL.</p>
         <h5>Microsoft Access</h5>
         <p>While Microsoft Access is not often deployed in an enterprise environment, I have extensive experience in developing database applications with it. The skills I have learnt from my use of MS Access are easily transferable to other solutions.</p>
     </div>
